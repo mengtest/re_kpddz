@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3799298494
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cda5b72fa5a1abb214a7d92e0849ef83
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1033bf7ddfd4c6d43e7a6382c0a0a61a
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Config/export_xml/time_gift_config.bytes
+Dependencies: []

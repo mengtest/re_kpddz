@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 234147323
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3cf368b87ca7749844f4c906d4851169
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Sounds/Laba/goldchange.mp3
+Dependencies: []

@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 4103245782
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ee5e0709b58d5fd6240349ef3892c34b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f579d20f887e55acd0f98714784119d5
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 95d67584e778f4765bc7e88f2bd28363, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/UI/UITemplate/player_img_bg.prefab
+Dependencies: []

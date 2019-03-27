@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 126344765
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 16b954d78adf7fd3224cf358da6df86d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2bbb40ddec83d63b1dee2cef0ff715e7
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 96
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Effects/Prefab/effect_fruitwin.prefab
+Dependencies: []

@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3814188835
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b3b8c1ff97fe6e3463fd6d724a27060d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Sounds/Laba/pool2.mp3
+Dependencies: []

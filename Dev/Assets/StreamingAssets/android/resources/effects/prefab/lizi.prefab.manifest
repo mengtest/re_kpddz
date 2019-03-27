@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 884373597
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5a97232852396bbb5e1a2f01c9a02bcd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8e73928d58048341e9b2fe1dbcc1debf
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Effects/Prefab/lizi.prefab
+Dependencies: []

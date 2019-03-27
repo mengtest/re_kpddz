@@ -1,0 +1,963 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cecf154096894d4cb2be8df2b1cee63, type: 3}
+  m_Name: GameModelData
+  m_EditorClassIdentifier: 
+  _listGameModel:
+  - _strAssetName: 10001
+    nColliderType: 1
+    nColliderParams: []
+    colliderCenter: []
+    _strAnimationAssetName: 10001@anim
+    _strModelName: lvbu
+    _listAnimations:
+    - 101
+    - 201
+    - 301
+    - 302
+    - 401
+    - 501
+    - 601
+    _listAnimEvents:
+    - _nAnimID: 101
+      _listEvents:
+      - _fTime: 0.033333335
+        _strEventID: 999
+      - _fTime: 0.16666667
+        _strEventID: 998
+    - _nAnimID: 301
+      _listEvents:
+      - _fTime: 0.033333335
+        _strEventID: 1000
+    - _nAnimID: 302
+      _listEvents:
+      - _fTime: 0.033333335
+        _strEventID: 1000
+    - _nAnimID: 401
+      _listEvents:
+      - _fTime: 0.033333335
+        _strEventID: 1000
+    _listModelBps:
+    - bp_head
+    - bp_l_hand
+    - bp_body
+    - bp_sub_weapon
+  - _strAssetName: 11001
+    nColliderType: 1
+    nColliderParams:
+    - 0.6
+    - 2.37
+    colliderCenter: []
+    _strAnimationAssetName: 11001@anim
+    _strModelName: "\u6D94\u5C83\u9187"
+    _listAnimations:
+    - 201
+    - 401
+    - 501
+    - 601
+    _listAnimEvents:
+    - _nAnimID: 401
+      _listEvents:
+      - _fTime: 1.5
+        _strEventID: 10000
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 11002
+    nColliderType: 1
+    nColliderParams:
+    - 0.6
+    - 2.3
+    colliderCenter: []
+    _strAnimationAssetName: 11002@anim
+    _strModelName: "\u7039\u590A\u608D\u6978\u8C62"
+    _listAnimations:
+    - 201
+    - 501
+    - 601
+    _listAnimEvents: []
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 11003
+    nColliderType: 1
+    nColliderParams:
+    - 1.65
+    - 2.82
+    colliderCenter: []
+    _strAnimationAssetName: 11003@anim
+    _strModelName: "\u6D94\u5C84\u7DF9"
+    _listAnimations:
+    - 201
+    - 401
+    - 501
+    - 601
+    _listAnimEvents: []
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 11004
+    nColliderType: 1
+    nColliderParams:
+    - 2.16
+    - 4.93
+    colliderCenter: []
+    _strAnimationAssetName: 11004@anim
+    _strModelName: "\u934F\u51A8\u7582\u6D94\u5C84\u7DF9"
+    _listAnimations:
+    - 201
+    - 401
+    - 501
+    - 601
+    _listAnimEvents: []
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 11005
+    nColliderType: 1
+    nColliderParams:
+    - 0.69
+    - 8.12
+    colliderCenter: []
+    _strAnimationAssetName: 11005@anim
+    _strModelName: "\u93C3\u6945\u5954"
+    _listAnimations:
+    - 201
+    - 501
+    - 601
+    _listAnimEvents: []
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 11006
+    nColliderType: 1
+    nColliderParams:
+    - 0.76
+    - 2.29
+    colliderCenter: []
+    _strAnimationAssetName: 11006@anim
+    _strModelName: "\u704F\u5FCE\u7B10\u6978\u8C62"
+    _listAnimations:
+    - 201
+    - 401
+    - 501
+    - 601
+    _listAnimEvents: []
+    _listModelBps:
+    - bp_head
+    - bp_root
+  - _strAssetName: 11007
+    nColliderType: 1
+    nColliderParams:
+    - 0.61
+    - 2.78
+    colliderCenter: []
+    _strAnimationAssetName: 11007@anim
+    _strModelName: "\u7EC1\u70B0\u7CB0\u6978\u8C62"
+    _listAnimations:
+    - 201
+    - 501
+    - 601
+    _listAnimEvents: []
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 11008
+    nColliderType: 1
+    nColliderParams:
+    - 2.2
+    - 4.88
+    colliderCenter: []
+    _strAnimationAssetName: 11008@anim
+    _strModelName: "\u704F\u5FDB\u74DF\u695D\u5978\u5954"
+    _listAnimations:
+    - 201
+    - 501
+    - 601
+    _listAnimEvents: []
+    _listModelBps:
+    - bp_head
+    - bp_root
+  - _strAssetName: 11009
+    nColliderType: 1
+    nColliderParams:
+    - 2.95
+    - 7.05
+    colliderCenter: []
+    _strAnimationAssetName: 11009@anim
+    _strModelName: "\u6FB6\u0447\u74DF\u695D\u5978\u5954"
+    _listAnimations:
+    - 201
+    - 501
+    - 601
+    _listAnimEvents: []
+    _listModelBps:
+    - bp_head
+    - bp_root
+  - _strAssetName: 11010
+    nColliderType: 1
+    nColliderParams:
+    - 0.68
+    - 4.14
+    colliderCenter: []
+    _strAnimationAssetName: 11010@anim
+    _strModelName: "\u95BF?\u5A07\u6978\u8C62"
+    _listAnimations:
+    - 201
+    - 501
+    - 601
+    _listAnimEvents: []
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 11011
+    nColliderType: 1
+    nColliderParams:
+    - 1.51
+    - 6.21
+    colliderCenter: []
+    _strAnimationAssetName: 11011@anim
+    _strModelName: "\u9359\u5C84?\u6934\u3129\u5954"
+    _listAnimations:
+    - 201
+    - 501
+    - 601
+    _listAnimEvents: []
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 11012
+    nColliderType: 1
+    nColliderParams:
+    - 2.11
+    - 7.41
+    colliderCenter: []
+    _strAnimationAssetName: 11012@anim
+    _strModelName: "\u6FB6\u0445\u6AE7\u6934\u042D"
+    _listAnimations:
+    - 201
+    - 501
+    - 601
+    _listAnimEvents: []
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 11013
+    nColliderType: 1
+    nColliderParams:
+    - 1.34
+    - 5.24
+    colliderCenter: []
+    _strAnimationAssetName: 11013@anim
+    _strModelName: "\u6FB6\u0443\u7568\u6434\u70FD\u5954"
+    _listAnimations:
+    - 201
+    - 501
+    - 601
+    _listAnimEvents: []
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 11014
+    nColliderType: 1
+    nColliderParams:
+    - 0.95
+    - 2.61
+    colliderCenter: []
+    _strAnimationAssetName: 11014@anim
+    _strModelName: "\u95BD\u3222\u6D08\u6978\u8C62"
+    _listAnimations:
+    - 201
+    - 401
+    - 501
+    - 601
+    _listAnimEvents: []
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 11015
+    nColliderType: 1
+    nColliderParams:
+    - 1.31
+    - 2.73
+    colliderCenter: []
+    _strAnimationAssetName: 11015@anim
+    _strModelName: "\u5A0C\u5BA0\u7754"
+    _listAnimations:
+    - 201
+    - 401
+    - 501
+    - 601
+    _listAnimEvents: []
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 11016
+    nColliderType: 1
+    nColliderParams:
+    - 0.59
+    - 1.32
+    colliderCenter: []
+    _strAnimationAssetName: 11016@anim
+    _strModelName: "\u5A34\u70FD\u2508"
+    _listAnimations:
+    - 201
+    - 401
+    - 501
+    - 601
+    _listAnimEvents: []
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 11017
+    nColliderType: 1
+    nColliderParams:
+    - 0.86
+    - 2.12
+    colliderCenter: []
+    _strAnimationAssetName: 11017@anim
+    _strModelName: "\u9483\u6FC6\u5781\u6934\u728A"
+    _listAnimations:
+    - 201
+    - 501
+    - 601
+    _listAnimEvents: []
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 11018
+    nColliderType: 1
+    nColliderParams:
+    - 1.2
+    - 2.6
+    colliderCenter: []
+    _strAnimationAssetName: 11018@anim
+    _strModelName: "\u7035\u52EB\u7733\u951C\u7F1A"
+    _listAnimations:
+    - 201
+    - 401
+    - 501
+    - 601
+    _listAnimEvents: []
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 11019
+    nColliderType: 1
+    nColliderParams:
+    - 0.75
+    - 1
+    colliderCenter: []
+    _strAnimationAssetName: 11019@anim
+    _strModelName: "\u5A34\u75AF\u6B9E"
+    _listAnimations:
+    - 101
+    - 401
+    - 501
+    - 601
+    _listAnimEvents: []
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 11020
+    nColliderType: 1
+    nColliderParams:
+    - 1.88
+    - 7.74
+    colliderCenter: []
+    _strAnimationAssetName: 11020@anim
+    _strModelName: "\u699B\u52EF\u567E\u6934\u042D"
+    _listAnimations:
+    - 201
+    - 501
+    - 601
+    _listAnimEvents: []
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 11021
+    nColliderType: 1
+    nColliderParams:
+    - 2.95
+    - 7.04
+    colliderCenter: []
+    _strAnimationAssetName: 11021@anim
+    _strModelName: "\u9359\u6A3A\u7D13\u6984\u65C8?\u6978\u8C62"
+    _listAnimations:
+    - 201
+    - 501
+    - 601
+    _listAnimEvents: []
+    _listModelBps:
+    - bp_head
+    - bp_root
+  - _strAssetName: 11022
+    nColliderType: 1
+    nColliderParams:
+    - 1.2
+    - 1.8
+    colliderCenter: []
+    _strAnimationAssetName: 11022@anim
+    _strModelName: "\u9359\u6A3A\u7D13\u7035\u52EB\u7733\u951C\u7F1A"
+    _listAnimations:
+    - 201
+    - 401
+    - 501
+    - 601
+    _listAnimEvents: []
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 11023
+    nColliderType: 1
+    nColliderParams:
+    - 0.8
+    - 1
+    colliderCenter: []
+    _strAnimationAssetName: 11023@anim
+    _strModelName: "\u704F\u5FD4\u6309\u59E3\u5C36"
+    _listAnimations:
+    - 201
+    - 501
+    - 601
+    _listAnimEvents: []
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 11024
+    nColliderType: 1
+    nColliderParams:
+    - 1.29
+    - 2.5
+    colliderCenter: []
+    _strAnimationAssetName: 11024@anim
+    _strModelName: "\u93C8\u3126\u300A"
+    _listAnimations:
+    - 501
+    _listAnimEvents: []
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 11025
+    nColliderType: 1
+    nColliderParams:
+    - 1.29
+    - 2.5
+    colliderCenter: []
+    _strAnimationAssetName: 11025@anim
+    _strModelName: "\u95BE\u4F79\u300A"
+    _listAnimations:
+    - 501
+    _listAnimEvents: []
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 11026
+    nColliderType: 1
+    nColliderParams:
+    - 3.64
+    - 1
+    colliderCenter: []
+    _strAnimationAssetName: 11026@anim
+    _strModelName: "\u5A34\u75AF\u8584\u68E3\u682D?"
+    _listAnimations:
+    - 201
+    - 501
+    - 601
+    _listAnimEvents: []
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 11029
+    nColliderType: 1
+    nColliderParams:
+    - 2.79
+    - 1
+    colliderCenter: []
+    _strAnimationAssetName: 11029@anim
+    _strModelName: "\u941D\u5A44\u61B5\u6978\u8C62"
+    _listAnimations:
+    - 101
+    - 501
+    - 601
+    _listAnimEvents: []
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 12003
+    nColliderType: 1
+    nColliderParams:
+    - 4.28
+    - 1
+    colliderCenter: []
+    _strAnimationAssetName: 12003@anim
+    _strModelName: "\u699B\u52EF\u567E\u59D8\u5B58\u761D"
+    _listAnimations:
+    - 201
+    - 301
+    - 501
+    - 601
+    _listAnimEvents:
+    - _nAnimID: 301
+      _listEvents:
+      - _fTime: 0.8666667
+        _strEventID: 10000
+    _listModelBps:
+    - bp_head
+    - bp_root
+  - _strAssetName: 12004
+    nColliderType: 1
+    nColliderParams:
+    - 1.38
+    - 3.66
+    colliderCenter: []
+    _strAnimationAssetName: 12004@anim
+    _strModelName: "\u699B\u52EF\u567E\u95BD\u3222\u6D08\u6978\u8C62"
+    _listAnimations:
+    - 201
+    - 401
+    - 501
+    - 601
+    _listAnimEvents: []
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 12005
+    nColliderType: 1
+    nColliderParams:
+    - 2.71
+    - 6.15
+    colliderCenter: []
+    _strAnimationAssetName: 12005@anim
+    _strModelName: "\u95B2\u6226\u6336\u69AB\u7074"
+    _listAnimations:
+    - 201
+    - 401
+    - 501
+    - 601
+    _listAnimEvents: []
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 13002
+    nColliderType: 1
+    nColliderParams:
+    - 1.41
+    - 4.92
+    colliderCenter: []
+    _strAnimationAssetName: 13002@anim
+    _strModelName: "\u6FB6\u0444\u6363\u6939?"
+    _listAnimations:
+    - 201
+    - 301
+    - 501
+    - 601
+    _listAnimEvents:
+    - _nAnimID: 301
+      _listEvents:
+      - _fTime: 0.43333334
+        _strEventID: 10000
+    _listModelBps:
+    - bp_head
+    - bp_root
+  - _strAssetName: 13003
+    nColliderType: 1
+    nColliderParams:
+    - 3.64
+    - 9.28
+    colliderCenter: []
+    _strAnimationAssetName: 13003@anim
+    _strModelName: "\u5A0C\u5BA0\u7754\u941C\u5A0D"
+    _listAnimations:
+    - 201
+    - 301
+    - 401
+    - 501
+    - 601
+    _listAnimEvents:
+    - _nAnimID: 301
+      _listEvents:
+      - _fTime: 0.46666667
+        _strEventID: 10000
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 13004
+    nColliderType: 1
+    nColliderParams:
+    - 1.27
+    - 9.1
+    colliderCenter: []
+    _strAnimationAssetName: 13004@anim
+    _strModelName: "\u947A\u535E\u6D2F\u69CC\u67E8"
+    _listAnimations:
+    - 101
+    - 301
+    - 501
+    - 601
+    - 701
+    _listAnimEvents:
+    - _nAnimID: 301
+      _listEvents:
+      - _fTime: 0.43333334
+        _strEventID: 10000
+    _listModelBps:
+    - bp_head
+    - bp_root
+  - _strAssetName: 13005
+    nColliderType: 1
+    nColliderParams:
+    - 1.52
+    - 3.76
+    colliderCenter: []
+    _strAnimationAssetName: 13005@anim
+    _strModelName: "\u59E3\u5D84\u7D8B"
+    _listAnimations:
+    - 101
+    - 301
+    - 501
+    - 601
+    _listAnimEvents:
+    - _nAnimID: 301
+      _listEvents:
+      - _fTime: 0.36666667
+        _strEventID: 10000
+    _listModelBps:
+    - bp_head
+    - bp_root
+  - _strAssetName: 13006
+    nColliderType: 1
+    nColliderParams:
+    - 0.72
+    - 2.24
+    colliderCenter: []
+    _strAnimationAssetName: 13006@anim
+    _strModelName: "\u690B\u71B6\u6C49\u6978\u8C62"
+    _listAnimations:
+    - 201
+    - 301
+    - 501
+    - 601
+    _listAnimEvents:
+    - _nAnimID: 301
+      _listEvents:
+      - _fTime: 0.33333334
+        _strEventID: 10000
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 13007
+    nColliderType: 1
+    nColliderParams:
+    - 0.9
+    - 1
+    colliderCenter: []
+    _strAnimationAssetName: 13007@anim
+    _strModelName: "\u5A34\u75AF\u5110"
+    _listAnimations:
+    - 501
+    _listAnimEvents: []
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 13008
+    nColliderType: 1
+    nColliderParams:
+    - 1.53
+    - 1
+    colliderCenter: []
+    _strAnimationAssetName: 13008@anim
+    _strModelName: "\u5BB8\u3127\u57C5"
+    _listAnimations:
+    - 101
+    - 301
+    - 401
+    - 501
+    - 601
+    - 701
+    _listAnimEvents:
+    - _nAnimID: 301
+      _listEvents:
+      - _fTime: 0.4
+        _strEventID: 10000
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 13009
+    nColliderType: 1
+    nColliderParams:
+    - 3.42
+    - 0
+    colliderCenter:
+    - 0
+    - 3.35
+    - 0
+    _strAnimationAssetName: 13009@anim
+    _strModelName: "\u59D8\u5B58\u761D\u941C\u5A0D"
+    _listAnimations:
+    - 201
+    - 301
+    - 501
+    - 601
+    _listAnimEvents:
+    - _nAnimID: 301
+      _listEvents:
+      - _fTime: 0.8666667
+        _strEventID: 10000
+    _listModelBps:
+    - bp_head
+    - bp_root
+  - _strAssetName: 13010
+    nColliderType: 1
+    nColliderParams:
+    - 1.75
+    - 1
+    colliderCenter: []
+    _strAnimationAssetName: 13010@anim
+    _strModelName: "\u704F\u5FD3\u760E\u705E\u5470\u717F"
+    _listAnimations:
+    - 201
+    - 301
+    - 501
+    - 601
+    _listAnimEvents:
+    - _nAnimID: 301
+      _listEvents:
+      - _fTime: 0.36666667
+        _strEventID: 10000
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 13011
+    nColliderType: 1
+    nColliderParams:
+    - 6
+    - 1
+    colliderCenter: []
+    _strAnimationAssetName: 13011@anim
+    _strModelName: "\u7035\u52EB\u7733\u951C\u572D\u5E07"
+    _listAnimations:
+    - 201
+    - 301
+    - 501
+    - 601
+    _listAnimEvents:
+    - _nAnimID: 301
+      _listEvents:
+      - _fTime: 0.36666667
+        _strEventID: 10000
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 13012
+    nColliderType: 1
+    nColliderParams:
+    - 0.94
+    - 3.12
+    colliderCenter: []
+    _strAnimationAssetName: 13012@anim
+    _strModelName: "\u947A\u535E\u6D2F\u69CC\u6943\u5E07"
+    _listAnimations:
+    - 101
+    - 301
+    - 401
+    - 501
+    - 601
+    - 701
+    _listAnimEvents:
+    - _nAnimID: 301
+      _listEvents:
+      - _fTime: 0.4
+        _strEventID: 10000
+    _listModelBps:
+    - bp_head
+    - bp_root
+  - _strAssetName: 13013
+    nColliderType: 1
+    nColliderParams:
+    - 3.89
+    - 3.77
+    colliderCenter: []
+    _strAnimationAssetName: 13013@anim
+    _strModelName: "\u9359\u6A3A\u7D13\u5A0C\u5BA0\u7754\u941C\u5A0D"
+    _listAnimations:
+    - 201
+    - 301
+    - 401
+    - 501
+    - 601
+    _listAnimEvents:
+    - _nAnimID: 301
+      _listEvents:
+      - _fTime: 0.46666667
+        _strEventID: 10000
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 13015
+    nColliderType: 1
+    nColliderParams:
+    - 4.01
+    - 1
+    colliderCenter: []
+    _strAnimationAssetName: 13015@anim
+    _strModelName: "\u6984\u65C8\u7DF3\u7039\u6FC6\u7582"
+    _listAnimations:
+    - 101
+    - 201
+    - 301
+    - 501
+    - 601
+    _listAnimEvents:
+    - _nAnimID: 301
+      _listEvents:
+      - _fTime: 0.73333335
+        _strEventID: 10000
+    _listModelBps:
+    - bp_head
+    - bp_root
+  - _strAssetName: 13016
+    nColliderType: 1
+    nColliderParams:
+    - 4.21
+    - 3.12
+    colliderCenter: []
+    _strAnimationAssetName: 13016@anim
+    _strModelName: "\u9359\u6A3A\u7D13\u5A34\u70FD\u2508\u941C\u5A0D"
+    _listAnimations:
+    - 201
+    - 301
+    - 501
+    - 601
+    _listAnimEvents:
+    - _nAnimID: 301
+      _listEvents:
+      - _fTime: 0.43333334
+        _strEventID: 10000
+    _listModelBps:
+    - bp_head
+    - bp_root
+  - _strAssetName: 13017
+    nColliderType: 1
+    nColliderParams:
+    - 3.42
+    - 0
+    colliderCenter:
+    - 0
+    - 3.35
+    - 0
+    _strAnimationAssetName: 13017@anim
+    _strModelName: "\u9359\u6A3F\u97E9\u59D8\u5B58\u761D\u941C\u5A0D"
+    _listAnimations:
+    - 201
+    - 301
+    - 501
+    - 601
+    _listAnimEvents:
+    - _nAnimID: 301
+      _listEvents:
+      - _fTime: 0.8666667
+        _strEventID: 10000
+    _listModelBps:
+    - bp_head
+    - bp_root
+  - _strAssetName: 13018
+    nColliderType: 1
+    nColliderParams:
+    - 4
+    - 8.04
+    colliderCenter: []
+    _strAnimationAssetName: 13018@anim
+    _strModelName: "\u9359\u6A3A\u7D13\u7035\u52EB\u7733\u951C\u7F1A"
+    _listAnimations:
+    - 201
+    - 301
+    - 501
+    - 601
+    _listAnimEvents:
+    - _nAnimID: 301
+      _listEvents:
+      - _fTime: 0.36666667
+        _strEventID: 10000
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 13019
+    nColliderType: 1
+    nColliderParams:
+    - 0.94
+    - 3.12
+    colliderCenter: []
+    _strAnimationAssetName: 13019@anim
+    _strModelName: "\u9359\u6A3F\u97E9\u947A\u535E\u6D2F\u69CC\u6943\u5E07"
+    _listAnimations:
+    - 101
+    - 301
+    - 401
+    - 501
+    - 601
+    - 701
+    _listAnimEvents:
+    - _nAnimID: 301
+      _listEvents:
+      - _fTime: 0.4
+        _strEventID: 10000
+    _listModelBps:
+    - bp_head
+    - bp_root
+  - _strAssetName: 13014
+    nColliderType: 1
+    nColliderParams:
+    - 1.28
+    - 15
+    colliderCenter:
+    - 0
+    - 1.02
+    - -3
+    _strAnimationAssetName: 13014@anim
+    _strModelName: "\u6984\u65C8\u7DF3"
+    _listAnimations:
+    - 101
+    - 201
+    - 301
+    - 401
+    - 402
+    - 601
+    _listAnimEvents:
+    - _nAnimID: 301
+      _listEvents:
+      - _fTime: 0.5
+        _strEventID: 10000
+    _listModelBps:
+    - bp_head
+    - bp_root
+  - _strAssetName: 13001
+    nColliderType: 1
+    nColliderParams: []
+    colliderCenter: []
+    _strAnimationAssetName: 13001@anim
+    _strModelName: "\u6FB6\u0445\u73F7\u6978\u8C62"
+    _listAnimations:
+    - 201
+    - 301
+    - 501
+    - 601
+    _listAnimEvents:
+    - _nAnimID: 301
+      _listEvents:
+      - _fTime: 0.6
+        _strEventID: 10000
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 11028
+    nColliderType: 1
+    nColliderParams:
+    - 1.28
+    - 3.7
+    colliderCenter: []
+    _strAnimationAssetName: 11028@anim
+    _strModelName: "\u9422\u7538\u7879"
+    _listAnimations:
+    - 201
+    - 301
+    - 501
+    - 601
+    _listAnimEvents:
+    - _nAnimID: 301
+      _listEvents:
+      - _fTime: 3.9333334
+        _strEventID: 10000
+    _listModelBps:
+    - bp_root
+  - _strAssetName: 13020
+    nColliderType: 1
+    nColliderParams: []
+    colliderCenter: []
+    _strAnimationAssetName: 13020@anim
+    _strModelName: "\u7F07\u5E9D\u6C49\u6978\u8C62"
+    _listAnimations:
+    - 101
+    - 201
+    - 401
+    - 402
+    - 403
+    - 404
+    _listAnimEvents: []
+    _listModelBps:
+    - bp_root
+    - bp_body

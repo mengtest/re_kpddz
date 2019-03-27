@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 290852059
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a25d3145faaa573ae512fa380ff605b9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Sounds/magic/egg.mp3
+Dependencies: []

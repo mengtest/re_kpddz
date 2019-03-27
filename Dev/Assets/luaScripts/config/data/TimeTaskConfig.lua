@@ -1,0 +1,9 @@
+--跳转界面ID
+--表名: 定时任务表, 字段描述：_key:ID, _icon:图标, _title:开启等级, _achieve_conditicon:任务标题, _achieve_type:数组, _parameter1:活动类型, _parameter2:参数, _parameter3:参数, _item1_id:参数, _item1_num:奖励物品1ID, _item2_id:奖励物品1数量, _item2_num:奖励物品2ID, _desc:奖励物品2数量, _skip_id:描述, 
+local M = {}
+M["530001"] = {key = "530001", icon = "gold1", title = "营养早点", achieve_conditicon = "13,9,10,{time,9,10}", achieve_type = {{"13", }, }, parameter1 = "9", parameter2 = "10", parameter3 = "{time,9,10}", item1_id = {{"101", }, }, item1_num = "1000", item2_id = "0", item2_num = "0", desc = "[b1906e]9:00-10:00登录可领取奖励[-]", skip_id = "0", }
+M["530002"] = {key = "530002", icon = "gold1", title = "豪华午餐", achieve_conditicon = "13,12,13,{time,12,13}", achieve_type = {{"13", }, }, parameter1 = "12", parameter2 = "13", parameter3 = "{time,12,13}", item1_id = {{"101", }, }, item1_num = "1000", item2_id = "0", item2_num = "0", desc = "[b1906e]12:00-13:00登录可领取奖励[-]", skip_id = "0", }
+M["530003"] = {key = "530003", icon = "gold1", title = "可口晚餐", achieve_conditicon = "13,18,19,{time,18,19}", achieve_type = {{"13", }, }, parameter1 = "18", parameter2 = "19", parameter3 = "{time,18,19}", item1_id = {{"101", }, }, item1_num = "1000", item2_id = "0", item2_num = "0", desc = "[b1906e]18:00-19:00登录可领取奖励[-]", skip_id = "0", }
+M["530004"] = {key = "530004", icon = "gold1", title = "美味宵夜", achieve_conditicon = "13,21,22,{time,21,22}", achieve_type = {{"13", }, }, parameter1 = "21", parameter2 = "22", parameter3 = "{time,21,22}", item1_id = {{"101", }, }, item1_num = "1000", item2_id = "0", item2_num = "0", desc = "[b1906e]21:00-22:00登录可领取奖励[-]", skip_id = "0", }
+LuaConfigMgr.TimeTaskConfigLen = 22
+LuaConfigMgr.TimeTaskConfig = M

@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 155136972
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 415660841dc1e1b80dccb90b96f496d6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6759894fca659e2049f05064db45ce61
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/UI/Texture/activity/ad_qhb.png
+Dependencies: []

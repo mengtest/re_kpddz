@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 2762940057
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 735e4a5b5caa65db41e779cbf04f9859
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ae2beb6c368dde51102272831c407c4a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0b4eb3a400afab046abb8471a9d746d6, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Fonts/menpiaojia.prefab
+Dependencies: []

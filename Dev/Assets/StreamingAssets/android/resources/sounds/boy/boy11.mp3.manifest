@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2279087087
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 794e229e6f0946a69c50d12652539838
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Sounds/boy/boy11.mp3
+Dependencies: []

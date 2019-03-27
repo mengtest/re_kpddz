@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+	描述：配置场景所需加载信息
+	编码：以UTF-8无BOM格式编码
+	属性名：
+  pathType="1" />
+  pointBegin="{-15.32,-0.34,-8.8}" />
+  pointEnd="{16.04,0.03,-8.8}" />
+  pointParam1="{0,0,0}" />
+  pointParam2="{0,0,0}"/>
+  lookAtType="0" />
+  pointLookAt1="{0,0,0}"/>
+  pointLookAt2="{0,0,0}"/>
+ -->
+<VersionConfig>
+	<Platform name="WINDOW">
+		<Property versionXMLUrl="http://ksyx.update.iwodong.com/war3g_version/version_war3g_window/version.xml"/>
+		<Property DownloadUrl="http://ksyx.update.iwodong.com/war3g_version/version_war3g_window/"/>
+	</Platform>
+	<Platform name="IOS">
+		<Property versionXMLUrl="http://ksyx.update.iwodong.com/war3g_version/version_war3g_appStore/version.xml"/>
+		<Property DownloadUrl="http://ksyx.update.iwodong.com/war3g_version/version_war3g_appStore/"/>
+	</Platform>
+	<Platform name="ANDROID">
+		<Property versionXMLUrl="http://ksyx.update.iwodong.com/war3g_version/version_war3g_android/version.xml"/>
+		<Property DownloadUrl="http://ksyx.update.iwodong.com/war3g_version/version_war3g_android/"/>
+	</Platform>
+</VersionConfig>

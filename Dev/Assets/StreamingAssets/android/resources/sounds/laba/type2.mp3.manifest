@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3062457601
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bda62d329bc888a8ced6f9f4490a4d4a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Sounds/Laba/type2.mp3
+Dependencies: []

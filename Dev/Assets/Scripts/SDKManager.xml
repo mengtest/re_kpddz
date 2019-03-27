@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SDKManager>
+    <Platform SDKName="version_poker_android_ddz">
+        <Item name="FastLoginURL" url="http://106.15.39.88:9800/index.php/user/openid"/>
+        <Item name="AccountLoginURL" url="http://106.15.39.88:9800/user/login"/>
+        <Item name="AccountRegistURL" url="http://106.15.39.88:9800/user/register"/>
+        <Item name="AccountBindURL" url="http://106.15.39.88:9800/index.php/user/binduser"/>
+        <Item name="ResetPasswordURL" url="http://106.15.39.88:9800/index.php/user/forgetpwd"/>
+        <Item name="VerificationCodeURL" url="http://106.15.39.88:9800/user/getcode"/>
+        <Item name="NoticeUrl"
+              url="http://ksyx.update.iwodong.com/VERSION_POKER/version_poker_android_ddz/hotscript.lua"/>
+        <Item name="VersionXMLUrl"
+              url="http://ksyx.update.iwodong.com/VERSION_POKER/version_poker_android_ddz/version.xml"/>
+        <Item name="VersionDownloadUrl" url="http://ksyx.update.iwodong.com/VERSION_POKER/version_poker_android_ddz/"/>
+        <Item name="PlatformPayUrl"
+              url="http://106.15.39.88:9800/pay?d={0}&amp;m={1}&amp;uname={2}&amp;server={3}&amp;id={4}&amp;type={5}&amp;saletype={6}"/>
+        <Item name="PayCallbackUrl" url="http://120.25.0.203:6101/pay/quick_recv.php?t=ios"/>
+        <Item name="LuaHotScriptURL" url="http://ksyx.update.iwodong.com/VERSION_POKER/version_poker_android_ddz/"/>
+      <Item name="PackageDownloadUrl" url="http://ksyx.update.iwodong.com/VERSION_POKER/version_poker_android_ddz/poker_ddz.apk"/>
+      
+    </Platform>
+</SDKManager>

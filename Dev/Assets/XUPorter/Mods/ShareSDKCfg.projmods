@@ -1,0 +1,14 @@
+{
+    "group": "ShareSDKCfg",
+    "libs": [],
+    "frameworks": ["libicucore.tbd","libz.tbd","libstdc++.tbd","libiconv.tbd","JavaScriptCore.framework"],
+    "headerpaths": [],
+    "librarypaths": ["$(SRCROOT)/Libraries", "$(SRCROOT)/ShareSDK/Support/PlatformSDK/WeChatSDK"],
+    "files":   [],
+    "folders": [],
+    "excludes": [],
+    "compiler_flags": [],
+    "linker_flags": ["-ObjC"],
+    "embed_binaries": [],
+    "plist": {},
+}

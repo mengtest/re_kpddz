@@ -1,0 +1,43 @@
+ManifestFileVersion: 0
+CRC: 3048241449
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e865029f0472e668c00d0a25510bed67
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: db6731044a10ec145b82cb9b8ec830c2
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 858a20c1b21a3f94bb5b2d3b901c9aaf, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3d166255cacf07b4292b8402b3ddefc5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2c5ecb5660b11414fb042fb826e03b73, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e41c47c68da4f7940811d088f4d78ad7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/UI/Barrage/BarrageWin.prefab
+Dependencies:
+- Assets/StreamingAssets/android/resources/fonts/fzy4jw.ttf
+- Assets/StreamingAssets/android/resources/ui/richcar/atlas/richcarruleatlas.prefab
+- Assets/StreamingAssets/android/resources/ui/barrage/atlas/barrageatlas.prefab

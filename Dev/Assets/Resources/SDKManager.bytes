@@ -1,0 +1,122 @@
+;*******************************************************
+; 指定当前平台的配置
+; Author   WP.Chu
+; Date     2015/04/01
+;*******************************************************
+
+;[bakes]
+;bake1=version_poker_window			内网
+;bake2=version_poker_android_official		官网
+;bake3=version_poker_android_ddz	蛋蛋赚
+;bake4=version_poker_android_dc		点财
+;bake5=version_poker_android_dm		多盟
+;bake6=version_poker_android_syz	手游赚
+;bake7=version_poker_android_ym		有米
+;bake8=version_poker_android_mz		米赚
+;bake9=version_poker_android_zzb		掌赚宝
+;bake10=version_poker_android_xw		闲玩
+;bake11=version_poker_android_dl	点乐
+;bake12=version_poker_android_tg	推广包
+;bake13=version_poker_ios_appstore		苹果商店
+;bake14=version_poker_android_yz	有赚
+[platform]
+name=version_buyu_android_test
+
+
+[version_poker_android_in_test]
+qid=100
+sqid=0
+xmlfile=SDKManager.xml
+apkname=poker_test_in(内部测试)
+
+[version_poker_android_out_test]
+qid=100
+sqid=0
+xmlfile=SDKManager.xml
+apkname=poker_test_out(暂不用)
+
+[version_poker_window]
+qid=0
+sqid=0
+xmlfile=SDKManager.xml
+apkname=poker_test_window
+
+[version_poker_android_official]
+qid=0
+sqid=0
+xmlfile=SDKManager.xml
+apkname = poker_official
+
+[version_poker_android_ddz]
+qid=20000000
+sqid=0
+xmlfile=SDKManager.xml
+apkname = poker_ddz
+
+[version_poker_android_dc]
+qid=20000111
+sqid=0
+xmlfile=SDKManager.xml
+apkname=poker_dc
+
+
+[version_poker_android_syz]
+qid=20000002
+sqid=0
+xmlfile=SDKManager.xml
+apkname=poker_syz
+
+[version_poker_android_dm]
+qid=20000003
+sqid=0
+xmlfile=SDKManager.xml
+apkname=poker_dm
+
+[version_poker_android_ym]
+qid=20000004
+sqid=0
+xmlfile=SDKManager.xml
+apkname=poker_ym
+
+[version_poker_android_mz]
+qid=20000005
+sqid=0
+xmlfile=SDKManager.xml
+apkname=poker_mz
+
+[version_poker_android_xw]
+qid=20000006
+sqid=0
+xmlfile=SDKManager.xml
+apkname=poker_xw
+
+[version_poker_android_dl]
+qid=20000007
+sqid=0
+xmlfile=SDKManager.xml
+apkname=poker_dl
+
+[version_poker_android_zzb]
+qid=20000008
+sqid=0
+xmlfile=SDKManager.xml
+apkname=poker_zzb
+
+[version_poker_android_tg]
+qid=10000007
+sqid=0
+xmlfile=SDKManager.xml
+apkname=poker_tg
+
+[version_poker_android_yz]
+qid=20000039
+sqid=0
+xmlfile=SDKManager.xml
+apkname=poker_yz
+
+
+[version_poker_ios_appstore]
+qid=998
+sqid=0
+appstore=1
+xmlfile=SDKManager.xml

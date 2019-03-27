@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3606581710
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1e518ec9ec5c6227c750a835f510d245
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Sounds/girl/girl3.mp3
+Dependencies: []

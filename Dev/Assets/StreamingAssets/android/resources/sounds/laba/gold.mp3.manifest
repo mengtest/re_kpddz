@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1207561982
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2bb917f7011753836b64b8bc2e2453d4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Sounds/Laba/gold.mp3
+Dependencies: []

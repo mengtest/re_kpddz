@@ -1,0 +1,14 @@
+{
+    "group": "NoSDK",
+    "libs": ["libsqlite3.tbd"],
+    "frameworks": ["Security.framework","WebKit.framework"],
+    "headerpaths": [],
+    "librarypaths": [],
+    "files":   [],
+    "folders": ["IOSXib"],
+    "excludes": ["^.*.meta$", "^.*.mdown$", "^.*.pdf$"],
+    "compiler_flags": [],
+    "linker_flags": [],
+    "embed_binaries": [],
+    "plist": {"<string>en</string>":"<string>zh_CN</string>"},
+}

@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1094822272
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f7f9a9d43cf4f88868d57fe032f4e6b0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Sounds/dealerChosing.mp3
+Dependencies: []

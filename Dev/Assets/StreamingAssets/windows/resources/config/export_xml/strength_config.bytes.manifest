@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 4134036458
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c11177bf4de3650ad6158b57292b7d4a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1033bf7ddfd4c6d43e7a6382c0a0a61a
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Config/export_xml/strength_config.bytes
+Dependencies: []

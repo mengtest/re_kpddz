@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 4089079671
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d87aac07f2baf71f5c5280d36d6f2673
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Sounds/BGM/pokebgm.mp3
+Dependencies: []

@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 273877176
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b2a99c5ac9c45ab98f3fd3bf0ab77032
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1033bf7ddfd4c6d43e7a6382c0a0a61a
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Config/export_xml/activity_config.bytes
+Dependencies: []

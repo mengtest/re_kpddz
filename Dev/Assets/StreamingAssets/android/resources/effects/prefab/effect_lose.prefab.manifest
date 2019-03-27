@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 1189220532
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 198f19ba6265b8c536ce81ee6ef82b26
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a8dc90714d13ea64f78f4a996f16bde6
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Effects/Prefab/effect_lose.prefab
+Dependencies: []

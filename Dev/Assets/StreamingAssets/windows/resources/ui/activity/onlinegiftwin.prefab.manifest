@@ -1,0 +1,59 @@
+ManifestFileVersion: 0
+CRC: 2865896086
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d4af07cf6e64b0360a02f21edf1a1608
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 31f03db75fe7b51298e614fd7ada601a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 858a20c1b21a3f94bb5b2d3b901c9aaf, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d81807633ea807d4c8e3fff7e10c6000, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9d036283293bace45b877695c077ed6d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1fdca5042b1d12a4890ec1bd4f04290d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 95d67584e778f4765bc7e88f2bd28363, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2c5ecb5660b11414fb042fb826e03b73, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e41c47c68da4f7940811d088f4d78ad7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f02842fa4878db54f9587ff4de7d9f2d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 07c4de3b4b6fe9045b059ee627c100df, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e04aaa4f99973224888a18c5aece94dd, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/UI/Activity/OnlineGiftWin.prefab
+Dependencies:
+- Assets/StreamingAssets/windows/resources/fonts/fzy4jw.ttf
+- Assets/StreamingAssets/windows/resources/ui/base/commonbackatlas_.prefab
+- Assets/StreamingAssets/windows/resources/ui/base/commonatlas.prefab
+- Assets/StreamingAssets/windows/resources/ui/activity/atlas/dailysignwinatlas.prefab
+- Assets/StreamingAssets/windows/resources/ui/activity/atlas/onlinegiftwinatlas.prefab

@@ -1,0 +1,69 @@
+﻿<!--
+	描述：配置场景所需加载信息
+	编码：以UTF-8无BOM格式编码
+	属性名：
+	type：1本地场景	2http场景 3AssetBundle场景 
+  openType: 1异步加载切换场景 2异步加载附加场景 3异步加载，大场景的切换
+  battleScene: 0不是 1是
+	http：下载地址
+	version：版本号
+ -->
+
+<GameSence>
+    <Sence name="startUpScene"                   type="1" openType="1" battleScene="0"/>
+    <Sence name="dengruchangjing"                type="1" openType="1" battleScene="0"/>
+    <Sence name="loadingScene"                   type="1" openType="3" battleScene="0"/>
+    <Sence name="mainScene"                      type="1" openType="3" battleScene="0" version="18" http="http://ksyx.update.iwodong.com/u3dResTest/mainCity.unity3d"/>
+    <Sence name="hulaoguan"                      type="1" openType="3" battleScene="0" version="5" http="http://ksyx.update.iwodong.com/u3dResTest/hulaoguan.unity3d"/>
+    <!--铜雀楼-->
+    <Sence name="TongQueLou"                     type="1" openType="3" battleScene="0"/>
+    <!--酒馆-->
+    <Sence name="JiuGuang"                       type="1" openType="3" battleScene="0"/>
+    <!--竞技场-->
+    <Sence name="jingjichang"                    type="1" openType="3" battleScene="0"/>
+    <!--副本选择-->
+    <Sence name="fubenxuanzhe"                   type="1" openType="2" battleScene="0"/>
+    <!--公会-->
+    <Sence name="gonghuichangjing"               type="1" openType="3" battleScene="0"/>
+
+    <!-- 副本地图开始 -->
+    <!--草地-->
+    <Sence name="zhandoufuben_caodi1-1"          type="1" openType="3" battleScene="1"/>
+    <Sence name="zhandoufuben_caodi1-2"          type="1" openType="3" battleScene="1"/>
+    <Sence name="zhandoufuben_caodi1-3"          type="1" openType="3" battleScene="1"/>
+    <!--城市-->
+    <Sence name="zhandoufuben_chengshi1-1"       type="1" openType="3" battleScene="1"/>
+    <Sence name="zhandoufuben_chengshi1-2"       type="1" openType="3" battleScene="1"/>
+    <Sence name="zhandoufuben_chengshi1-3"       type="1" openType="3" battleScene="1"/>
+    <!--沙漠-->
+    <Sence name="zhandoufuben_shamo-1"           type="1" openType="3" battleScene="1"/>
+    <Sence name="zhandoufuben_shamo-2"           type="1" openType="3" battleScene="1"/>
+    <Sence name="zhandoufuben_shamo-3"           type="1" openType="3" battleScene="1"/>
+    <!--虎牢关-->
+    <Sence name="zhandoufuben_hulaoguan"         type="1" openType="3" battleScene="1"/>
+    <!-- 副本地图结束 -->
+
+    <!-- 铜雀台副本 -->
+    <Sence name="zhandoufuben_tongquetai"        type="1" openType="3" battleScene="1"/>
+    <!--  竞技场 -->
+    <Sence name="zhandoufuben_jingjichang"       type="1" openType="3" battleScene="1"/>
+    <!--  长安城 -->
+    <Sence name="zhandoufuben_changancheng"      type="1" openType="3" battleScene="1"/>
+    <!--  测试 -->
+    <Sence name="zhandoufuben_test"              type="1" openType="3" battleScene="1"/>
+    <!--  试炼塔-战役 -->
+    <Sence name="chibizhizhanV2"                 type="1" openType="3" battleScene="1"/>
+    <Sence name="zhandoufuben_yilingzhizhan_new" type="1" openType="3" battleScene="1"/>
+    <Sence name="zhandoufuben_guanduzhizhan_new" type="1" openType="3" battleScene="1"/>
+    
+    <!-- 公会BOSS战1 -->
+    <Sence name="zhandouditu_boss01"             type="1" openType="3" battleScene="1"/>
+    <!-- 公会BOSS战2 -->
+    <Sence name="zhandouditu_boss02"             type="1" openType="3" battleScene="1"/>
+    <!--州牧之战 -->
+    <Sence name="zhandoufuben_zhoumuzhizhan"     type="1" openType="3" battleScene="1"/>
+    <!--太后进贡 -->
+    <Sence name="chibizhizhan"                   type="1" openType="3" battleScene="1"/>
+    <!-- 荥阳之战 -->
+    <Sence name="zhandoufuben_ronyangcheng"     type="1" openType="3" battleScene="1"/>
+</GameSence>

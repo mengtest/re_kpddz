@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1107512927
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8b55007a6d9b1fc1c82a4ecea8352075
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Sounds/girl/niu_8.mp3
+Dependencies: []

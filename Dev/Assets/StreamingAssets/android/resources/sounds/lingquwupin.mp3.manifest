@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2772668960
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 85d10814377f4515be1c2539fb1ca800
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Sounds/lingquwupin.mp3
+Dependencies: []

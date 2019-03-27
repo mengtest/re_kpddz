@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3160400289
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4a2d26a4b4a7144905cf9fb53c7f0fb5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Sounds/girl/rob.mp3
+Dependencies: []

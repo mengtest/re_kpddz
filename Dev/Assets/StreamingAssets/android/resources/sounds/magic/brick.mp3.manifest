@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3736080562
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 669d86da29c625ae0ad0e49d14758c26
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Sounds/magic/brick.mp3
+Dependencies: []

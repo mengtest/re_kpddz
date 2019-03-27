@@ -1,0 +1,565 @@
+ManifestFileVersion: 0
+CRC: 4279775169
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: resources/ui/activity/activitymainwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonbackatlas_.prefab
+        Dependency_2: resources/ui/activity/atlas/activitymainwinatlas.prefab
+        Dependency_3: resources/ui/base/commonatlas.prefab
+    Info_1:
+      Name: resources/fonts/fzy4jw.ttf
+      Dependencies: {}
+    Info_2:
+      Name: resources/ui/base/commonbackatlas_.prefab
+      Dependencies: {}
+    Info_3:
+      Name: resources/ui/activity/atlas/activitymainwinatlas.prefab
+      Dependencies: {}
+    Info_4:
+      Name: resources/ui/base/commonatlas.prefab
+      Dependencies: {}
+    Info_5:
+      Name: resources/ui/activity/dailysignwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/activity/atlas/activitymainwinatlas.prefab
+        Dependency_2: resources/ui/base/commonatlas.prefab
+        Dependency_3: resources/ui/activity/atlas/dailysignwinatlas.prefab
+        Dependency_4: resources/ui/base/propatlas_.prefab
+    Info_6:
+      Name: resources/ui/activity/atlas/dailysignwinatlas.prefab
+      Dependencies: {}
+    Info_7:
+      Name: resources/ui/base/propatlas_.prefab
+      Dependencies: {}
+    Info_8:
+      Name: resources/ui/activity/firstrechargewin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonbackatlas_.prefab
+        Dependency_2: resources/ui/activity/atlas/activitymainwinatlas.prefab
+        Dependency_3: resources/ui/base/commonatlas.prefab
+    Info_9:
+      Name: resources/ui/activity/levelgiftwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonbackatlas_.prefab
+        Dependency_2: resources/ui/activity/atlas/activitymainwinatlas.prefab
+        Dependency_3: resources/ui/base/commonatlas.prefab
+        Dependency_4: resources/ui/activity/atlas/dailysignwinatlas.prefab
+        Dependency_5: resources/ui/activity/atlas/levelgiftwinatlas.prefab
+    Info_10:
+      Name: resources/ui/activity/atlas/levelgiftwinatlas.prefab
+      Dependencies: {}
+    Info_11:
+      Name: resources/ui/activity/monthgetwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonbackatlas_.prefab
+        Dependency_2: resources/ui/activity/atlas/activitymainwinatlas.prefab
+        Dependency_3: resources/ui/base/commonatlas.prefab
+        Dependency_4: resources/ui/activity/atlas/monthgiftwinatlas.prefab
+    Info_12:
+      Name: resources/ui/activity/atlas/monthgiftwinatlas.prefab
+      Dependencies: {}
+    Info_13:
+      Name: resources/ui/activity/monthgiftwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonbackatlas_.prefab
+        Dependency_2: resources/ui/activity/atlas/activitymainwinatlas.prefab
+        Dependency_3: resources/ui/base/commonatlas.prefab
+        Dependency_4: resources/ui/activity/atlas/monthgiftwinatlas.prefab
+    Info_14:
+      Name: resources/ui/activity/onlinegiftwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonbackatlas_.prefab
+        Dependency_2: resources/ui/base/commonatlas.prefab
+        Dependency_3: resources/ui/activity/atlas/dailysignwinatlas.prefab
+        Dependency_4: resources/ui/activity/atlas/onlinegiftwinatlas.prefab
+    Info_15:
+      Name: resources/ui/activity/atlas/onlinegiftwinatlas.prefab
+      Dependencies: {}
+    Info_16:
+      Name: resources/ui/activity/specialgiftwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonbackatlas_.prefab
+        Dependency_2: resources/ui/activity/atlas/activitymainwinatlas.prefab
+        Dependency_3: resources/ui/base/commonatlas.prefab
+        Dependency_4: resources/ui/activity/atlas/specialgiftwinatlas.prefab
+    Info_17:
+      Name: resources/ui/activity/atlas/specialgiftwinatlas.prefab
+      Dependencies: {}
+    Info_18:
+      Name: resources/ui/activity/atlas/firstrechargewinatlas.prefab
+      Dependencies: {}
+    Info_19:
+      Name: resources/ui/base/battleatlas.prefab
+      Dependencies: {}
+    Info_20:
+      Name: resources/ui/base/commonbackgroundatlas_.prefab
+      Dependencies: {}
+    Info_21:
+      Name: resources/ui/base/headmaskatlas.prefab
+      Dependencies: {}
+    Info_22:
+      Name: resources/ui/base/playerhead.prefab
+      Dependencies: {}
+    Info_23:
+      Name: resources/ui/base/vipicon.prefab
+      Dependencies: {}
+    Info_24:
+      Name: resources/ui/broadcast/broadcastwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonatlas.prefab
+    Info_25:
+      Name: resources/ui/girlofbeach/girlofbeachtipswin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonbackatlas_.prefab
+        Dependency_2: resources/ui/base/commonatlas.prefab
+        Dependency_3: resources/ui/girlofbeach/atlas/girlofbeachatlas.prefab
+    Info_26:
+      Name: resources/ui/girlofbeach/atlas/girlofbeachatlas.prefab
+      Dependencies: {}
+    Info_27:
+      Name: resources/ui/girlofbeach/girlofbeachwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonbackatlas_.prefab
+        Dependency_2: resources/ui/base/commonatlas.prefab
+        Dependency_3: resources/ui/base/headmaskatlas.prefab
+        Dependency_4: resources/ui/base/playerhead.prefab
+        Dependency_5: resources/ui/girlofbeach/atlas/girlofbeachatlas.prefab
+        Dependency_6: resources/ui/task/achievementiconatlas.prefab
+        Dependency_7: resources/fonts/shuzi4.prefab
+    Info_28:
+      Name: resources/ui/task/achievementiconatlas.prefab
+      Dependencies: {}
+    Info_29:
+      Name: resources/fonts/shuzi4.prefab
+      Dependencies: {}
+    Info_30:
+      Name: resources/ui/loading/fadeinwin.prefab
+      Dependencies: {}
+    Info_31:
+      Name: resources/ui/loading/fadeoutwin.prefab
+      Dependencies:
+        Dependency_0: resources/ui/base/commonatlas.prefab
+    Info_32:
+      Name: resources/ui/loading/loadingwin.prefab
+      Dependencies:
+        Dependency_0: resources/ui/base/commonbackgroundatlas_.prefab
+        Dependency_1: resources/levels/startupscene/atlas/loadingfishatlas.prefab
+        Dependency_2: resources/levels/startupscene/atlas/youyuatlas.prefab
+        Dependency_3: resources/levels/startupscene/atlas/loadingatlas.prefab
+    Info_33:
+      Name: resources/levels/startupscene/atlas/loadingfishatlas.prefab
+      Dependencies: {}
+    Info_34:
+      Name: resources/levels/startupscene/atlas/youyuatlas.prefab
+      Dependencies: {}
+    Info_35:
+      Name: resources/levels/startupscene/atlas/loadingatlas.prefab
+      Dependencies: {}
+    Info_36:
+      Name: resources/ui/login/changeuserinput.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonatlas.prefab
+        Dependency_2: resources/ui/base/commonbackgroundatlas_.prefab
+        Dependency_3: resources/ui/login/loginatlas/loginatlas.prefab
+    Info_37:
+      Name: resources/ui/login/loginatlas/loginatlas.prefab
+      Dependencies: {}
+    Info_38:
+      Name: resources/ui/login/logininput.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonbackatlas_.prefab
+        Dependency_2: resources/ui/base/commonatlas.prefab
+    Info_39:
+      Name: resources/ui/login/queueloginwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonbackatlas_.prefab
+        Dependency_2: resources/ui/base/commonatlas.prefab
+        Dependency_3: resources/ui/base/commonbackgroundatlas_.prefab
+    Info_40:
+      Name: resources/ui/login/registerinput.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonatlas.prefab
+        Dependency_2: resources/ui/base/commonbackgroundatlas_.prefab
+        Dependency_3: resources/ui/login/loginatlas/loginatlas.prefab
+    Info_41:
+      Name: resources/ui/login/validviewarea.prefab
+      Dependencies: {}
+    Info_42:
+      Name: resources/ui/login/loginatlas/selectserveratlas.prefab
+      Dependencies: {}
+    Info_43:
+      Name: resources/ui/luatest/luatestwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonbackatlas_.prefab
+        Dependency_2: resources/ui/base/commonatlas.prefab
+    Info_44:
+      Name: resources/ui/mail/mailwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonbackatlas_.prefab
+        Dependency_2: resources/ui/base/commonatlas.prefab
+        Dependency_3: resources/ui/mail/mailwinatlas.prefab
+    Info_45:
+      Name: resources/ui/mail/mailwinatlas.prefab
+      Dependencies: {}
+    Info_46:
+      Name: resources/ui/maincity/maincenterwin.prefab
+      Dependencies:
+        Dependency_0: resources/ui/base/commonatlas.prefab
+    Info_47:
+      Name: resources/ui/messagedialog/messagedialog.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonbackatlas_.prefab
+        Dependency_2: resources/ui/base/commonatlas.prefab
+        Dependency_3: resources/ui/base/commonbackgroundatlas_.prefab
+    Info_48:
+      Name: resources/ui/messagedialog/messagedialogusemoney.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonbackatlas_.prefab
+        Dependency_2: resources/ui/base/commonatlas.prefab
+        Dependency_3: resources/ui/base/commonbackgroundatlas_.prefab
+    Info_49:
+      Name: resources/ui/messagedialog/messagedialogwithtwoselect.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonbackatlas_.prefab
+        Dependency_2: resources/ui/base/commonatlas.prefab
+        Dependency_3: resources/ui/base/commonbackgroundatlas_.prefab
+    Info_50:
+      Name: resources/ui/messagedialog/messagewin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonatlas.prefab
+    Info_51:
+      Name: resources/ui/messagedialog/messagewithiconwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonbackatlas_.prefab
+    Info_52:
+      Name: resources/ui/pm/pmwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonbackatlas_.prefab
+        Dependency_2: resources/ui/base/commonatlas.prefab
+    Info_53:
+      Name: resources/ui/relife/relifewin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonbackatlas_.prefab
+        Dependency_2: resources/ui/base/commonatlas.prefab
+    Info_54:
+      Name: resources/ui/screenshot/screenshotwin.prefab
+      Dependencies: {}
+    Info_55:
+      Name: resources/ui/shop/shop.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonbackatlas_.prefab
+        Dependency_2: resources/ui/base/commonatlas.prefab
+        Dependency_3: resources/ui/base/propatlas_.prefab
+        Dependency_4: resources/ui/base/vipicon.prefab
+        Dependency_5: resources/ui/shop/atlas/shopatlas.prefab
+        Dependency_6: resources/ui/shop/atlas/shopgoldicon.prefab
+    Info_56:
+      Name: resources/ui/shop/atlas/shopatlas.prefab
+      Dependencies: {}
+    Info_57:
+      Name: resources/ui/shop/atlas/shopgoldicon.prefab
+      Dependencies: {}
+    Info_58:
+      Name: resources/ui/shop/shopbuywin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonbackatlas_.prefab
+        Dependency_2: resources/ui/base/commonatlas.prefab
+    Info_59:
+      Name: resources/ui/systemsetting/exchangewin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonbackatlas_.prefab
+        Dependency_2: resources/ui/base/commonatlas.prefab
+        Dependency_3: resources/ui/systemsetting/systematlas.prefab
+    Info_60:
+      Name: resources/ui/systemsetting/systematlas.prefab
+      Dependencies: {}
+    Info_61:
+      Name: resources/ui/systemsetting/soundwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonbackatlas_.prefab
+        Dependency_2: resources/ui/base/commonatlas.prefab
+        Dependency_3: resources/ui/systemsetting/systematlas.prefab
+    Info_62:
+      Name: resources/ui/task/achievementatlas.prefab
+      Dependencies: {}
+    Info_63:
+      Name: resources/ui/task/achievementwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonbackatlas_.prefab
+        Dependency_2: resources/ui/activity/atlas/activitymainwinatlas.prefab
+        Dependency_3: resources/ui/base/commonatlas.prefab
+        Dependency_4: resources/ui/task/achievementiconatlas.prefab
+        Dependency_5: resources/ui/task/achievementatlas.prefab
+        Dependency_6: resources/ui/task/taskatlas.prefab
+    Info_64:
+      Name: resources/ui/task/taskatlas.prefab
+      Dependencies: {}
+    Info_65:
+      Name: resources/ui/task/taskicon.prefab
+      Dependencies: {}
+    Info_66:
+      Name: resources/ui/task/taskwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonbackatlas_.prefab
+        Dependency_2: resources/ui/activity/atlas/activitymainwinatlas.prefab
+        Dependency_3: resources/ui/base/commonatlas.prefab
+        Dependency_4: resources/ui/task/taskatlas.prefab
+        Dependency_5: resources/ui/task/taskicon.prefab
+    Info_67:
+      Name: resources/ui/task/titlewin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonbackatlas_.prefab
+        Dependency_2: resources/ui/base/commonatlas.prefab
+        Dependency_3: resources/ui/task/achievementiconatlas.prefab
+        Dependency_4: resources/ui/task/achievementatlas.prefab
+    Info_68:
+      Name: resources/ui/test/testwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonbackatlas_.prefab
+        Dependency_2: resources/ui/activity/atlas/activitymainwinatlas.prefab
+        Dependency_3: resources/ui/base/commonatlas.prefab
+        Dependency_4: resources/ui/task/taskatlas.prefab
+        Dependency_5: resources/ui/task/taskicon.prefab
+    Info_69:
+      Name: resources/ui/tips/tipswin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonatlas.prefab
+    Info_70:
+      Name: resources/ui/uitemplate/hero_img_bg.prefab
+      Dependencies:
+        Dependency_0: resources/ui/base/headmaskatlas.prefab
+        Dependency_1: resources/ui/base/playerhead.prefab
+    Info_71:
+      Name: resources/ui/uitemplate/img_bg.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonbackatlas_.prefab
+    Info_72:
+      Name: resources/ui/uitemplate/stars.prefab
+      Dependencies:
+        Dependency_0: resources/ui/base/commonatlas.prefab
+    Info_73:
+      Name: resources/ui/uitemplate/tradeunionicon.prefab
+      Dependencies: {}
+    Info_74:
+      Name: resources/ui/vip/vipwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonbackatlas_.prefab
+        Dependency_2: resources/ui/base/commonatlas.prefab
+        Dependency_3: resources/ui/base/vipicon.prefab
+        Dependency_4: resources/ui/shop/atlas/shopatlas.prefab
+        Dependency_5: resources/ui/vip/atlas/vip.prefab
+    Info_75:
+      Name: resources/ui/vip/atlas/vip.prefab
+      Dependencies: {}
+    Info_76:
+      Name: resources/ui/waiting/waiting.prefab
+      Dependencies:
+        Dependency_0: resources/ui/base/commonatlas.prefab
+    Info_77:
+      Name: resources/ui/weekactivity/weekacticityatlas.prefab
+      Dependencies: {}
+    Info_78:
+      Name: resources/ui/weekactivity/weekactivitywin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonbackatlas_.prefab
+        Dependency_2: resources/ui/base/commonatlas.prefab
+        Dependency_3: resources/ui/base/headmaskatlas.prefab
+        Dependency_4: resources/ui/base/playerhead.prefab
+        Dependency_5: resources/fonts/shuzi4.prefab
+        Dependency_6: resources/ui/weekactivity/weekacticityatlas.prefab
+    Info_79:
+      Name: resources/ui/weekactivity/weekjoinwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonbackatlas_.prefab
+        Dependency_2: resources/ui/base/commonatlas.prefab
+        Dependency_3: resources/ui/weekactivity/weekacticityatlas.prefab
+    Info_80:
+      Name: resources/ui/weekactivity/weekrulewin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/commonbackatlas_.prefab
+        Dependency_2: resources/ui/base/commonatlas.prefab
+        Dependency_3: resources/ui/weekactivity/weekacticityatlas.prefab
+    Info_81:
+      Name: resources/config/gametext.xml
+      Dependencies: {}
+    Info_82:
+      Name: resources/config/newbieguide.xml
+      Dependencies: {}
+    Info_83:
+      Name: resources/config/rootpathconfig.xml
+      Dependencies: {}
+    Info_84:
+      Name: resources/config/scenceconfig.xml
+      Dependencies: {}
+    Info_85:
+      Name: resources/config/versionconfig.xml
+      Dependencies: {}
+    Info_86:
+      Name: resources/config/export_xml/achievement_config.bytes
+      Dependencies: {}
+    Info_87:
+      Name: resources/config/export_xml/activity_config.bytes
+      Dependencies: {}
+    Info_88:
+      Name: resources/config/export_xml/base_config.bytes
+      Dependencies: {}
+    Info_89:
+      Name: resources/config/export_xml/battletask.bytes
+      Dependencies: {}
+    Info_90:
+      Name: resources/config/export_xml/battle_online_config.bytes
+      Dependencies: {}
+    Info_91:
+      Name: resources/config/export_xml/boss_fish_birth.bytes
+      Dependencies: {}
+    Info_92:
+      Name: resources/config/export_xml/daily_activity_config.bytes
+      Dependencies: {}
+    Info_93:
+      Name: resources/config/export_xml/daily_task_config.bytes
+      Dependencies: {}
+    Info_94:
+      Name: resources/config/export_xml/designation_config.bytes
+      Dependencies: {}
+    Info_95:
+      Name: resources/config/export_xml/disc_fish_config.bytes
+      Dependencies: {}
+    Info_96:
+      Name: resources/config/export_xml/element_config.bytes
+      Dependencies: {}
+    Info_97:
+      Name: resources/config/export_xml/fish_array_path.bytes
+      Dependencies: {}
+    Info_98:
+      Name: resources/config/export_xml/fish_array_position.bytes
+      Dependencies: {}
+    Info_99:
+      Name: resources/config/export_xml/fish_npc_config.bytes
+      Dependencies: {}
+    Info_100:
+      Name: resources/config/export_xml/gun_level_config.bytes
+      Dependencies: {}
+    Info_101:
+      Name: resources/config/export_xml/head_base_config.bytes
+      Dependencies: {}
+    Info_102:
+      Name: resources/config/export_xml/item_base_config.bytes
+      Dependencies: {}
+    Info_103:
+      Name: resources/config/export_xml/level_need_config.bytes
+      Dependencies: {}
+    Info_104:
+      Name: resources/config/export_xml/level_node.bytes
+      Dependencies: {}
+    Info_105:
+      Name: resources/config/export_xml/magic_base_config.bytes
+      Dependencies: {}
+    Info_106:
+      Name: resources/config/export_xml/main_task_config.bytes
+      Dependencies: {}
+    Info_107:
+      Name: resources/config/export_xml/mask_base_config.bytes
+      Dependencies: {}
+    Info_108:
+      Name: resources/config/export_xml/normal_fish_birth.bytes
+      Dependencies: {}
+    Info_109:
+      Name: resources/config/export_xml/online_gift_config.bytes
+      Dependencies: {}
+    Info_110:
+      Name: resources/config/export_xml/research_base_config.bytes
+      Dependencies: {}
+    Info_111:
+      Name: resources/config/export_xml/reward_pool_config.bytes
+      Dependencies: {}
+    Info_112:
+      Name: resources/config/export_xml/shop_base_config.bytes
+      Dependencies: {}
+    Info_113:
+      Name: resources/config/export_xml/skill_base_config.bytes
+      Dependencies: {}
+    Info_114:
+      Name: resources/config/export_xml/storage_param.bytes
+      Dependencies: {}
+    Info_115:
+      Name: resources/config/export_xml/strength_config.bytes
+      Dependencies: {}
+    Info_116:
+      Name: resources/config/export_xml/time_gift_config.bytes
+      Dependencies: {}
+    Info_117:
+      Name: resources/config/export_xml/vip.bytes
+      Dependencies: {}
+    Info_118:
+      Name: resources/config/export_xml/weekly_activity_config.bytes
+      Dependencies: {}
+    Info_119:
+      Name: resources/config/export_xml/weekly_task_config.bytes
+      Dependencies: {}
+    Info_120:
+      Name: resources/config/export_xml/week_reward_config.bytes
+      Dependencies: {}
+    Info_121:
+      Name: resources/ui/texture/fish/f13002.png
+      Dependencies: {}
+    Info_122:
+      Name: resources/ui/texture/fish/f13003.png
+      Dependencies: {}
+    Info_123:
+      Name: resources/ui/texture/fish/f13009.png
+      Dependencies: {}
+    Info_124:
+      Name: resources/ui/texture/fish/f13011.png
+      Dependencies: {}
+    Info_125:
+      Name: resources/ui/texture/fish/f13012.png
+      Dependencies: {}
+    Info_126:
+      Name: resources/ui/texture/fish/f13014.png
+      Dependencies: {}
+    Info_127:
+      Name: resources/ui/texture/fish/f13020.png
+      Dependencies: {}
+    Info_128:
+      Name: resources/assetspathsinfo.xml
+      Dependencies: {}

@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 554460401
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a92c2f50575cbd4d17b17718126da5e9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1033bf7ddfd4c6d43e7a6382c0a0a61a
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Config/export_xml/week_task_config.bytes
+Dependencies: []

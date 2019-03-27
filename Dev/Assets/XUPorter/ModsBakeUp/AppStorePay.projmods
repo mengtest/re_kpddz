@@ -1,0 +1,14 @@
+{
+    "group": "AppStorePay",
+    "libs": [],
+    "frameworks": ["StoreKit.framework"],
+    "headerpaths": [],
+    "librarypaths": [],
+    "files":   [],
+    "folders": [],
+    "excludes": ["^.*.meta$", "^.*.mdown$", "^.*.pdf$"],
+    "compiler_flags": [],
+    "linker_flags": [],
+    "embed_binaries": [],
+    "plist": {},
+}

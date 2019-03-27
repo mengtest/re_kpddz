@@ -1,0 +1,50 @@
+ManifestFileVersion: 0
+CRC: 4268692415
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 19fcbda40757becd7a356181e8c126a0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0438a4e70d616aa853acb4582da12dd4
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 858a20c1b21a3f94bb5b2d3b901c9aaf, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2c5ecb5660b11414fb042fb826e03b73, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e41c47c68da4f7940811d088f4d78ad7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d5c5ca47aa5c01740810b7c66662099f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f69530c4fcc9fa4e9553c0de2c35be3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/UI/Loading/LoadingWin.prefab
+Dependencies:
+- Assets/StreamingAssets/windows/resources/ui/base/commonbackgroundatlas_.prefab
+- Assets/StreamingAssets/windows/resources/levels/startupscene/atlas/loadingfishatlas.prefab
+- Assets/StreamingAssets/windows/resources/levels/startupscene/atlas/youyuatlas.prefab
+- Assets/StreamingAssets/windows/resources/levels/startupscene/atlas/loadingatlas.prefab

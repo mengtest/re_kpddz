@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1579149078
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 998160099af2ea00b050d49cc7f4a6e9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6759894fca659e2049f05064db45ce61
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/UI/Texture/activity/ad_friend.png
+Dependencies: []

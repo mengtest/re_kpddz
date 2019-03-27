@@ -1,0 +1,58 @@
+ManifestFileVersion: 0
+CRC: 3849740813
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ddb50d64f014ebd7a5c47c6196a5b46e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5b852e0b66caaa83e351a9b199031688
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 75e7459110b9666449485c40f25362a5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 858a20c1b21a3f94bb5b2d3b901c9aaf, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9e2747e3775af504da1a4d5a46c5a1ce, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2c5ecb5660b11414fb042fb826e03b73, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d5c5ca47aa5c01740810b7c66662099f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 74874de933cf1774fb09eebec5b07ce2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f69530c4fcc9fa4e9553c0de2c35be3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e04aaa4f99973224888a18c5aece94dd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 782f246f25a958543bc9decab811442d, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/UI/MainCity/MainCenterWin.prefab
+Dependencies:
+- Assets/StreamingAssets/android/resources/ui/maincity/atlas/maincenteratlas.prefab
+- Assets/StreamingAssets/android/resources/ui/texture/night.png

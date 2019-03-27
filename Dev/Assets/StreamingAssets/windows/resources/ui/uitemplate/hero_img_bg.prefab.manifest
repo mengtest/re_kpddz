@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 3072016376
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4050869f6c1ebbbf2efcb9bffb9e0b0e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2a8cc8a36fa57f9cdbc30d416698bf29
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 95d67584e778f4765bc7e88f2bd28363, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/UI/UITemplate/hero_img_bg.prefab
+Dependencies:
+- Assets/StreamingAssets/windows/resources/ui/base/headmaskatlas.prefab
+- Assets/StreamingAssets/windows/resources/ui/base/playerhead.prefab

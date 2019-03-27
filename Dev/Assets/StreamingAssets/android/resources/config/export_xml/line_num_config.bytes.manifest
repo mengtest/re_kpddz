@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1652027343
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ab85169ebcfba55c8f279435be325b31
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1033bf7ddfd4c6d43e7a6382c0a0a61a
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Config/export_xml/line_num_config.bytes
+Dependencies: []

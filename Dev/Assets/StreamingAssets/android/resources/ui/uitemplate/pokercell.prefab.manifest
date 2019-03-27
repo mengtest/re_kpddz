@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 370297839
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e4bcc3301279ae39b5f0e4bd4c536c6e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5d1f8fce852008c6605e7a02810a9928
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 858a20c1b21a3f94bb5b2d3b901c9aaf, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 95d67584e778f4765bc7e88f2bd28363, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 07c4de3b4b6fe9045b059ee627c100df, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/UI/UITemplate/pokerCell.prefab
+Dependencies:
+- Assets/StreamingAssets/android/resources/ui/base/atlas/commonatlas.prefab
+- Assets/StreamingAssets/android/resources/ui/base/poker/pokeratlas.prefab

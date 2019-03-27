@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2827317562
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e96b5e283b5b742f026a944d3a91f895
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Sounds/boy/niu_4.mp3
+Dependencies: []

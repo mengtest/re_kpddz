@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 150454196
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 75bb6104bf4515b854a09b1341ae2149
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6759894fca659e2049f05064db45ce61
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/UI/Texture/girlNight_RGB.png
+Dependencies: []

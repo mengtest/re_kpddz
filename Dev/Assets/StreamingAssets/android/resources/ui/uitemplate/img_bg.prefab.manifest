@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 3663563033
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0b4d2ca1f58e65b4c4010ae88a466761
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7a48db113f0acc6448c71f9d913014e9
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 95d67584e778f4765bc7e88f2bd28363, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/UI/UITemplate/img_bg.prefab
+Dependencies:
+- Assets/StreamingAssets/android/resources/fonts/fzy4jw.ttf

@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 3967668281
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b31de20b38f80aa35e13b80925217137
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1653d9005cd96c800bf6f3a4843bd1fc
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2c5ecb5660b11414fb042fb826e03b73, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e41c47c68da4f7940811d088f4d78ad7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8943ead8e14018346b15e3f89f2413ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/UI/Loading/FadeOutWin.prefab
+Dependencies:
+- Assets/StreamingAssets/windows/resources/ui/base/commonatlas.prefab

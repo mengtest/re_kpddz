@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 864135487
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f3861e887a6c48229a10dff163deef48
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Sounds/getGold.mp3
+Dependencies: []

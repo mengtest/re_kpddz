@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetsLocation>
+  <Asset name="android" type="PERSISTENT" />
+  <Asset name="assetspersistentpathsinfo.xml" type="PERSISTENT" />
+  <Asset name="filecode.lua" type="PERSISTENT" />
+  <Asset name="lua.data" type="PERSISTENT" />
+  <Asset name="diff/filecode.lua" type="PERSISTENT" />
+  <Asset name="resources/config/export_xml/activity_config.bytes" type="PERSISTENT" />
+  <Asset name="resources/config/export_xml/base_shop_item_config.bytes" type="PERSISTENT" />
+  <Asset name="resources/config/export_xml/betting_room_config.bytes" type="PERSISTENT" />
+  <Asset name="resources/config/export_xml/bottom_power_config.bytes" type="PERSISTENT" />
+  <Asset name="resources/config/export_xml/card_reward_config.bytes" type="PERSISTENT" />
+  <Asset name="resources/config/export_xml/chat_emoji_config.bytes" type="PERSISTENT" />
+  <Asset name="resources/config/export_xml/chest_config.bytes" type="PERSISTENT" />
+  <Asset name="resources/config/export_xml/client_base_config.bytes" type="PERSISTENT" />
+  <Asset name="resources/config/export_xml/cow_chest_config.bytes" type="PERSISTENT" />
+  <Asset name="resources/config/export_xml/cow_task_config.bytes" type="PERSISTENT" />
+  <Asset name="resources/config/export_xml/daily_task_config.bytes" type="PERSISTENT" />
+  <Asset name="resources/config/export_xml/fruit_chest_config.bytes" type="PERSISTENT" />
+  <Asset name="resources/config/export_xml/fruit_day_config.bytes" type="PERSISTENT" />
+  <Asset name="resources/config/export_xml/god_gold_config.bytes" type="PERSISTENT" />
+  <Asset name="resources/config/export_xml/grap_power_config.bytes" type="PERSISTENT" />
+  <Asset name="resources/config/export_xml/guide_config.bytes" type="PERSISTENT" />
+  <Asset name="resources/config/export_xml/item_base_config.bytes" type="PERSISTENT" />
+  <Asset name="resources/config/export_xml/laba_fruit_config.bytes" type="PERSISTENT" />
+  <Asset name="resources/config/export_xml/line_num_config.bytes" type="PERSISTENT" />
+  <Asset name="resources/config/export_xml/new_task_config.bytes" type="PERSISTENT" />
+  <Asset name="resources/config/export_xml/patterns_power_config.bytes" type="PERSISTENT" />
+  <Asset name="resources/config/export_xml/player_lvl_config.bytes" type="PERSISTENT" />
+  <Asset name="resources/config/export_xml/practicality_config.bytes" type="PERSISTENT" />
+  <Asset name="resources/config/export_xml/red_fruit_config.bytes" type="PERSISTENT" />
+  <Asset name="resources/config/export_xml/shop_vip_config.bytes" type="PERSISTENT" />
+  <Asset name="resources/config/export_xml/time_task_config.bytes" type="PERSISTENT" />
+  <Asset name="resources/config/export_xml/vip_config.bytes" type="PERSISTENT" />
+  <Asset name="resources/config/export_xml/voice_effect_config.bytes" type="PERSISTENT" />
+  <Asset name="resources/config/export_xml/week_task_config.bytes" type="PERSISTENT" />
+  <Asset name="resources/ui/activityandannouncement/activityandannouncement.prefab" type="PERSISTENT" />
+  <Asset name="resources/ui/fruit/fruitwin.prefab" type="PERSISTENT" />
+  <Asset name="resources/ui/maincity/mainwin.prefab" type="PERSISTENT" />
+  <Asset name="resources/ui/pokergame/hundredcow/hundredcowmain.prefab" type="PERSISTENT" />
+  <Asset name="resources/ui/pokergame/hundredcow/rankwin.prefab" type="PERSISTENT" />
+  <Asset name="resources/ui/pokergame/hundredcow/atlas/hundredcowatlas.prefab" type="PERSISTENT" />
+  <Asset name="resources/ui/pokergame/hundredcow/atlas/rankwinatlas.prefab" type="PERSISTENT" />
+  <Asset name="resources/ui/texture/activity/ad_yjblhb.png" type="PERSISTENT" />
+</AssetsLocation>

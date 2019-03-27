@@ -1,0 +1,14 @@
+{
+    "group": "Alipay",
+    "libs": ["libc++.tbd", "libz.tbd"],
+    "frameworks": ["CoreTelephony.framework"],
+    "headerpaths": [],
+    "librarypaths": [],
+    "files":   [],
+    "folders": [],
+    "excludes": [],
+    "compiler_flags": [],
+    "linker_flags": [],
+    "embed_binaries": [],
+    "plist": {},
+}

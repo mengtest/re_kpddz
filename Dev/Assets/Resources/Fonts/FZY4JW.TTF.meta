@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: cd51ecfbcd5122e43b0240e30e7ca0b6
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - FZCuYuan-M03S
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: resources/fonts/fzy4jw.ttf
+  assetBundleVariant: 

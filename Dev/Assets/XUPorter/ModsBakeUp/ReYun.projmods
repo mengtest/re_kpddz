@@ -1,0 +1,14 @@
+{
+    "group": "ReYun",
+    "libs": ["libz.tbd","libiconv.2.tbd", "libsqlite3.tbd"],
+    "frameworks": ["Security.framework","CoreTelephony.framework","AdSupport.framework"],
+    "headerpaths": [],
+    "librarypaths": [],
+    "files":   [],
+    "folders": [],
+    "excludes": ["^.*.meta$", "^.*.mdown$", "^.*.pdf$"],
+    "compiler_flags": [],
+    "linker_flags": [],
+    "embed_binaries": [],
+    "plist": {},
+}

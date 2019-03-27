@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--goalId=“目的步骤” 该步骤是 “目的步骤” 的前置，若 “目的步骤” 未完成且可被触发 才能触发次步骤-->
+<!--↓↓↓↓=======================以下未最新2015.11.24===================↓↓↓↓↓-->
+<!--arrowtype 布局。0 左 1 右 2 上 3 下-->
+
+<data>
+  <item key="1" des="新手询问">
+    <item id="1" dialog="" pos="0,0" type="askwin" blackback="1" backclick="0"/>
+  </item>
+  <item key="2" des="战斗引导">
+    <item id="1" type="enterBattle" blackback="0" />
+    <item id="2" type="npctalk" pos="0,-160" dialog="欢迎来到全新的海洋世界！我们去学习一些捕鱼的基础知识吧！" gotoNext="1" blackback="1" backclick="1"/>
+    <item id="3" type="smallwin" arrowtype="2" pos="-368,99" winName="BattleMainWin" boxPath="Container/TopLeft/gold" disableBtn="Container/RightBottom/set,Container/RightTop/online,Container/RightTop/arrow" dialog="[FFF605]金币数量[-][D9FFFF]在此显示，请多加注意哦！[-]" boxback="1" gotoNext="1" blackback="1" backclick="1"/>
+    <item id="4" tips="点击屏幕中任意位置即可开炮！" fishstage="1" taskfish="10" firecount="1" gotoNext="1"/>
+	<item id="5" tips="长按屏幕，可连续发炮！" firecount="2" gotoNext="1"/>
+	<item id="6" dropitem="700004" destoryfish="1" gotoNext="1"/>
+	<item id="7" type="npctalk" pos="0,0" dialog="捕鱼有概率获得各种各样的道具，点击拾取神灯！" winName="BattleMainWin" boxPath="Container/ItemPanel/Item(Clone)" circle="1" blackback="1"  backclick="1" gotoNext="1"/>
+	<item id="8" backclick="1" pause="1"/>
+	<item id="9" type="npctalk" pos="0,-160" dialog="神灯可以召唤特殊的鱼，赶紧点击使用!" winName="BattleMainWin" boxPath="Container/Left/Grid/LeftItemCell_0" backclick="1" circle="1" blackback="1" gotoNext="1"/>
+	<item id="10" backclick="1" pause="1"/>
+	<item id="11" fishid="123000"  circle="1" fishcollidercount="1"/>
+	<item id="12" fishid="123000"  fishcollidercount="4"/>
+	<item id="13" fishid="123000" fishmove="1" destoryfish="1"/>
+	<item id="14" type="smallwin" arrowtype="3" winName="BattleMainWin" boxPath="Container/Bottom/DaPao_Pos2/PaiTai/Container/Animator" pos="5,-196" dialog="[D9FFFF]炮的威力不够，大鲨鱼居然逃走，完成任务[-][FFF605]提升炮的威力[-][D9FFFF]吧！[-]" gotoNext="1" blackback="1" backclick="1"/>
+	<item id="15" tips="长按屏幕可连续发炮！" fishstage="1" taskfish="10" firecount="1" gotoNext="1"/>
+	<item id="16" tips="" destoryfish="1" gotoNext="1"/>
+	<item id="17" tips="恭喜目标达成" levelup="1" level="10"/>
+	<item id="18" openWinName="NewbieguidePaoTai" gotoNext="1"/>
+	<item id="19" winName="newbieguidepaotai" boxPath="Container/background/Sprite" blackback="1" backclick="1" gotoNext="1"/>
+	<item id="20" winName="newbieguidepaotai" boxPath="Container/background/closebutton" blackback="1" circle="1" gotoNext="1"/>
+	<item id="21" tips="" fishstage="3" taskfish="10" destoryfish="1" gotoNext="1"/>
+    <item id="22" type="npctalk" pos="0,-160" dialog="游戏内的鱼种之间也是有区别的哦！" gotoNext="1" blackback="1" backclick="1"/>
+	<item id="23" openWinName="NewbieguideYuZhong" gotoNext="1"/>
+	<item id="24" winName="newbieguideyuzhong" boxPath="Container/background/Sprite" blackback="1" backclick="1" gotoNext="1"/>
+	<item id="25" winName="newbieguideyuzhong" boxPath="Container/background/closebutton" blackback="1" circle="1" gotoNext="1"/>
+    <item id="26" type="npctalk" pos="0,-160" dialog="恭喜船长，完成入门教学，赶紧出海捕鱼吧！" gotoNext="1" blackback="1" backclick="1"/>
+    <item id="27" type="exitbattle"/>
+  </item>
+</data>

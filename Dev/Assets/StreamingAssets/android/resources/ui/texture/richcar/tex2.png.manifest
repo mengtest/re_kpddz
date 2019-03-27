@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 714018869
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 38aa2170a2ac770e4cd2038988dfb897
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6759894fca659e2049f05064db45ce61
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/UI/Texture/RichCar/tex2.png
+Dependencies: []

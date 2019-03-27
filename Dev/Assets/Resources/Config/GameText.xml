@@ -1,0 +1,359 @@
+﻿<!--
+	描述：配置游戏中用到的显示文字
+	编码：以UTF-8无BOM格式编码
+	配置举例：<text t="MyName" value="沃动"/>
+	&lt; < 小于号
+	&gt; > 大于号
+	&amp; &  与
+	&apos; ' 单引号
+	&quot; " 双引号
+		&#x000D;&#x000A; 回车换行 
+	实体必须以符号"&"开头，以符号";"结尾。
+	只有"<" 字符和"&"字符对于XML来说是严格禁止使用的。剩下的都是合法的，为了减少出错。
+ -->
+
+<GameTextSet>
+    <!--loading-->
+    <text t="initingLoadXml" value="正在加载游戏配置...{0}%(不产生流量)"/>
+    <text t="loadingNotice" value="正在启动游戏"/>
+    <text t="cancel" value="取消"/>
+    <text t="canceled" value="已取消"/>
+    <text t="loginTip1" value="登录帐号服务器成功"/>
+    <text t="loginTip2" value="注册帐号成功"/>
+    <text t="connect_account_server_failed" value="连接帐号服务器失败"/>
+    <text t="bind_account_success" value="绑定成功"/>
+
+    <text t="test1" value="&lt;bat:%s name:%s&gt;"/>
+    <text t="test" value="测试"/>
+    <text t="userName" value="账户:"/>
+    <text t="server" value="服务器:"/>
+    <text t="loginGame" value="进入游戏"/>
+    <text t="fasetLogin" value="快速进入"/>
+    <text t="password" value="密码:"/>
+    <text t="surePassword" value="确认密码:"/>
+    <text t="ErrorMsg1121" value="[FF0000]夺要标有[-]"/>
+    <text t="messageDialog_tip" value="提示"/>
+    <text t="messageDialog_ok" value="确定"/>
+    <text t="messageDialog_no" value="取消"/>
+    <text t="messageDialog_back" value="取消"/>
+    <text t="recommend_Servers" value="推荐服务器"/>
+    <text t="open_lv_lmt_unknow_lv" value="功能未开启"/>
+    <text t="login_errorCode" value="(错误码:{0})" />
+
+
+    <text t="btn_fresh" value="刷新"/>
+    <text t="btn_send" value="发送"/>
+    <text t="socket_connect_failed" value="网络连接失败，请检查网络后重试。"/>
+    <text t="socket_connect_timeout" value="网络连接超时，请检查网络后重试。"/>
+    <text t="disconect_login_failed" value="登录服务器失败，请检查网络后再登录。"/>
+    <text t="disconect_login_timeout" value="登录服务器超时，请检查网络后再登录。"/>
+    <text t="reconnect_failed" value="重新连接网络失败，请检查网络后重新登录。"/>
+    <text t="reconnect_timeout" value="重新连接网络超时，请检查网络后重新登录。"/>
+    <text t="msg_reconnect_failed" value="重新连接失败，请检查网络后重新登录。"/>
+    <text t="msg_reconnect_timeout" value="重新连接超时，请检查网络后重新登录。"/>
+    <text t="login_in_other_place" value="您的帐号已在其他地方登录！"/>
+    <text t="socket_disconnect" value="网络连接断开，请检查网络后重试。"/>
+    <text t="leave_long_time" value="您已离开游戏太久, 请重新登录。"/>
+    <text t="socket_connect_bad" value="连接超时, 请重新登录。"/>
+
+    <!--加载界面-->
+    <!--<text t="loading_title" value="小提示：" />-->
+    <text t="loading_tip1" value="[99F634]小提示：[-]合理的阵容搭配将提升战斗力。"/>
+    <text t="loading_tip2" value="[99F634]小提示：[-]记得每天都有不同的战役可以挑战。"/>
+    <text t="loading_tip3" value="[99F634]小提示：[-]记得每天12:00，18:00，21:00有包子可领哦。"/>
+    <text t="loading_tip4" value="[99F634]小提示：[-]完成每日任务能得到大量经验，可迅速提升等级！"/>
+    <text t="loading_tip5" value="[99F634]小提示：[-]当遇到游戏困难时，记住:得稀有武将，氪能改命！"/>
+    <text t="loading_tip6" value="[99F634]小提示：[-]强化武器，可大幅提升战斗力！"/>
+    <text t="loading_tip7" value="[99F634]小提示：[-]镶嵌符文，战斗更加轻松。"/>
+    <text t="loading_tip8" value="[99F634]小提示：[-]装备可是有套装属性的，记住哦。"/>
+    <text t="loading_tip9" value="[99F634]小提示：[-]每天第一次购买金币和包子非常实惠。"/>
+    <text t="loading_tip10" value="[99F634]小提示：[-]在竞技场争取到好名次，闪闪发光的元宝在向你招手~"/>
+
+    <text t="login_name_empty" value="请输入手机号！"/>
+    <text t="login_name_default" value="在此输入您的手机号"/>
+    <text t="login_passWord_empty" value="请输入6-16位数字或字母作为密码！"/>
+    <text t="login_passWord_default" value="请输入6-16位密码"/>
+    <text t="reset_passWord_default" value="请输入6-16位密码"/>
+    <text t="please_input_right_phone_num" value="请输入正确的手机号码"/>
+    <text t="touris_login_tip"
+          value="[874C38]您已使用[-][FF791F][游客身份][-][874C38]登录，游客数据可能在游戏升级或重装后丢失，为了您的账号安全请绑定手机，首次绑定手机号码后即可获赠[-][FF791F]10000金币[-][874C38]，绑定操作不会扣除您任何费用，请您放心。[-]"/>
+    <text t="btn_sure" value="确定"/>
+    <text t="btn_register" value="注册"/>
+    <text t="phone_lb" value="手机号"/>
+    <text t="new_passWord_lb" value="新密码"/>
+    <text t="verification_lb" value="验证码"/>
+    <text t="password_lb" value="密    码"/>
+    <text t="goto_lb" value="前往"/>
+    <text t="old_password" value="旧密码"/>
+    <text t="old_password_default" value="请输入当前密码"/>
+    <text t="new_password" value="新密码"/>
+    <text t="new_password_default" value="请输入6-12位密码"/>
+    <text t="register_binding_tip" value="免费绑定手机转注册用户，获赠10000金币！"/>
+    <text t="verify_default" value="请输入语音验证码"/>
+    <text t="verify_wait" value="重新获取({0}s)"/>
+    <text t="try_later" value="倒计时结束后再试"/>
+    <text t="change_password_succ" value="修改成功"/>
+    <!--牛牛入口-->
+    <text t="LvText" value="Lv.{0}"/>
+    <text t="wan" value="万"/>
+    <text t="yi" value="亿"/>
+    <text t="player_info_desc1" value="确定"/>
+    <text t="exit_game_message" value="是否退出游戏"/>
+    <text t="quick_start_lb" value="快速开始"/>
+    <text t="version_show_lb" value="版本号:{0}"/>
+    <text t="room_select_gold_too_much" value="您的金币太多了~请前往{0}场赚金，不要欺负新手哦！"/>
+    <text t="room_select_gold_noEnough" value="您的金币不足，需要{0}以上的金币，是否前往兑换？"/>
+
+    <!--玩家信息-->
+    <text t="StrFilter_failed" value="含有敏感字符！"/>
+    <text t="playerInfoTab0" value="基本信息"/>
+    <text t="playerInfoTab1" value="我的道具"/>
+    <text t="playerInfoHeadTip" value="点击修改头像"/>
+    <text t="changePassWord" value="修改密码"/>
+    <text t="playerInfoLv" value="等级：{0}"/>
+    <text t="playerInfoSex" value="性别："/>
+    <text t="playerInfoName" value="性别："/>
+    <text t="infoChangeLb" value="修改资料"/>
+    <text t="infoCommitLb" value="提交资料"/>
+    <text t="playerWin" value="胜率：{0}%    {1}胜 {2}负"/>
+    <text t="playerMaxMoney" value="最大财富：{0}"/>
+    <text t="playerTotalProfit" value="[874C38]总盈利：[-][47ac23]{0}[-]"/>
+    <text t="playerWeekProfit" value="[874C38]（本周：[-][e5281a]{0}[-][874C38]）[-]"/>
+    <text t="playerNiuTenNum" value="牛牛次数：   {0}"/>
+    <text t="playerBombNum" value="四炸次数：   {0}"/>
+    <text t="playerFiftyNum" value="五花牛次数：   {0}"/>
+    <text t="playerFiveSmallNum" value="五小牛次数：   {0}"/>
+    <text t="playerOtherNum" value="没牛获胜次数：   {0}"/>
+    <text t="playerAccount" value="（玩家号：{0}）"/>
+    <text t="changeNameTip" value="修改昵称需要消耗一张改名卡，是否确认？"/>
+    <text t="changeNameFailed" value="修改昵称失败"/>
+    <text t="changeSexFailed" value="修改性别失败"/>
+    <text t="changeNameAndSex" value="资料修改成功"/>
+    <text t="headIconUp_failed" value="上传头像失败"/>
+    <text t="headIconUp_finished" value="上传头像结束"/>
+    <text t="headIcon_selected_failed" value="头像选择失败"/>
+    <text t="btnBindingPhone" value="绑定手机"/>
+    <text t="BindingPhoneTip" value="绑定送金币"/>
+    <text t="btnAddFriend" value="加好友"/>
+    <text t="OtherWinLose" value="[ae9d8a]战绩:[-][874c38]{0}胜 {1}负[-]"/>
+    <text t="OtherWinRate" value="[ae9d8a]胜率:[-][874c38]{0}%[-]"/>
+    <text t="OtherWeekProfit" value="[ae9d8a]本周盈利:[-][47ac2d]{0}[-]"/>
+    <text t="otherPlayerLv" value="LV{0}"/>
+    <text t="magicFaceLb" value="魔法表情，每次使用消耗20金币"/>
+    <text t="bug_feedback" value="Bug反馈"/>
+    <text t="bug_feedback_default" value="请输入反馈内容"/>
+    <text t="bug_feedback_empty" value="请输入要反馈的内容"/>
+    <text t="bug_feedback_succ" value="反馈成功！"/>
+    <text t="bug_feedback_failed2" value="cd时间不得低于60s！"/>
+    <text t="bug_feedback_failed3" value="Bug内容字数限制！"/>
+    <text t="bug_feedback_failed4" value="其他原因提交失败！"/>
+    <text t="Sex0" value="男"/>
+    <text t="Sex1" value="女"/>
+    <text t="Game1" value="牛牛大战"/>
+    <text t="Game2" value="百人大战"/>
+    <text t="subsidy_tip" value="今日还可领取{0}次（共{1}次）"/>
+    <text t="pic_select_title" value="请选择图片来源"/>
+    <text t="pic_select_albumLb" value="手机相册"/>
+    <text t="pic_select_phonegraphLb" value="手机拍照"/>
+    <text t="free_subsidy_name"
+          value="[874c38]破产补助[-][ae9d8a]（每日[-][e36500]{0}[-][ae9d8a]次，剩余[-][e36500]{1}[-][ae9d8a]次）[-]"/>
+    <text t="get" value="领取"/>
+    <text t="geted" value="已领取"/>
+    <!--商城-->
+    <text t="vip_get" value="获取"/>
+    <text t="vip_shop_tip" value="尊贵的[fcff00]{0}[-]玩家，您再充值[fcff00]{1}[-]元即可成为VIP，享受更多特权！"/>
+    <text t="vip_shop_tip2" value="尊贵的[fcff00]{0}[-]玩家，您已充值[fcff00]{1}[-]元正在享受VIP{2}特权！"/>
+    <text t="shop_tab_gold" value="金币"/>
+    <text t="shop_tab_diamond" value="钻石"/>
+    <text t="shop_tab_item" value="道具"/>
+    <text t="shop_tab_vip" value="VIP"/>
+    <text t="shop_buy_succ" value="购买成功"/>
+    <text t="shop_old_price" value="原价:{0}"/>
+    <text t="shop_item_extra" value="多送{0}%"/>
+    <text t="shop_item_limit" value="每日限购：{0}次"/>
+    <!--设置-->
+    <text t="setting_change_account" value="切换账号"/>
+    <text t="setting_help" value="帮助"/>
+    <text t="setting_feedback" value="反馈"/>
+    <!--任务（task）-->
+    <text t="newTask" value="新手任务"/>
+    <text t="dailyTask" value="今日任务"/>
+    <text t="weekTask" value="本周任务"/>
+    <text t="timeTask" value="定时任务"/>
+    <!--邮件（Mail）-->
+    <text t="emptyMail" value="咦~还没有人给我写邮件"/>
+    <text t="mailTime" value="有效期:"/>
+    <text t="dayTime" value="{0}天"/>
+    <text t="hourTime" value="{0}小时"/>
+    <!--排行榜(rank)-->
+    <text t="rank1" value="财富榜"/>
+    <text t="rank2" value="盈利榜"/>
+    <text t="rank3" value="奖券榜"/>
+    <text t="rankTip1" value="金币财富最多的牛人排名"/>
+    <text t="rankTip2" value="今日赢金币最多的牛人排名"/>
+    <text t="rankTip3" value="今日赚奖券最多的牛人排名"/>
+    <!--资源不足-->
+    <text t="noEnough101" value="金币不足，请补充金币哦"/>
+    <text t="noEnough102" value="钻石不足，请补充钻石哦"/>
+    <text t="noEnough103" value="奖券不足，请补充奖券哦"/>
+    <!--奖励兑换-->
+    <text t="exchange_tip" value="可以在游戏中打开宝箱及参加活动获得        哦！"/>
+    <text t="exchange_address" value="[u]管理地址[/u]"/>
+    <text t="exchange_look_btn" value="查看"/>
+    <text t="exchange_rechange_btn" value="直充"/>
+    <text t="exchangeTab1" value="红包"/>
+    <text t="exchangeTab2" value="话费"/>
+    <text t="exchangeTab3" value="实物"/>
+    <text t="exchangeNeed" value="[ae9d8a]兑换消耗[-][ffb31f]{0}[-]"/>
+    <text t="exchangeLimit" value="每日限购：{0}"/>
+    <text t="exchangeSureLimit" value="[ae9d8a]每日兑换次数：[-][ffb31f]{0}[-]"/>
+    <text t="exchangeEmpty" value="您什么都还没有哦！"/>
+    <text t="exchangeAddressTip" value="当您兑换实物奖励时将默认使用该地址信息，请您认真填写"/>
+    <text t="addr_name" value="姓名"/>
+    <text t="addr_sex" value="性别"/>
+    <text t="addr_city" value="所在城市"/>
+    <text t="addr_address" value="详细地址"/>
+    <text t="addr_phone" value="手机号码"/>
+    <text t="addr_name_empty" value="请输入姓名"/>
+    <text t="addr_city_empty" value="请输入所在城市"/>
+    <text t="addr_addr_empty" value="请输入详细地址"/>
+    <text t="addr_phone_empty" value="请输入手机号码"/>
+    <text t="addr_phone_check" value="请输入正确手机号码"/>
+    <text t="girl" value="女"/>
+    <text t="boy" value="男"/>
+    <text t="exchangeSureNeed" value="[ae9d8a]兑换需消耗[-][ffb31f]{0}[-]"/>
+    <text t="exchangeSureLeft" value="[ae9d8a]库存:[-][ffb31f]{0}[-]"/>
+    <text t="exchangeSureLeftNo" value="[ae9d8a]库存:[-][ffb31f]{0}[-]"/>
+    <text t="rechangeType_btn" value="直充"/>
+    <text t="rechargePhoneSucc" value="兑换成功，请前往邮箱查看"/>
+    <text t="addrSetSucc" value="设置成功"/>
+    <text t="exchangeVip" value="需要VIP：{0}"/>
+    <text t="vipNoMatch" value="VIP等级不足"/>
+    <text t="rechargeType_get" value="提取卡密"/>
+    <text t="exchangeSucc" value="兑换成功"/>
+    <text t="exchangeCardLooKWait" value="等待工作人员处理"/>
+    <text t="exchangeCardLooK" value="卡号:{0}&#x000D;&#x000A;卡密:{1}"/>
+    <text t="cardNumLink" value="[u]复制卡号[/u]"/>
+    <text t="passWordLink" value="[u]复制密码[/u]"/>
+    <text t="card_lb" value="卡   号"/>
+    <text t="password_lb" value="密   码"/>
+    <text t="copyCardSucc" value="复制卡号成功"/>
+    <text t="copyPsdSucc" value="复制密码成功"/>
+    <text t="onlySupportOnPhone" value="该功能只在手机上支持"/>
+    <text t="exchange_help_lb" value="[u]兑换流程[/u]"/>
+    <text t="exchange_help_tab1" value="红包兑换流程："/>
+    <text t="exchange_help_desc1" value="[AE9D8A]前往“”公众号（微信搜索“[-][ff7e00][-][AE9D8A]”并关注）--[-][306ef1]绑定游戏账号[-][AE9D8A]--[-][306ef1]领取红包[-]"/>
+    <text t="exchange_help_tab2" value="话费兑换流程："/>
+    <text t="exchange_help_desc2" value="[AE9D8A]绑定手机账号--选择[-][306ef1]充值方式[-][AE9D8A]（直充/卡密）--[-][306ef1]工作人员审核[-][AE9D8A]（2个工作日内）--“直充”将直接充值/“卡密”在[-][306ef1]兑换记录[-][AE9D8A]中查看卡号密码[-]"/>
+    <text t="exchange_help_tab3" value="实物兑换流程："/>
+    <text t="exchange_help_desc3" value="[AE9D8A]绑定手机账号--填写“[-][306ef1]默认收货地址[-][AE9D8A]”--[-][306ef1]工作人员审核[-][AE9D8A]（2个工作日内）--发货[-]"/>
+
+    <!--红包广场-->
+    <text t="redBagTab1" value="红包广场"/>
+    <text t="redBagTab2" value="通    知"/>
+    <text t="redBagGuessTip" value="金额介于1000-3000万"/>
+    <text t="redBagSendTip" value="[874c38]发红包需要[-][e5281a]VIP3[-][874c38]以上&#x000D;&#x000A;
+身上保留金币不得低于[-][ffb31f]30.00[-][874c38]万&#x000D;&#x000A;
+红包金额需介于[-][ffb31f]1000-3000[-][874c38]万&#x000D;&#x000A;
+最先猜中的玩家有机会获得红包&#x000D;&#x000A;
+当红包被玩家猜中后您会得到通知[-]"/>
+    <text t="redBagSendTip2" value="红包金额需介于1000-3000万&#x000D;&#x000A;
+最先猜中的玩家有机会获得红包"/>
+    <text t="redBagSendTip3" value="消耗4%的红包材料费"/>
+    <text t="redBagSendVipNoEnough" value="发红包需要VIP3以上"/>
+    <text t="redBagSendDefaultTitle" value="恭喜发财，大吉大利！"/>
+    <text t="redBagSendNumTip" value="请输入红包金额"/>
+    <text t="noTitle" value="请输入红包名"/>
+    <text t="noTitle2" value="最多输入10个中文字"/>
+    <text t="redBagSendNumNoCorrect" value="红包金额需介于1000-3000万"/>
+    <text t="redBagSendSucc" value="发红包成功！在通知中可查看红包动态！"/>
+    <text t="redBagSendSure" value="确认将{0}金币塞入红包?"/>
+    <text t="redBagSendLeftMoney" value="身上保留金币不得低于30万"/>
+    <text t="redBagGuessTip" value="猜猜红包有多大"/>
+    <text t="redBagGuessDefault" value="请输入红包金额"/>
+    <text t="redBagGuessErr" value="猜错了，再试试看！"/>
+    <text t="redBagEmpty" value="红包抢完啦，你来一发吧！"/>
+    <text t="guess_btn" value="猜一猜"/>
+    <!--登录奖励-->
+    <text t="loginAwardTitle_1" value="第1天"/>
+    <text t="loginAwardTitle_2" value="第2天"/>
+    <text t="loginAwardTitle_3" value="第3天"/>
+    <text t="loginAwardTitle_4" value="第4天"/>
+    <text t="loginAwardTitle_5" value="第5天"/>
+    <text t="loginAwardTitle_6" value="第6天"/>
+    <text t="loginAwardTitle_7" value="第7天"/>
+    <text t="loginAwardNotVipTips" value="您还不是VIP，请先充值"/>
+    <text t="loginAwardVipLevelUpTips" value="还需         元即升至"/>
+    <text t="loginAwardVipTopLevelTips" value="您已经是尊贵"/>
+    <text t="loginAwardVipAwardTips" value="每日可领取                金币"/>
+    <text t="loginAwardBtnToRecharge" value="去充值"/>
+    <text t="loginAwardBtnGetAward" value="领取"/>
+    <text t="loginAwardBtnMakeupGetAward" value="补签"/>
+    <text t="loginAwardBtnReceived" value="已领取"/>
+    <text t="loginAwardVipInfoSubTitle" value="VIP等级达到指定级别，每日登录均可领取对应的VIP奖励"/>
+    <text t="loginAwardVipInfoT1" value="每日可领取"/>
+    <text t="loginAwardNotEnoughMakeupCards" value="补签卡不足，是否前往商城购买？"/>
+    <text t="loginAwardGotVipAward" value="你已经领取过VIP奖励"/>
+    <text t="loginAwardGotNormalAward" value="你已经领取过登录奖励，请明天再来"/>
+    <!--帮助-->
+    <text t="help_tab1" value="基础玩法"/>
+    <text t="help_desc1" value=" [AE9D8A]1.每个玩家拥有5张手牌（但仅有5张手牌后才进行比较）&#x000D;&#x000A;
+2.如果你有3张手牌（JQK按10计算）相加为10的倍数（如10、20），即为有十，否则为没牛。&#x000D;&#x000A;
+3.组成十后再看剩下2张牌相加的个位数，该数字越大则牌型越大。&#x000D;&#x000A;
+小提示：其他玩家分别和庄家比牌，牌大获胜！[-]"/>
+    <text t="help_tab2" value="基础牌型"/>
+    <text t="help_desc2" value=" [AE9D8A]没牛：任意3张相加不为10的倍数。&#x000D;&#x000A;
+牛二：任意3张相加为10的倍数，另外2张相加个位数为2。&#x000D;&#x000A;
+牛牛：任意3张相加为10的倍数，另外2张相加为10倍数。&#x000D;&#x000A;
+炸弹：5张牌中有4张完全一样。&#x000D;&#x000A;
+五花牛：5张牌为花牌( JQK )。&#x000D;&#x000A;
+五小牛：5张牌均小于5，且相加之和不大于10。[-]"/>
+    <text t="help_tab3" value="大小比较"/>
+    <text t="help_desc3" value=" [AE9D8A]1.基本牌型比较&#x000D;&#x000A;
+    五小牛 > 五花牛> 炸弹 > 牛牛 > 有牛 > 没牛&#x000D;&#x000A;
+2. 组成十后的牌型比较&#x000D;&#x000A;
+    牛九 > 牛八 > 牛七 > 牛六 > 牛五 > 牛四 > 牛三 > 牛二 > 牛一&#x000D;&#x000A;
+3. 牌型相同比较牌数字大小&#x000D;&#x000A;
+    K > Q > J > 10 > 9 > 8 > 7 > 6 > 5 > 4 > 3 > 2 > A&#x000D;&#x000A;
+4. 数字相同比较花色大小。[-]"/>
+  
+  <text t="fruit_pool_info1" value="上轮头奖" />
+  <text t="fruit_pool_info2" value="奖金池：{0}" />
+  <text t="fruit_award_info1" value="奖励信息" />
+  <text t="fruit_award_info2" value="押线分布" />
+  <text t="fruit_award_info3" value="WILD可替代任何元素除了&#x000D;&#x000A;BONUS和" />
+  <text t="fruit_award_info4" value="WILD" />
+  <text t="fruit_award_info5" value="连续3列出现BONUS可获得" />
+  <text t="fruit_award_info6" value="单线投入5000以上，摇取3&#x000D;&#x000A;个可" />
+  <text t="fruit_win_info1" value="请先投注" />
+  <text t="fruit_win_info2" value="免费模式无法变更投注金额及线数" />
+  <text t="fruit_win_info3" value="疯狂水果机，金币赢不停！" />
+  <text t="fruit_win_info4" value="金币不足，是否前往兑换" />
+  <!--招财金牛(LuckyCow)-->
+  <text t="btn_get_money" value="领取金币" />
+  <text t="luckyCowSmallTip" value="本次可招财" />
+  <text t="luckyCowLeftTime" value="倒计时：{0}" />
+  <text t="cowLv" value="LV.{0}" />
+  <text t="luckyCowTip" value=" [ffb884]1.充值就能获得招财金牛&#x000D;&#x000A;
+2.小金牛每隔20小时可招财一次,初始等级1级,[-][fff955]每次招财2000金币[-]&#x000D;&#x000A;
+[ffb884]3.每累计充值10元可使金牛提升1级,[-][fff955]每次提升1级多招财500金币[-][ffb884],等级&#x000D;&#x000A;
+越高,金牛招财越多,金牛每次招财封顶300万金币。
+  " />
+    <text t="shop_rmb" value="￥{0}"/>
+    <text t="shop_yuanbao" value="{0}钞票"/>
+    <text t="shop_jinbi" value="{0}金币"/>
+    <text t="shop_zuanshi" value="{0}钻石"/>
+    <text t="login_win_tip3" value="1. 特别提示 &#x000D;&#x000A;1.1 游戏同意按照《游戏通行证用户服务协议》（下称“本协议”）的规定及其不时发布的操作规则提供基于互联网的相关服务(以下称“服务”)，为获得服务，服务使用人(以下称“用户”)同意本协议的全部条款并按照页面上的提示完成全部的注册程序。用户在进行注册程序过程中点击“同意”按钮即表示用户完全接受本协议项下的全部条款。&#x000D;&#x000A;1.2 由于用户及市场状况的不断变化，游戏保留随时修改本协议条款的权利，修改本协议条款时，游戏将于相关页面公告修改的事实，而不另行对用户进行个别通知。若用户不同意修改的内容，可停止使用全部游戏所提供的服务。若用户继续使用游戏所提供的任意服务，即视为用户业已接受游戏所修订的内容。&#x000D;&#x000A;1.3 用户可随时造访游戏官网查阅最新协议。用户在使用游戏提供的各项服务之前，应仔细阅读本协议，如用户不同意本协议及/或随时对其的更改，请停止使用游戏提供的服务。&#x000D;&#x000A;1.4如果用户希望通过游戏通行证账号使用游戏任一网站提供的论坛服务时，用户还需接受《论坛服务用户使用协议》。《游戏用户信息保密条款》系明确约定游戏对于用户使用游戏服务而提供和产生的信息承担一定保密义务的条款，是本协议的重要组成部分。请务必仔细阅读《游戏用户信息保密条款》，对本协议的同意即视为对《游戏用户信息保密条款》的同意。 &#x000D;&#x000A;2. 服务内容 &#x000D;&#x000A;2.1 游戏服务的具体内容由游戏根据实际情况提供，例如论坛(BBS)、聊天室、电子邮件、发表新闻评论等。游戏保留随时变更、中断或终止部分或全部服务的权利。 &#x000D;&#x000A;2.2 游戏在提供服务时，可能会对部分服务(例如网络游戏及其他电信增值服务)的用户收取一定的费用。在此情况下，游戏会在相关页面上做出明确提示。如用户不同意支付该等费用，则可不接受相关服务。&#x000D;&#x000A;2.3 用户理解：游戏仅提供相关服务，除此之外与相关服务有关的设备(如电脑、调制解调器及其他与接入互联网有关的装置)及所需的费用(如为接入互联网而支付的电话费及上网费)均应由用户自行负担。 &#x000D;&#x000A;2.4 用户应使用正版软件接受服务。 &#x000D;&#x000A;3. 用户帐号 &#x000D;&#x000A;3.1 用户帐号注册 &#x000D;&#x000A;3.1.1 用户必须完全同意本协议所有条款并完成注册程序，在用户注册成功后，游戏将给予每个用户一个用户帐号及相应的密码，该用户帐号和密码由用户负责保管；用户应当对以其用户帐号进行的所有活动和事件负法律责任。 &#x000D;&#x000A;3.1.2注册过程中，用户应按照相关网页上的要求输入正确的个人基本资料，包括真实姓名和有效的身份证、护照、军人证号码。用户承诺以其真实身份注册账号，并保证所提供的个人身份资料信息真实、完整、有效，依据法律规定和本协议的约定对所提供的信息承担相应的法律责任。&#x000D;&#x000A;3.1.3 用户输入的姓名和身份证、护照、军人证号码结合其与之对应的证件，作为用户的唯一有效身份证明；在用户无法有效证明其身份时，游戏有权拒绝提供任何信息或承担任何义务。&#x000D;&#x000A;3.2 用户帐号修改 &#x000D;&#x000A;3.2.1用户以真实身份注册成为游戏用户后，需要修改所提供的个人信息（包括电子邮箱、联系方式）的，须向游戏提供与原注册资料相符合的身份证复印件及需要修改的信息，经游戏核实成功后，及时有效地为用户提供修改服务。&#x000D;&#x000A;3.2.2用户帐号信息发生变更而未及时修改，导致无法证明用户的有效身份，游戏有权拒绝提供任何信息或承担任何义务。&#x000D;&#x000A;3.3 用户帐号使用 &#x000D;&#x000A;3.3.1用户在使用游戏服务过程中，必须遵循以下原则：&#x000D;&#x000A;(A) 遵守中国有关的法律和法规； &#x000D;&#x000A;(B) 不得为任何非法目的而使用服务系统；&#x000D;&#x000A;(C) 遵守所有与服务有关的网络协议、规定和程序； &#x000D;&#x000A;(D) 不得利用游戏服务系统进行任何可能对互联网的正常运转造成不利影响的行为； &#x000D;&#x000A;(E) 不得利用游戏服务系统传输任何骚扰性的、中伤他人的、辱骂性的、恐吓性的、庸俗淫秽的或其他任何非法的信息资料； &#x000D;&#x000A;(F) 不得利用游戏服务系统进行任何不利于游戏的行为； &#x000D;&#x000A;(G) 就游戏及合作商业伙伴的服务、产品、业务咨询应采取相应机构提供的沟通渠道，不得在公众场合发布有关游戏及相关服务的负面宣传； &#x000D;&#x000A;(H) 如发现任何非法使用用户帐号或帐号出现安全漏洞的情况，应立即通告游戏； &#x000D;&#x000A;3.3.2 用户使用根据本协议获得的用户帐号和密码登录游戏的网站或接受其他游戏提供的服务项目时，应遵守该网站或服务项目的相关服务协议及使用守则，用户登录上述网站或接受上述服务项目时即视为对相关服务协议及使用守则的接受。 &#x000D;&#x000A;3.3.3用户同意接受游戏通过电子邮件或其他方式向用户发送的商品促销或其他相关商业信息。&#x000D;&#x000A;3.4 用户帐号的保管 &#x000D;&#x000A;3.4.1游戏有权审查用户注册所提供的身份信息是否真实、有效，并应积极地采取技术与管理等合理措施保障用户账号的安全、有效；用户有义务妥善保管其账号及密码，并正确、安全地使用其账号及密码。任何一方未尽上述义务导致账号密码遗失、账号被盗等情形而给用户和他人的民事权利造成损害的，应当承担由此产生的法律责任。&#x000D;&#x000A;3.4.2游戏对登录后所持账号产生的行为依法享有权利和承担责任。如若有任何第三方向游戏发出指示，在确认其提供账户、密码信息准确的情况下，用户同意且游戏有权视为该行为获得了用户的充分授权，该行为所产生结果直接归属于用户本身。&#x000D;&#x000A;3.4.3若用户发现账号或密码被他人非法使用或有异常使用的情形，请立即通知游戏，并有权通知游戏暂停该账号的登录和使用，但用户在进行该等申请时应提供与其注册身份信息相一致的个人有效身份信息。游戏核实用户所提供的个人有效身份信息与所注册的身份信息相一致的，应当及时采取措施暂停用户账号的登录和使用。游戏违反上述约定，未及时采取措施暂停用户账号的登录和使用，因此而给用户造成损失的，应当承担其相应的法律责任。用户没有提供其个人有效身份证件或者用户提供的个人有效身份证件与所注册的身份信息不一致的，游戏有权拒绝用户上述请求。&#x000D;&#x000A;3.4.4若游戏发现疑似遭盗用的会员帐号，有权立即终止该会员帐号的使用权。&#x000D;&#x000A;3.4.5若因为用户自身原因，而导致账号、密码遭他人非法使用时，游戏将不负责处理。用户自身原因包括但不限于：任意向第三者透露账号和密码及所有注册资料；多人共享同一个账号；安装非法或来路不明的程序等。 &#x000D;&#x000A;4.所有权 &#x000D;&#x000A;4.1 游戏提供的服务内容中包括和/或涉及的所有的作品及资料（包括但不仅限于任何字幕、计算机代码、主题、物件、游戏角色、游戏角色名称、故事内容、对话内容、流行语、游戏概念、美术作品、动画、声效、乐曲、音像效果、运算方法、文档、线上聊天记录副本、游戏角色资料信息、游戏客户端和服务器软件等），其著作权、专利权、商标专用权、商业秘密权及其它知识产权，均为游戏或授权游戏使用的合法权利人所有，除非事先经游戏或其权利人的合法授权，任何人皆不得擅自以任何形式使用，否则游戏可立即终止向用户提供产品和服务，并依法追究其法律责任，赔偿游戏一切损失。&#x000D;&#x000A;4.2 未经游戏授权，任何人不得擅自复制、反编译(de-compile)、反汇编(disassemble)任何功能或程序，不得对任何功能和/或程序进行反向工程(reverse engineering)。&#x000D;&#x000A;4.3 用户在此同意并确认，用户账号数据和所有其它相关信息，包括用户提供的个人信息、账号中的游戏角色和虚拟物品（除另有约定外，本条款所指的“虚拟物品”包括游戏内虚拟货币、道具、装备、材料等）都归游戏所有。 &#x000D;&#x000A;5、服务的中止和终止 &#x000D;&#x000A;5.1 服务的中止 &#x000D;&#x000A;用户在此同意并确认，其有下列行为之一时，游戏有权中止为该用户提供部分或全部服务，对其帐户做冻结处理：&#x000D;&#x000A;5.1.1 提供虚假注册身份信息；&#x000D;&#x000A;5.1.2 实施了违法本协议的行为；&#x000D;&#x000A;5.1.3 实施了损害第三方用户权益或利益的行为；&#x000D;&#x000A;5.1.4 在用户实施5.1.1和5.1.2行为后，游戏有权中止为该用户提供部分或全部服务；游戏在采取中止措施时，将告知用户中止期间，中止期间应该是合理的，中止期间届满后，游戏应当及时恢复对用户的服务。但中止期间届满时，如果用户的违约状态仍然存在的，则游戏有权延长中止服务的期间。&#x000D;&#x000A;5.1.5 游戏依据用户实施5.1.1和5.1.2行为，采取中止服务措施的，应当承担相应的举证责任。&#x000D;&#x000A;5.2 服务的终止 &#x000D;&#x000A;用户同意其实施了下列行为之一时，游戏有权终止为该用户提供服务，对其帐户做删除处理：&#x000D;&#x000A;5.2.1 发布违法信息；&#x000D;&#x000A;5.2.2 严重违背社会公德以及其他违反法律禁止性规定的行为；&#x000D;&#x000A;5.2.3通过非法手段、不正当手段或其他不公平的手段使用游戏服务或参加游戏活动；&#x000D;&#x000A;5.2.4 干扰游戏正常地提供产品和服务，包括但不限于：攻击、侵入游戏的网站服务器、游戏服务器客户端程序或使网站服务器过载；&#x000D;&#x000A;5.2.5 破解、修改游戏提供的客户端程序；&#x000D;&#x000A;5.2.6 制作、发布、传播、使用任何形式的妨碍游戏公平性的辅助工具或程序(外挂)；&#x000D;&#x000A;5.2.7 利用程序的漏洞和错误(Bug)破坏游戏的正常进行或传播该漏洞或错误(Bug)；&#x000D;&#x000A;5.2.8 连续180天没有使用游戏所提供的服务（自用户最后一次使用服务之日起计算），则自第180天当天的24时起，游戏有权采取措施终止该用户继续使用服务，删除该用户帐号，包括但不限于注册信息、等级信息、角色信息、物品信息等一切与注册帐号相关的信息，且勿需对删除该帐号所带来的任何利益损失负责；&#x000D;&#x000A;5.2.9实施其他不合理地干扰或阻碍他人使用游戏所提供服务或损害其他用户利益和权益的行为；&#x000D;&#x000A;5.2.10游戏依据用户实施5.2.1和5.2.2行为，采取终止服务措施的，应当承担相应的举证责任。&#x000D;&#x000A;5.3为了维护和保证用户使用游戏服务时的公平性，在游戏发现用户数据异常时，无论用户对该异常数据的产生是否存在过错，游戏均有权根据本协议及之后不定期发布的服务公告等，采取相应措施：包括但不限于对该账号的冻结、中止、终止、删除；用户在此承诺游戏有权作出上述行为，并承诺不就上述行为要求游戏作出任何形式的补偿或退费。 &#x000D;&#x000A;6、用户的义务 &#x000D;&#x000A;6.1 自行提供与服务有关的设备(如电脑、调制解调器及其他与接入互联网有关的装置)并承担所需的费用(如为接入互联网而支付的电话费及上网费。&#x000D;&#x000A;6.2使用正版软件接受服务。&#x000D;&#x000A;6.3按照第3.1条的规定完成注册程序，提供详尽、准确的个人资料并不断更新个人资料。如果因为用户提供的资料包含有不正确的信息，导致用户不能正常使用游戏提供的服务，游戏不承担任何责任。&#x000D;&#x000A;6.4遵守第3.3条中所述的各项约定。&#x000D;&#x000A;6.5 履行第6条约定义务之外的所有其他任何义务。 &#x000D;&#x000A;7、游戏的义务 &#x000D;&#x000A;7.1 在法律法规允许的范围内，利用互联网为用户提供网络服务。&#x000D;&#x000A;7.2严格按照《游戏用户信息保密条款》的约定对用户信息承担保密义务。&#x000D;&#x000A;7.3 依据我国法律规定，核实用户所提供的个人有效身份信息与所注册的身份信息是否一致，经核实后，发现一致的，游戏应当为用户提供账号注册人证明、原始注册信息等必要的协助和支持，并根据需要向有关行政机关和司法机关提供相关证据信息资料。 &#x000D;&#x000A;7.4承诺将网络游戏虚拟货币发行种类、价格、总量等情况按规定报送北京相关文化行政部门备案。 &#x000D;&#x000A;7.5 承诺不同时从事网络游戏虚拟货币发行主体和网络游戏虚拟货币交易服务。 &#x000D;&#x000A;7.6承诺发行的虚拟货币的使用范围仅限于兑换自身提供的网络游戏产品和服务，不用于支付、购买实物或者兑换其它单位的产品和服务。 &#x000D;&#x000A;7.7保证发行网络游戏虚拟货币时不以恶意占用用户预付资金为目的。 &#x000D;&#x000A;7.8按照我国相关法律法规规定，保存用户在服务器内的购买记录，保存期限自用户最后一次接受服务之日起，不得少于180日。 &#x000D;&#x000A;8. 服务的中断、停止 &#x000D;&#x000A;8.1用户了解并认可，为了网站的正常运行，游戏需定期或不定期地对网站进行停机维护，这种因系统维护或升级的需要而需暂停服务时，游戏将尽可能事先进行通告。因此类情况而造成的正常服务的中断、停止，用户应该予以理解。&#x000D;&#x000A;8.2发生下列情形之一时，游戏有权停止或中断服务器所提供之服务，对因此而产生的不便或损害，游戏不承担任何责任：&#x000D;&#x000A;8.2.1 定期检查或施工，更新软硬件等；&#x000D;&#x000A;8.2.2服务器遭受损坏，导致无法正常运作；&#x000D;&#x000A;8.2.3 突发性的软硬件设备与电子通信设备故障；&#x000D;&#x000A;8.2.4 网路提供商线路或其它故障，无法提供服务；&#x000D;&#x000A;8.2.5 在紧急情况之下为维护国家安全或其它会员及第三者之人身安全；&#x000D;&#x000A;8.2.6 不可抗力及其他第三方原因致使游戏无法提供服务；&#x000D;&#x000A;8.2.7 由于相关政府机构的要求。&#x000D;&#x000A;8.3 用户同意游戏享有通过提前60天在服务所涉官方网站公告通知的方式中断或终止部分或全部服务的权利，用户已明确知晓上述权利的授予且知晓因上述权利的行使可能给自身及其他第三方造成的直接或间接利益减损，用户在此明确表示不追究游戏因行使上述单方中断或终止服务权利而可能导致的一切责任。&#x000D;&#x000A;8.4用户在此同意并确认：游戏提供服务时可能会涉及到虚拟物品（包括但不限于道具、材料等），该虚拟物品仅在服务运营期内有效，服务停止时，虚拟物品将随服务停止运营而消失，用户一经获得将不得以任何形式退还给游戏。但对于用户已经购买但尚未使用的虚拟货币，游戏将以法定货币方式或用户接受的其他方式退还用户。游戏将在终止服务公告中明确虚拟货币申请退还的期限和具体的退还政策。用户届时应依照游戏公布的具体政策申请办理退还手续。如在游戏的申请退还期限届满前，用户依照游戏公布具体政策提交的退还申请未能到达游戏指定接受地址的，视为用户自动放弃该项退还权利，游戏针对该用户已经购买但尚未使用的虚拟货币有权予以拒绝进行退还处理。 &#x000D;&#x000A;9.免责声明 &#x000D;&#x000A;9.1 游戏就其所提供的服务，不负任何明示或默示的担保责任，而其所提供的服务的稳定、安全、无误及不中断性亦有可能因第8条所述情形而受到影响。用户应自行承担使用服务所有的风险及因此可能导致的损害，包括而不限于其因使用服务而到游戏官方网站下载游戏或资料图片而导致用户或其所使用的计算机系统非因游戏主观原因造成的损害，或发生任何资料的流失等。&#x000D;&#x000A;9.2 游戏对其服务不保证不出现任何程序BUG,并对由此可能产生的问题不承担任何赔偿责任。&#x000D;&#x000A;9.3游戏不保证其所提供的服务将符合每位用户的要求，不保证服务将不受干扰，也不对服务的及时性、安全性、出错发生以及信息是否能准确、及时、顺利地传送作任何担保。&#x000D;&#x000A;9.4用户明确同意其使用游戏服务所存在的风险将完全由其自己承担；因其使用游戏服务而产生的一切后果也由其自己承担，游戏对用户不承担任何责任。 &#x000D;&#x000A;9.5由于虚拟物品之间的交易存在一定的风险（包括但不限于虚拟物品因复制等数据异常而可能被删除；国家现阶段法律对其价值认定仍处于空白等），用户在交易过程中应对交易方及交易物品尽审慎注意义务，除非该交易系依照游戏书面明确指示为之，否则，游戏将不对该交易中产生的任何问题进行支持和保障。&#x000D;&#x000A;9.6用户在此同意并确认，在适用法律允许的最大范围内，游戏所提供的服务是在“现状”及“现有”基础上提供给用户使用，不包括任何类型的明示或暗示的担保（包括但不限于适销性、针对特定目的的适用性、所有权、不侵权以及由交易习惯所引发的各种可能性）。游戏不保证用户可按照其所选择的时间和地点访问或使用游戏服务，不保证游戏服务不会中断或没有错误，不保证缺陷必被纠正，也不保证游戏服务均不含病毒或其它有害要素。&#x000D;&#x000A;9.7用户在服务所涉官方网站上所表达的观点、建议、意见和其它内容均为用户本人看法，不代表游戏的观点，因此而产生的法律纠纷或责任，与游戏无关，均由用户承担 &#x000D;&#x000A;10. 违约赔偿 &#x000D;&#x000A;10.1 用户同意保障和维护游戏及其他用户的利益，如因用户违反有关法律、法规或本协议项下的任何条款而导致游戏、或其关系企业、受雇人、受托人、代理人或/及其它相关履行辅助人或任何其他第三人因此而受到损害或支出费用（包括但不限于由法律诉讼、行政程序等所支出的诉讼费用、律师费用、实际遭受损失的费用等），用户应负担损害赔偿责任。&#x000D;&#x000A;10.2游戏对于用户使用其服务或无法使用网络所导致的任何直接、间接、衍生的损害或所失利益不负任何损害赔偿责任。 &#x000D;&#x000A;11、纠纷处理方式 &#x000D;&#x000A;11.1 用户之间纠纷处理方式 &#x000D;&#x000A;11.1.1游戏作为提供服务的运营商，如若用户之间发生纠纷且无法协商一致的，可向国家相关行政机关或司法机关寻求解决，包括但不限于向公安机关报案、申请仲裁或向人民法院提起诉讼等。游戏将会为实名注册用户提供必要的协助和支持，并根据有关行政机关和司法机关的要求承担一定的举证责任或采取必要措施。&#x000D;&#x000A;11.1.2因使用游戏所提供服务的用户之间发生纠纷的，也可向游戏的客服人员投诉并举证。用户需提供与其账号注册信息一致的个人有效身份证件、必要的国家行政或司法机关文件和其他本公司要求提供的相关证据。经游戏审核确认后，可以给予必要的协助和支持。&#x000D;&#x000A;11.2 用户与游戏之间纠纷处理方式 &#x000D;&#x000A;11.2.1用户对游戏的服务有任何异议的，可以向游戏的客服人员投诉并举证。查证属实的，游戏将立即更正并按照现行法律规定及本协议之约定给予用户必要的补偿。&#x000D;&#x000A;11.2.2 用户对游戏提供的服务有任何异议的，可向游戏所在地人民法院提起诉讼。 &#x000D;&#x000A;12. 法律管辖 &#x000D;&#x000A;12.1 本协议的订立、执行和解释及争议的解决均应适用中国法律。 &#x000D;&#x000A;12.2 如双方就本协议内容或其执行发生任何争议，双方应尽量友好协商解决；协商不成时，任何一方均可向游戏所在地的人民法院提起诉讼。 &#x000D;&#x000A;13. 通知和送达 &#x000D;&#x000A;13.1 本协议项下所有的通知均可通过重要页面公告、电子邮件或常规的信件传送等方式进行；该等通知于发送之日视为已送达收件人。 &#x000D;&#x000A;14. 授权使用 &#x000D;&#x000A;14.1 用户在此同意并确认，其藉由使用游戏提供的服务而上传、传送、输入或以其他方式提供到游戏服务所涉官方网站的任何原创作品、交流信息、图像、声音和所有材料及信息，包括但不限于任何聊天记录、语音通信信息、IP地址、软硬件使用信息以及用户个人信息，均视为用户授予游戏对该等信息和/或作品永久的、不可撤销的、全球范围内的、免费的、非排他性的许可，游戏可在现行法律范围内就该等信息和/或作品进行使用，包括但不限于复制、修正、改编、修改、翻译、重编、创建衍生作品、制造、引入流通、出版、发行、销售、许可、转让、出租、租赁、传输、公开展示、公开表演、提供电子访问接口、广播、通过通信手段向公众传达、展示、表演、输入电脑内存、使用并实现此类用户内容及所有在其基础上修改和衍生的作品、分授权给其他任何第三方。 &#x000D;&#x000A;15. 其他规定 &#x000D;&#x000A;15.1用户有权在充值后30日内要求游戏开具发票；充值后超过30日未向游戏索要发票的，视为放弃该权利，游戏有权不予处理。发票开具流程及相关事宜请联系游戏客服人员。&#x000D;&#x000A;15.2 本协议构成双方对本协议之约定事项及其他有关事宜的完整协议，除本协议规定的之外，未赋予本协议各方其他权利。&#x000D;&#x000A;15.3 如本协议中的任何条款无论因何种原因完全或部分无效或不具有执行力，本协议的其余条款仍应有效并且有约束力。&#x000D;&#x000A;15.4 本协议中的标题仅为方便而设，不具法律或契约效果。 &#x000D;&#x000A;16. 解释权 &#x000D;&#x000A;16.1在适用法律允许的最大范围内，游戏保留对本协议的最终解释权。用户如对本协议有任何疑问，请登陆游戏或官方网站获取相关信息或拨打本公司客服电话。"/>
+  <text t="new_share_desc1" value="红包不限量兑换，你还在等什么！新人进来还送13元"/>
+  <text t="new_share_desc2" value="独享失败，刚出的福利，良心游戏新人狂送13元！"/>
+  <text t="new_share_desc3" value="这款牛牛你玩过？新人送13元！第一天送1元，第三天送2元，第七天送10元，来玩就领！邀请好友还可抽百元大红包！"/>
+  <text t="new_share_desc4" value="你好友里面赚最多的竟然是他，新人送13元，快来超越他吧！"/>
+  <text t="new_share_desc5" value="老铁，这波稳了！新人进来就送13元，不送算我输。"/>
+  <text t="new_share_desc6" value="新人第一天送1元、第三天2元、第七天7元！意不意外？惊不惊喜？"/>
+  <text t="new_share_desc7" value="无聊的游戏千篇一律，有趣的游戏万里挑一，注册就送13元！"/>
+  <text t="new_share_desc8" value="游戏5局100%得红包，新手还送13元！"/>
+  <text t="new_share_desc9" value="点一下，玩一年，下载不花一分钱，系统倒贴13元！新人来就领！"/>
+  <text t="new_share_desc10" value="贫穷限制了我的想象，玩游戏还能送13元？！"/>
+  <text t="auto_back" value="{0}秒后可进入"/>
+  
+</GameTextSet>

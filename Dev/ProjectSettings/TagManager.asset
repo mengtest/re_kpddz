@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - ground
+  - builder
+  - unit
+  - scene
+  - uiroot
+  - noClickSound
+  - Fx
+  - DynamicWater
+  - DynamicWaterObstruction
+  - DynamicWaterPlaneCollider
+  - DynamicWaterObstructionInverted
+  - shield
+  - Effect
+  - explosion
+  - Cell
+  - OtherDepth
+  - GameObject
+  - Transform
+  - UILabel
+  - UISprite
+  - UIScrollView
+  - UIGrid
+  - UITexture
+  - UISlider
+  - UIButton
+  - UIPanel
+  - UIGridCellMgr
+  - WalkObstacle
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - UIModel
+  - Ground
+  - Obstacles
+  - Players
+  - Monsters
+  - PickUps
+  - ValidViewArea
+  - Fish
+  - SeaHorizontal
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - DynamicWaterPlaneCollider
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

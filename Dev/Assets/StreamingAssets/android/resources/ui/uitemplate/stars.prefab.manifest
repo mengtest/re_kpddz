@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 1298875631
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2e161568125f80f5408ff8be29176cc2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 997dddadf6ac4d9302c5a32c2f5a76cc
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 858a20c1b21a3f94bb5b2d3b901c9aaf, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 95d67584e778f4765bc7e88f2bd28363, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 07c4de3b4b6fe9045b059ee627c100df, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c1a3b8324a7d875499e740af9780ddd1, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/UI/UITemplate/stars.prefab
+Dependencies:
+- Assets/StreamingAssets/android/resources/ui/base/atlas/commonatlas.prefab

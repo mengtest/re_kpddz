@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3901625885
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c29f1a9c54dde4b2d4c150b38bde6448
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6759894fca659e2049f05064db45ce61
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/UI/Texture/night.png
+Dependencies: []

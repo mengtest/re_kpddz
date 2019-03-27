@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 467041962
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c832113398816fcf1e460deb9fdd4430
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1033bf7ddfd4c6d43e7a6382c0a0a61a
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Config/export_xml/storage_param.bytes
+Dependencies: []

@@ -1,0 +1,14 @@
+{
+    "group": "QuickSDK",
+    "libs": ["libc++.tbd", "libiconv.tbd", "libiconv.2.tbd", "libMobileGestalt.tbd", "libsqlite3.tbd", "libstdc++.6.tbd", "libSystem.tbd", "libxml2.tbd", "libz.tbd"],
+    "frameworks": ["AddressBook.framework", "AssetsLibrary.framework", "AudioToolbox.framework", "AVFoundation.framework", "CoreAudio.framework", "CoreData.framework", "CoreImage.framework", "EventKit.framework", "EventKitUI.framework", "ExternalAccessory.framework", "iAd.framework", "IOKit.framework", "MessageUI.framework", "MobileCoreServices.framework", "Social.framework", "Social.framework"],
+    "headerpaths": [],
+    "librarypaths": ["$(SRCROOT)","$(SRCROOT)/Libraries","$(SRCROOT)/Libraries/Plugins/iOS"],
+    "files":   [],
+    "folders": ["IOSXib"],
+    "excludes": ["^.*.meta$", "^.*.mdown$", "^.*.pdf$"],
+    "compiler_flags": [],
+    "linker_flags": ["-ObjC"],
+    "embed_binaries": [],
+    "plist": {"<string>en</string>":"<string>zh_CN</string>"},
+}

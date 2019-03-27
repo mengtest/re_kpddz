@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2222954503
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f77d76968de9ebd3d950d5a6ecbb3752
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6759894fca659e2049f05064db45ce61
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/UI/Texture/Fruit/new_bg2.png
+Dependencies: []

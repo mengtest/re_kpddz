@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 219553102
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b58af1ce2f998c6ac96b9bf00e2414ed
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c43b2eb0c6a62c85a0eeed28a056a358
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 858a20c1b21a3f94bb5b2d3b901c9aaf, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 95d67584e778f4765bc7e88f2bd28363, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/UI/UITemplate/TradeUnionIcon.prefab
+Dependencies: []

@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 1882536989
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: feef82f04cab22ea9b6ae49137d00638
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 36daabf0a26aaa21fe4dae37acd3e3e0
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Effects/Prefab/xishou.prefab
+Dependencies: []

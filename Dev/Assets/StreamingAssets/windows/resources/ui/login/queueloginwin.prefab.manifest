@@ -1,0 +1,48 @@
+ManifestFileVersion: 0
+CRC: 911361180
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fe12f741ab15a78c469113b6eb5726b9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8560e3e941b156a26065db2c985b178a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5c041f61e4a9fbf4e830210f5d933ece, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1fdca5042b1d12a4890ec1bd4f04290d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2c5ecb5660b11414fb042fb826e03b73, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e41c47c68da4f7940811d088f4d78ad7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 117c395728fd1eb4898e7cedbfd338dd, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/UI/Login/QueueLoginWin.prefab
+Dependencies:
+- Assets/StreamingAssets/windows/resources/fonts/fzy4jw.ttf
+- Assets/StreamingAssets/windows/resources/ui/base/commonbackatlas_.prefab
+- Assets/StreamingAssets/windows/resources/ui/base/commonatlas.prefab
+- Assets/StreamingAssets/windows/resources/ui/base/commonbackgroundatlas_.prefab

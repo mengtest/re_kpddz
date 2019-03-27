@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1718823480
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2e5591f8c211e672b0ea3d058eca2d06
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1033bf7ddfd4c6d43e7a6382c0a0a61a
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Config/export_xml/share_picture_config.bytes
+Dependencies: []

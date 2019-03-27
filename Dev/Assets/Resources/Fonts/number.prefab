@@ -1,0 +1,213 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000012697610788}
+  m_IsPrefabParent: 1
+--- !u!1 &1000012697610788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000012440973432}
+  - 114: {fileID: 114000011199653030}
+  m_Layer: 0
+  m_Name: number
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000012440973432
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012697610788}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114000011199653030
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012697610788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b4eb3a400afab046abb8471a9d746d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mMat: {fileID: 2100000, guid: 11a015eac599e424dad1c16138a8511e, type: 2}
+  mUVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  mFont:
+    mSize: 37
+    mBase: 30
+    mWidth: 256
+    mHeight: 256
+    mSpriteName: xdxx_0
+    mSaved:
+    - index: 44
+      x: 160
+      y: 0
+      width: 12
+      height: 25
+      offsetX: 0
+      offsetY: 0
+      advance: 12
+      channel: 15
+      kerning: 
+    - index: 46
+      x: 172
+      y: 0
+      width: 12
+      height: 25
+      offsetX: 0
+      offsetY: 0
+      advance: 12
+      channel: 15
+      kerning: 
+    - index: 48
+      x: 0
+      y: 0
+      width: 16
+      height: 25
+      offsetX: 0
+      offsetY: 0
+      advance: 16
+      channel: 15
+      kerning: 
+    - index: 49
+      x: 16
+      y: 0
+      width: 16
+      height: 25
+      offsetX: 0
+      offsetY: 0
+      advance: 16
+      channel: 15
+      kerning: 
+    - index: 50
+      x: 32
+      y: 0
+      width: 16
+      height: 25
+      offsetX: 0
+      offsetY: 0
+      advance: 16
+      channel: 15
+      kerning: 
+    - index: 51
+      x: 48
+      y: 0
+      width: 16
+      height: 25
+      offsetX: 0
+      offsetY: 0
+      advance: 16
+      channel: 15
+      kerning: 
+    - index: 52
+      x: 64
+      y: 0
+      width: 16
+      height: 25
+      offsetX: 0
+      offsetY: 0
+      advance: 16
+      channel: 15
+      kerning: 
+    - index: 53
+      x: 80
+      y: 0
+      width: 16
+      height: 25
+      offsetX: 0
+      offsetY: 0
+      advance: 16
+      channel: 15
+      kerning: 
+    - index: 54
+      x: 96
+      y: 0
+      width: 16
+      height: 25
+      offsetX: 0
+      offsetY: 0
+      advance: 16
+      channel: 15
+      kerning: 
+    - index: 55
+      x: 112
+      y: 0
+      width: 16
+      height: 25
+      offsetX: 0
+      offsetY: 0
+      advance: 16
+      channel: 15
+      kerning: 
+    - index: 56
+      x: 128
+      y: 0
+      width: 16
+      height: 25
+      offsetX: 0
+      offsetY: 0
+      advance: 16
+      channel: 15
+      kerning: 
+    - index: 57
+      x: 144
+      y: 0
+      width: 16
+      height: 25
+      offsetX: 0
+      offsetY: 0
+      advance: 16
+      channel: 15
+      kerning: 
+    - index: 19975
+      x: 184
+      y: 0
+      width: 21
+      height: 22
+      offsetX: 0
+      offsetY: 0
+      advance: 21
+      channel: 15
+      kerning: 
+    - index: 20159
+      x: 205
+      y: 0
+      width: 21
+      height: 22
+      offsetX: 0
+      offsetY: 0
+      advance: 21
+      channel: 15
+      kerning: 
+  mAtlas: {fileID: 0}
+  mReplacement: {fileID: 0}
+  mSymbols: []
+  mDynamicFont: {fileID: 0}
+  mDynamicFontSize: 16
+  mDynamicFontStyle: 0

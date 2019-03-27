@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2349267575
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9ee9f1e0b194d7adf5c4e0547b63780b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1033bf7ddfd4c6d43e7a6382c0a0a61a
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Config/export_xml/online_gift_config.bytes
+Dependencies: []

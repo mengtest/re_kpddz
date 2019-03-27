@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 515589352
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c776cfbc999db2514e828af56e3ebba9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1033bf7ddfd4c6d43e7a6382c0a0a61a
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Config/export_xml/item_base_config.bytes
+Dependencies: []

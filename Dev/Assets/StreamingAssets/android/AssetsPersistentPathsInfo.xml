@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetsLocation>
+  <Asset name="android" type="PERSISTENT" />
+  <Asset name="assetspersistentpathsinfo.xml" type="PERSISTENT" />
+  <Asset name="lua.data" type="PERSISTENT" />
+  <Asset name="resources/ui/maincity/mainwin.prefab" type="PERSISTENT" />
+  <Asset name="resources/ui/monthcard/monthcardwin.prefab" type="PERSISTENT" />
+  <Asset name="resources/ui/monthcard/atlas/monthcardatlas.prefab" type="PERSISTENT" />
+  <Asset name="resources/ui/monthcard/atlas/monthcardnum.prefab" type="PERSISTENT" />
+</AssetsLocation>

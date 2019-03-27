@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 1386092153
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d682c36629ededfa4ef241e8e903b79e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d11f31b209565556bc826db3590b2284
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2c5ecb5660b11414fb042fb826e03b73, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/UI/MessageDialog/MessageWin.prefab
+Dependencies:
+- Assets/StreamingAssets/windows/resources/fonts/fzy4jw.ttf
+- Assets/StreamingAssets/windows/resources/ui/base/commonatlas.prefab

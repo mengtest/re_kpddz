@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 86883580
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bdc57bf1bd3730d69c3daabb2c3b923d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Sounds/bothWin.mp3
+Dependencies: []

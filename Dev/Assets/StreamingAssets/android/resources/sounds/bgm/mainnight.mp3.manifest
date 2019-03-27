@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3918803405
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: aa7343445691235c4c201791480eecda
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Sounds/BGM/mainNight.mp3
+Dependencies: []

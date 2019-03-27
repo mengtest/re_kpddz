@@ -1,0 +1,44 @@
+ManifestFileVersion: 0
+CRC: 164203710
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c6462f8001338b3cd839d4d9fb5fadd0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1306368ebdc5bb9aeac9289b362dbefa
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5c041f61e4a9fbf4e830210f5d933ece, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1fdca5042b1d12a4890ec1bd4f04290d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2c5ecb5660b11414fb042fb826e03b73, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e41c47c68da4f7940811d088f4d78ad7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 117c395728fd1eb4898e7cedbfd338dd, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/UI/Login/QueueLoginWin.prefab
+Dependencies:
+- Assets/StreamingAssets/android/resources/fonts/fzy4jw.ttf
+- Assets/StreamingAssets/android/resources/ui/base/atlas/commonatlas.prefab

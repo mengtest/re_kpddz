@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 504005639
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 286c7a0e87f791c788a17410ca6ef78b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f579d20f887e55acd0f98714784119d5
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 95d67584e778f4765bc7e88f2bd28363, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/UI/UITemplate/hero_img_bg.prefab
+Dependencies: []

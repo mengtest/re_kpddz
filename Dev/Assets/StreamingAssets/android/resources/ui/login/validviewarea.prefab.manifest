@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 1580061820
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 919b9efc8c1d45ffaff76f6126e1abdb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 96016bb1909bf3b0c2eb24f0d22909db
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 858a20c1b21a3f94bb5b2d3b901c9aaf, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2c5ecb5660b11414fb042fb826e03b73, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/UI/Login/ValidViewArea.prefab
+Dependencies: []

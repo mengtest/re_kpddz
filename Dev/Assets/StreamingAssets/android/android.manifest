@@ -1,0 +1,1542 @@
+ManifestFileVersion: 0
+CRC: 26252563
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: resources/ui/activityandannouncement/activityandannouncement.prefab
+      Dependencies:
+        Dependency_0: resources/ui/activityandannouncement/atlas/activityandannouncement.prefab
+        Dependency_1: resources/ui/base/prop/propatlas.prefab
+        Dependency_2: resources/ui/base/atlas/commonbackatlas_.prefab
+        Dependency_3: resources/fonts/fzy4jw.ttf
+        Dependency_4: resources/ui/base/atlas/commonatlas.prefab
+    Info_1:
+      Name: resources/ui/activityandannouncement/atlas/activityandannouncement.prefab
+      Dependencies: {}
+    Info_2:
+      Name: resources/ui/base/prop/propatlas.prefab
+      Dependencies: {}
+    Info_3:
+      Name: resources/ui/base/atlas/commonbackatlas_.prefab
+      Dependencies: {}
+    Info_4:
+      Name: resources/fonts/fzy4jw.ttf
+      Dependencies: {}
+    Info_5:
+      Name: resources/ui/base/atlas/commonatlas.prefab
+      Dependencies: {}
+    Info_6:
+      Name: resources/ui/activityandannouncement/activityrules.prefab
+      Dependencies:
+        Dependency_0: resources/ui/activityandannouncement/atlas/activityandannouncement.prefab
+        Dependency_1: resources/fonts/fzy4jw.ttf
+        Dependency_2: resources/ui/base/atlas/commonatlas.prefab
+    Info_7:
+      Name: resources/ui/announcement/publicsignwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/setting/atlas/settingatlas.prefab
+        Dependency_3: resources/ui/login/loginatlas/loginatlas.prefab
+    Info_8:
+      Name: resources/ui/setting/atlas/settingatlas.prefab
+      Dependencies: {}
+    Info_9:
+      Name: resources/ui/login/loginatlas/loginatlas.prefab
+      Dependencies: {}
+    Info_10:
+      Name: resources/ui/barrage/barragewin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/richcar/atlas/richcarruleatlas.prefab
+        Dependency_2: resources/ui/barrage/atlas/barrageatlas.prefab
+    Info_11:
+      Name: resources/ui/richcar/atlas/richcarruleatlas.prefab
+      Dependencies: {}
+    Info_12:
+      Name: resources/ui/barrage/atlas/barrageatlas.prefab
+      Dependencies: {}
+    Info_13:
+      Name: resources/ui/base/poker/pokeratlas.prefab
+      Dependencies: {}
+    Info_14:
+      Name: resources/ui/base/vip/vipboxatlas.prefab
+      Dependencies: {}
+    Info_15:
+      Name: resources/ui/broadcast/broadcastwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+    Info_16:
+      Name: resources/ui/chat/chatmainwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/base/vip/vipboxatlas.prefab
+        Dependency_3: resources/ui/chat/atlas/chatwinatlas.prefab
+    Info_17:
+      Name: resources/ui/chat/atlas/chatwinatlas.prefab
+      Dependencies: {}
+    Info_18:
+      Name: resources/ui/diamondbag/diamondbagwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/diamondbag/atlas/diamondbagatlas.prefab
+    Info_19:
+      Name: resources/ui/exchange/addresswin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/exchange/atlas/exchangeatlas.prefab
+    Info_20:
+      Name: resources/ui/exchange/atlas/exchangeatlas.prefab
+      Dependencies: {}
+    Info_21:
+      Name: resources/ui/exchange/exchangesurewin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/exchange/icon/exchangeiconatlas.prefab
+    Info_22:
+      Name: resources/ui/exchange/icon/exchangeiconatlas.prefab
+      Dependencies: {}
+    Info_23:
+      Name: resources/ui/exchange/exchangetipwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/exchange/atlas/exchangeatlas.prefab
+    Info_24:
+      Name: resources/ui/exchange/exchangewin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/exchange/atlas/exchangeatlas.prefab
+        Dependency_3: resources/ui/exchange/icon/exchangeiconatlas.prefab
+        Dependency_4: resources/ui/redbag/atlas/redbagatlas.prefab
+    Info_25:
+      Name: resources/ui/exchange/rechargecardpasswordwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/exchange/atlas/exchangeatlas.prefab
+    Info_26:
+      Name: resources/ui/exchange/rechargephonewin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/exchange/icon/exchangeiconatlas.prefab
+    Info_27:
+      Name: resources/ui/exchange/rechargetypewin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/exchange/icon/exchangeiconatlas.prefab
+    Info_28:
+      Name: resources/ui/fastaddgold/fastaddgoldwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/fastaddgold/atlas/fastaddgoldfont.prefab
+        Dependency_3: resources/ui/fastaddgold/atlas/fastaddgoldatlas.prefab
+        Dependency_4: resources/ui/shop/atlas/resourcebigatals.prefab
+    Info_29:
+      Name: resources/ui/fastaddgold/atlas/fastaddgoldfont.prefab
+      Dependencies:
+        Dependency_0: resources/ui/fastaddgold/atlas/fastaddgoldatlas.prefab
+    Info_30:
+      Name: resources/ui/fastaddgold/atlas/fastaddgoldatlas.prefab
+      Dependencies: {}
+    Info_31:
+      Name: resources/ui/shop/atlas/resourcebigatals.prefab
+      Dependencies: {}
+    Info_32:
+      Name: resources/ui/firstpay/firstpaywin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+    Info_33:
+      Name: resources/ui/free/freewin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/free/atlas/freeatlas.prefab
+    Info_34:
+      Name: resources/ui/free/atlas/freeatlas.prefab
+      Dependencies: {}
+    Info_35:
+      Name: resources/ui/fruit/bigrewardwin.prefab
+      Dependencies:
+        Dependency_0: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_1: resources/fonts/shuzi4.prefab
+        Dependency_2: resources/ui/fruit/atlas/bigrewardatlas.prefab
+    Info_36:
+      Name: resources/fonts/shuzi4.prefab
+      Dependencies: {}
+    Info_37:
+      Name: resources/ui/fruit/atlas/bigrewardatlas.prefab
+      Dependencies: {}
+    Info_38:
+      Name: resources/ui/fruit/fruitawardwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/fruit/atlas/fruitwinatlas.prefab
+    Info_39:
+      Name: resources/ui/fruit/atlas/fruitwinatlas.prefab
+      Dependencies: {}
+    Info_40:
+      Name: resources/ui/fruit/fruitboxwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/fruit/atlas/fruitwinatlas.prefab
+    Info_41:
+      Name: resources/ui/fruit/fruitpoolwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/base/vip/vipboxatlas.prefab
+        Dependency_3: resources/ui/fruit/atlas/fruitwinatlas.prefab
+    Info_42:
+      Name: resources/ui/fruit/fruitwin.prefab
+      Dependencies:
+        Dependency_0: resources/ui/base/prop/propatlas.prefab
+        Dependency_1: resources/fonts/fzy4jw.ttf
+        Dependency_2: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_3: resources/ui/base/vip/vipboxatlas.prefab
+        Dependency_4: resources/ui/fruit/atlas/fruitwinatlas.prefab
+        Dependency_5: resources/fonts/shuzi1.prefab
+        Dependency_6: resources/ui/pokergame/commonres/comresatlas.prefab
+        Dependency_7: resources/ui/texture/fruit/bg2.png
+    Info_43:
+      Name: resources/fonts/shuzi1.prefab
+      Dependencies: {}
+    Info_44:
+      Name: resources/ui/pokergame/commonres/comresatlas.prefab
+      Dependencies: {}
+    Info_45:
+      Name: resources/ui/goldpool/goldpoolrulewin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/goldpool/atlas/goldpoolatlas.prefab
+    Info_46:
+      Name: resources/ui/goldpool/atlas/goldpoolatlas.prefab
+      Dependencies: {}
+    Info_47:
+      Name: resources/ui/goldpool/goldpoolwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/base/vip/vipboxatlas.prefab
+        Dependency_3: resources/ui/goldpool/atlas/goldpoolatlas.prefab
+        Dependency_4: resources/fonts/shuzi6.prefab
+    Info_48:
+      Name: resources/fonts/shuzi6.prefab
+      Dependencies: {}
+    Info_49:
+      Name: resources/ui/guide/guidewin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/base/poker/pokeratlas.prefab
+        Dependency_3: resources/ui/guide/atlas/guidewinatlas.prefab
+    Info_50:
+      Name: resources/ui/guide/atlas/guidewinatlas.prefab
+      Dependencies: {}
+    Info_51:
+      Name: resources/ui/login/changeuserinput.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/login/loginatlas/loginatlas.prefab
+    Info_52:
+      Name: resources/ui/login/logininput.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/login/loginatlas/loginatlas.prefab
+    Info_53:
+      Name: resources/ui/login/queueloginwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+    Info_54:
+      Name: resources/ui/login/registerbindingwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/login/loginatlas/loginatlas.prefab
+    Info_55:
+      Name: resources/ui/login/registerinput.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/login/loginatlas/loginatlas.prefab
+    Info_56:
+      Name: resources/ui/login/validviewarea.prefab
+      Dependencies: {}
+    Info_57:
+      Name: resources/ui/loginaward/loginawardwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/base/vip/vipboxatlas.prefab
+        Dependency_3: resources/ui/shop/atlas/resourcebigatals.prefab
+        Dependency_4: resources/ui/loginaward/atlas/loginawardatlas.prefab
+    Info_58:
+      Name: resources/ui/loginaward/atlas/loginawardatlas.prefab
+      Dependencies: {}
+    Info_59:
+      Name: resources/ui/luckycow/luckycowwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/luckycow/atlas/luckycowatlas.prefab
+    Info_60:
+      Name: resources/ui/luckycow/atlas/luckycowatlas.prefab
+      Dependencies: {}
+    Info_61:
+      Name: resources/ui/mail/mailwin.prefab
+      Dependencies:
+        Dependency_0: resources/ui/base/prop/propatlas.prefab
+        Dependency_1: resources/fonts/fzy4jw.ttf
+        Dependency_2: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_3: resources/ui/redbag/atlas/redbagatlas.prefab
+        Dependency_4: resources/ui/mail/atlas/mailatlas.prefab
+    Info_62:
+      Name: resources/ui/redbag/atlas/redbagatlas.prefab
+      Dependencies: {}
+    Info_63:
+      Name: resources/ui/mail/atlas/mailatlas.prefab
+      Dependencies: {}
+    Info_64:
+      Name: resources/ui/maincity/gamecenterwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/maincity/atlas/entrance/mainentranceatlas.prefab
+    Info_65:
+      Name: resources/ui/maincity/atlas/entrance/mainentranceatlas.prefab
+      Dependencies: {}
+    Info_66:
+      Name: resources/ui/maincity/mainbugfeedback.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+    Info_67:
+      Name: resources/ui/maincity/maincenterwin.prefab
+      Dependencies:
+        Dependency_0: resources/ui/maincity/atlas/maincenteratlas.prefab
+        Dependency_1: resources/ui/texture/night.png
+    Info_68:
+      Name: resources/ui/maincity/atlas/maincenteratlas.prefab
+      Dependencies: {}
+    Info_69:
+      Name: resources/ui/maincity/mainlogintouristip.prefab
+      Dependencies:
+        Dependency_0: resources/ui/base/atlas/commonbackatlas_.prefab
+        Dependency_1: resources/fonts/fzy4jw.ttf
+        Dependency_2: resources/ui/base/atlas/commonatlas.prefab
+    Info_70:
+      Name: resources/ui/maincity/mainwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/base/vip/vipboxatlas.prefab
+        Dependency_3: resources/ui/maincity/atlas/maincenteratlas.prefab
+        Dependency_4: resources/ui/maincity/atlas/niuqiatlas.prefab
+        Dependency_5: resources/ui/texture/head/headmask.png
+    Info_71:
+      Name: resources/ui/maincity/atlas/niuqiatlas.prefab
+      Dependencies: {}
+    Info_72:
+      Name: resources/ui/messagedialog/messagedialog.prefab
+      Dependencies:
+        Dependency_0: resources/ui/base/atlas/commonbackatlas_.prefab
+        Dependency_1: resources/fonts/fzy4jw.ttf
+        Dependency_2: resources/ui/base/atlas/commonatlas.prefab
+    Info_73:
+      Name: resources/ui/messagedialog/messagedialogusemoney.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+    Info_74:
+      Name: resources/ui/messagedialog/messagedialogwithtwoselect.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+    Info_75:
+      Name: resources/ui/messagedialog/messagewin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+    Info_76:
+      Name: resources/ui/messagedialog/messagewithiconwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+    Info_77:
+      Name: resources/ui/monthcard/monthcardhelpwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+    Info_78:
+      Name: resources/ui/monthcard/atlas/monthcardatlas.prefab
+      Dependencies: {}
+    Info_79:
+      Name: resources/ui/monthcard/monthcardwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/monthcard/atlas/monthcardatlas.prefab
+    Info_80:
+      Name: resources/ui/monthcard/atlas/monthcardnum.prefab
+      Dependencies:
+        Dependency_0: resources/ui/monthcard/atlas/monthcardatlas.prefab
+    Info_81:
+      Name: resources/ui/playerinfo/gameplayerinfowin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/base/vip/vipboxatlas.prefab
+        Dependency_3: resources/ui/playerinfo/atlas/playerinfoatlas.prefab
+    Info_82:
+      Name: resources/ui/playerinfo/atlas/playerinfoatlas.prefab
+      Dependencies: {}
+    Info_83:
+      Name: resources/ui/playerinfo/pichangepasswordwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/login/loginatlas/loginatlas.prefab
+    Info_84:
+      Name: resources/ui/playerinfo/playerinfotipswin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/playerinfo/atlas/playerinfoatlas.prefab
+    Info_85:
+      Name: resources/ui/playerinfo/playerinfowin.prefab
+      Dependencies:
+        Dependency_0: resources/ui/base/prop/propatlas.prefab
+        Dependency_1: resources/fonts/fzy4jw.ttf
+        Dependency_2: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_3: resources/ui/base/vip/vipboxatlas.prefab
+        Dependency_4: resources/ui/playerinfo/atlas/playerinfoatlas.prefab
+    Info_86:
+      Name: resources/ui/playerinfo/playerpicselectwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/playerinfo/atlas/playerinfoatlas.prefab
+    Info_87:
+      Name: resources/ui/playerinfo/playerrankinfowin.prefab
+      Dependencies:
+        Dependency_0: resources/ui/base/atlas/commonbackatlas_.prefab
+        Dependency_1: resources/fonts/fzy4jw.ttf
+        Dependency_2: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_3: resources/ui/base/vip/vipboxatlas.prefab
+        Dependency_4: resources/ui/playerinfo/atlas/playerinfoatlas.prefab
+    Info_88:
+      Name: resources/ui/pm/pmwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+    Info_89:
+      Name: resources/ui/pokergame/hundredcow/hundredcowmain.prefab
+      Dependencies:
+        Dependency_0: resources/ui/base/prop/propatlas.prefab
+        Dependency_1: resources/fonts/fzy4jw.ttf
+        Dependency_2: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_3: resources/ui/base/poker/pokeratlas.prefab
+        Dependency_4: resources/ui/base/vip/vipboxatlas.prefab
+        Dependency_5: resources/ui/chat/atlas/chatwinatlas.prefab
+        Dependency_6: resources/ui/pokergame/commonres/comresatlas.prefab
+        Dependency_7: resources/fonts/shuzi2.prefab
+        Dependency_8: resources/ui/pokergame/hundredcow/atlas/hundredcowatlas.prefab
+        Dependency_9: resources/fonts/shuzi3.prefab
+    Info_90:
+      Name: resources/fonts/shuzi2.prefab
+      Dependencies: {}
+    Info_91:
+      Name: resources/ui/pokergame/hundredcow/atlas/hundredcowatlas.prefab
+      Dependencies: {}
+    Info_92:
+      Name: resources/fonts/shuzi3.prefab
+      Dependencies: {}
+    Info_93:
+      Name: resources/ui/pokergame/hundredcow/rankinfowin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/pokergame/hundredcow/atlas/rankwinatlas.prefab
+    Info_94:
+      Name: resources/ui/pokergame/hundredcow/atlas/rankwinatlas.prefab
+      Dependencies: {}
+    Info_95:
+      Name: resources/ui/pokergame/hundredcow/rankwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/base/vip/vipboxatlas.prefab
+        Dependency_3: resources/ui/pokergame/hundredcow/atlas/rankwinatlas.prefab
+    Info_96:
+      Name: resources/ui/pokergame/normalcow/normalcowmain.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/base/poker/pokeratlas.prefab
+        Dependency_3: resources/ui/pokergame/normalcow/atlas/normalcowatlas.prefab
+    Info_97:
+      Name: resources/ui/pokergame/normalcow/atlas/normalcowatlas.prefab
+      Dependencies: {}
+    Info_98:
+      Name: resources/ui/pokergame/normalcow/normalcowredui.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/base/vip/vipboxatlas.prefab
+        Dependency_3: resources/ui/pokergame/commonres/comresatlas.prefab
+        Dependency_4: resources/fonts/shuzi2.prefab
+        Dependency_5: resources/fonts/shuzi3.prefab
+        Dependency_6: resources/ui/pokergame/normalcow/atlas/normalcowatlas.prefab
+        Dependency_7: resources/ui/pokergame/normalcow/atlas/normalcowredatlas.prefab
+        Dependency_8: resources/fonts/number.prefab
+    Info_99:
+      Name: resources/ui/pokergame/normalcow/atlas/normalcowredatlas.prefab
+      Dependencies: {}
+    Info_100:
+      Name: resources/fonts/number.prefab
+      Dependencies: {}
+    Info_101:
+      Name: resources/ui/pokergame/normalcow/normalcowtop.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/chat/atlas/chatwinatlas.prefab
+        Dependency_3: resources/ui/pokergame/commonres/comresatlas.prefab
+    Info_102:
+      Name: resources/ui/pokergame/normalcow/normalcowui.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/base/vip/vipboxatlas.prefab
+        Dependency_3: resources/ui/pokergame/commonres/comresatlas.prefab
+        Dependency_4: resources/fonts/shuzi2.prefab
+        Dependency_5: resources/fonts/shuzi3.prefab
+        Dependency_6: resources/ui/pokergame/normalcow/atlas/normalcowatlas.prefab
+    Info_103:
+      Name: resources/ui/pokergame/normalcow/openboxwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/shop/atlas/resourcebigatals.prefab
+        Dependency_3: resources/ui/pokergame/normalcow/atlas/normalcowatlas.prefab
+    Info_104:
+      Name: resources/ui/pokergame/normalcow/openredpackwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+    Info_105:
+      Name: resources/ui/pokergame/resultres/resultlayer.prefab
+      Dependencies:
+        Dependency_0: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_1: resources/ui/pokergame/resultres/atlas/resultlayeratlas.prefab
+    Info_106:
+      Name: resources/ui/pokergame/resultres/atlas/resultlayeratlas.prefab
+      Dependencies: {}
+    Info_107:
+      Name: resources/ui/pokergame/resultres/resultloselayer.prefab
+      Dependencies:
+        Dependency_0: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_1: resources/ui/pokergame/resultres/atlas/resultlayeratlas.prefab
+    Info_108:
+      Name: resources/ui/redbag/redbagguesswin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/base/vip/vipboxatlas.prefab
+        Dependency_3: resources/ui/redbag/atlas/redbagatlas.prefab
+    Info_109:
+      Name: resources/ui/redbag/redbagsendwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/redbag/atlas/redbagatlas.prefab
+    Info_110:
+      Name: resources/ui/redbag/redbagwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/fonts/shuzi1.prefab
+        Dependency_3: resources/ui/redbag/atlas/redbagatlas.prefab
+    Info_111:
+      Name: resources/ui/richcar/richcarmasterwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/richcar/atlas/richcarruleatlas.prefab
+        Dependency_3: resources/ui/base/vip/vipboxatlas.prefab
+        Dependency_4: resources/ui/richcar/atlas/richcarmasteratlas.prefab
+    Info_112:
+      Name: resources/ui/richcar/atlas/richcarmasteratlas.prefab
+      Dependencies: {}
+    Info_113:
+      Name: resources/ui/richcar/richcarrulewin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/richcar/atlas/richcarruleatlas.prefab
+        Dependency_3: resources/ui/richcar/atlas/richcaratlas.prefab
+    Info_114:
+      Name: resources/ui/richcar/atlas/richcaratlas.prefab
+      Dependencies: {}
+    Info_115:
+      Name: resources/ui/richcar/richcarwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/richcar/atlas/richcarruleatlas.prefab
+        Dependency_3: resources/ui/base/vip/vipboxatlas.prefab
+        Dependency_4: resources/ui/richcar/atlas/richcaratlas.prefab
+        Dependency_5: resources/ui/richcar/atlas/emojiatlas.prefab
+        Dependency_6: resources/ui/richcar/atlas/carawardatlas.prefab
+        Dependency_7: resources/ui/richcar/atlas/richcarcoloratlas.prefab
+    Info_116:
+      Name: resources/ui/richcar/atlas/emojiatlas.prefab
+      Dependencies: {}
+    Info_117:
+      Name: resources/ui/richcar/atlas/carawardatlas.prefab
+      Dependencies: {}
+    Info_118:
+      Name: resources/ui/richcar/atlas/richcarcoloratlas.prefab
+      Dependencies: {}
+    Info_119:
+      Name: resources/ui/room/select/roomlvselectwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/room/select/atlas/roomlvselectatlas.prefab
+    Info_120:
+      Name: resources/ui/room/select/atlas/roomlvselectatlas.prefab
+      Dependencies: {}
+    Info_121:
+      Name: resources/ui/screenshot/screenshotwin.prefab
+      Dependencies: {}
+    Info_122:
+      Name: resources/ui/setting/helpwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/setting/atlas/settingatlas.prefab
+        Dependency_3: resources/ui/share/shareatlas/newshareatlas.prefab
+    Info_123:
+      Name: resources/ui/setting/settingwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/setting/atlas/settingatlas.prefab
+        Dependency_3: resources/ui/base/vip/vipboxatlas.prefab
+    Info_124:
+      Name: resources/ui/share/shareexchangewin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/share/shareatlas/newshareatlas.prefab
+    Info_125:
+      Name: resources/ui/share/shareatlas/newshareatlas.prefab
+      Dependencies: {}
+    Info_126:
+      Name: resources/ui/share/sharefriendwin.prefab
+      Dependencies:
+        Dependency_0: resources/ui/base/prop/propatlas.prefab
+        Dependency_1: resources/fonts/fzy4jw.ttf
+        Dependency_2: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_3: resources/ui/base/vip/vipboxatlas.prefab
+        Dependency_4: resources/ui/share/shareatlas/newshareatlas.prefab
+    Info_127:
+      Name: resources/ui/share/shareselectwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/share/shareatlas/newshareatlas.prefab
+    Info_128:
+      Name: resources/ui/share/sharetipswin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/share/shareatlas/newshareatlas.prefab
+    Info_129:
+      Name: resources/ui/share/sharewin.prefab
+      Dependencies:
+        Dependency_0: resources/ui/base/prop/propatlas.prefab
+        Dependency_1: resources/fonts/fzy4jw.ttf
+        Dependency_2: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_3: resources/ui/share/shareatlas/newshareatlas.prefab
+    Info_130:
+      Name: resources/ui/shop/shoprechargeotherwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/shop/atlas/resourcebigatals.prefab
+        Dependency_3: resources/ui/shop/atlas/shopatlas.prefab
+    Info_131:
+      Name: resources/ui/shop/atlas/shopatlas.prefab
+      Dependencies: {}
+    Info_132:
+      Name: resources/ui/shop/shoprechargewin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+    Info_133:
+      Name: resources/ui/shop/shopwin.prefab
+      Dependencies:
+        Dependency_0: resources/ui/base/prop/propatlas.prefab
+        Dependency_1: resources/fonts/fzy4jw.ttf
+        Dependency_2: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_3: resources/ui/base/vip/vipboxatlas.prefab
+        Dependency_4: resources/ui/shop/atlas/resourcebigatals.prefab
+        Dependency_5: resources/ui/shop/atlas/shopatlas.prefab
+    Info_134:
+      Name: resources/ui/subsidy/awardwin.prefab
+      Dependencies:
+        Dependency_0: resources/ui/base/prop/propatlas.prefab
+        Dependency_1: resources/fonts/fzy4jw.ttf
+        Dependency_2: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_3: resources/ui/fruit/atlas/bigrewardatlas.prefab
+    Info_135:
+      Name: resources/ui/subsidy/subsidywin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+    Info_136:
+      Name: resources/ui/task/redconditionwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/task/atlas/taskatlas.prefab
+    Info_137:
+      Name: resources/ui/task/atlas/taskatlas.prefab
+      Dependencies: {}
+    Info_138:
+      Name: resources/ui/task/taskwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/task/atlas/taskatlas.prefab
+    Info_139:
+      Name: resources/ui/tips/tipswin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+    Info_140:
+      Name: resources/ui/uitemplate/hero_img_bg.prefab
+      Dependencies: {}
+    Info_141:
+      Name: resources/ui/uitemplate/img_bg.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+    Info_142:
+      Name: resources/ui/uitemplate/playercell.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+    Info_143:
+      Name: resources/ui/uitemplate/playercell_h.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/pokergame/normalcow/atlas/normalcowatlas.prefab
+    Info_144:
+      Name: resources/ui/uitemplate/playercell_v.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/pokergame/normalcow/atlas/normalcowatlas.prefab
+    Info_145:
+      Name: resources/ui/uitemplate/player_img_bg.prefab
+      Dependencies: {}
+    Info_146:
+      Name: resources/ui/uitemplate/pokercell.prefab
+      Dependencies:
+        Dependency_0: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_1: resources/ui/base/poker/pokeratlas.prefab
+    Info_147:
+      Name: resources/ui/uitemplate/poker_img.prefab
+      Dependencies:
+        Dependency_0: resources/ui/base/poker/pokeratlas.prefab
+    Info_148:
+      Name: resources/ui/uitemplate/stars.prefab
+      Dependencies:
+        Dependency_0: resources/ui/base/atlas/commonatlas.prefab
+    Info_149:
+      Name: resources/ui/uitemplate/tradeunionicon.prefab
+      Dependencies: {}
+    Info_150:
+      Name: resources/ui/uitemplate/vipbox.prefab
+      Dependencies:
+        Dependency_0: resources/ui/base/vip/vipboxatlas.prefab
+    Info_151:
+      Name: resources/ui/waiting/waiting.prefab
+      Dependencies:
+        Dependency_0: resources/ui/base/atlas/commonatlas.prefab
+    Info_152:
+      Name: resources/effects/prefab/dianzhang.prefab
+      Dependencies: {}
+    Info_153:
+      Name: resources/effects/prefab/effct_jinbi.prefab
+      Dependencies: {}
+    Info_154:
+      Name: resources/effects/prefab/effect_beer.prefab
+      Dependencies: {}
+    Info_155:
+      Name: resources/effects/prefab/effect_brick.prefab
+      Dependencies: {}
+    Info_156:
+      Name: resources/effects/prefab/effect_fangjian.prefab
+      Dependencies: {}
+    Info_157:
+      Name: resources/effects/prefab/effect_fruitwin.prefab
+      Dependencies: {}
+    Info_158:
+      Name: resources/effects/prefab/effect_hongbaoyu.prefab
+      Dependencies: {}
+    Info_159:
+      Name: resources/effects/prefab/effect_icon costom.prefab
+      Dependencies: {}
+    Info_160:
+      Name: resources/effects/prefab/effect_jiangjingchi.prefab
+      Dependencies: {}
+    Info_161:
+      Name: resources/effects/prefab/effect_jidan.prefab
+      Dependencies: {}
+    Info_162:
+      Name: resources/effects/prefab/effect_kuang.prefab
+      Dependencies: {}
+    Info_163:
+      Name: resources/effects/prefab/effect_lose.prefab
+      Dependencies: {}
+    Info_164:
+      Name: resources/effects/prefab/effect_lose_circle.prefab
+      Dependencies: {}
+    Info_165:
+      Name: resources/effects/prefab/effect_maincity1.prefab
+      Dependencies: {}
+    Info_166:
+      Name: resources/effects/prefab/effect_maincity2.prefab
+      Dependencies: {}
+    Info_167:
+      Name: resources/effects/prefab/effect_mianfei.prefab
+      Dependencies: {}
+    Info_168:
+      Name: resources/effects/prefab/effect_rose.prefab
+      Dependencies: {}
+    Info_169:
+      Name: resources/effects/prefab/effect_start_01.prefab
+      Dependencies: {}
+    Info_170:
+      Name: resources/effects/prefab/effect_start_02.prefab
+      Dependencies: {}
+    Info_171:
+      Name: resources/effects/prefab/effect_start_03.prefab
+      Dependencies: {}
+    Info_172:
+      Name: resources/effects/prefab/effect_vip.prefab
+      Dependencies: {}
+    Info_173:
+      Name: resources/effects/prefab/effect_win.prefab
+      Dependencies: {}
+    Info_174:
+      Name: resources/effects/prefab/effect_wineff.prefab
+      Dependencies: {}
+    Info_175:
+      Name: resources/effects/prefab/effect_win_star.prefab
+      Dependencies: {}
+    Info_176:
+      Name: resources/effects/prefab/effect_wupindaoju2_1.prefab
+      Dependencies: {}
+    Info_177:
+      Name: resources/effects/prefab/effect_xie.prefab
+      Dependencies: {}
+    Info_178:
+      Name: resources/effects/prefab/effect_yanhuahong.prefab
+      Dependencies: {}
+    Info_179:
+      Name: resources/effects/prefab/effect_yanhualan (1).prefab
+      Dependencies: {}
+    Info_180:
+      Name: resources/effects/prefab/effect_yanhualan (2).prefab
+      Dependencies: {}
+    Info_181:
+      Name: resources/effects/prefab/effect_yanhualan (3).prefab
+      Dependencies: {}
+    Info_182:
+      Name: resources/effects/prefab/effect_yanhualan 1.prefab
+      Dependencies: {}
+    Info_183:
+      Name: resources/effects/prefab/effect_yanhualan.prefab
+      Dependencies: {}
+    Info_184:
+      Name: resources/effects/prefab/effect_zhaocaijinniu.prefab
+      Dependencies: {}
+    Info_185:
+      Name: resources/effects/prefab/effect_zhongdajiang.prefab
+      Dependencies: {}
+    Info_186:
+      Name: resources/effects/prefab/effect_zhuang.prefab
+      Dependencies: {}
+    Info_187:
+      Name: resources/effects/prefab/efffect_shengli.prefab
+      Dependencies: {}
+    Info_188:
+      Name: resources/effects/prefab/efffect_shibai.prefab
+      Dependencies: {}
+    Info_189:
+      Name: resources/effects/prefab/hongbaosaoguangtexiao.prefab
+      Dependencies: {}
+    Info_190:
+      Name: resources/effects/prefab/hongbaosaoguangtexiao02.prefab
+      Dependencies: {}
+    Info_191:
+      Name: resources/effects/prefab/hua.prefab
+      Dependencies: {}
+    Info_192:
+      Name: resources/effects/prefab/jiangchi01.prefab
+      Dependencies: {}
+    Info_193:
+      Name: resources/effects/prefab/lizi.prefab
+      Dependencies: {}
+    Info_194:
+      Name: resources/effects/prefab/shangchenglizi.prefab
+      Dependencies: {}
+    Info_195:
+      Name: resources/effects/prefab/tuoxiezhakai.prefab
+      Dependencies: {}
+    Info_196:
+      Name: resources/effects/prefab/xishou.prefab
+      Dependencies: {}
+    Info_197:
+      Name: resources/effects/prefab/zhadan.prefab
+      Dependencies: {}
+    Info_198:
+      Name: resources/config/gametext.xml
+      Dependencies: {}
+    Info_199:
+      Name: resources/config/newbieguide.xml
+      Dependencies: {}
+    Info_200:
+      Name: resources/config/rootpathconfig.xml
+      Dependencies: {}
+    Info_201:
+      Name: resources/config/scenceconfig.xml
+      Dependencies: {}
+    Info_202:
+      Name: resources/config/versionconfig.xml
+      Dependencies: {}
+    Info_203:
+      Name: resources/config/export_xml/activity_config.bytes
+      Dependencies: {}
+    Info_204:
+      Name: resources/config/export_xml/activity_rules_config.bytes
+      Dependencies: {}
+    Info_205:
+      Name: resources/config/export_xml/activity_title_config.bytes
+      Dependencies: {}
+    Info_206:
+      Name: resources/config/export_xml/base_shop_item_config.bytes
+      Dependencies: {}
+    Info_207:
+      Name: resources/config/export_xml/betting_room_config.bytes
+      Dependencies: {}
+    Info_208:
+      Name: resources/config/export_xml/bottom_power_config.bytes
+      Dependencies: {}
+    Info_209:
+      Name: resources/config/export_xml/card_power_config.bytes
+      Dependencies: {}
+    Info_210:
+      Name: resources/config/export_xml/card_reward_config.bytes
+      Dependencies: {}
+    Info_211:
+      Name: resources/config/export_xml/chat_emoji_config.bytes
+      Dependencies: {}
+    Info_212:
+      Name: resources/config/export_xml/chest_config.bytes
+      Dependencies: {}
+    Info_213:
+      Name: resources/config/export_xml/client_base_config.bytes
+      Dependencies: {}
+    Info_214:
+      Name: resources/config/export_xml/cow_chest_config.bytes
+      Dependencies: {}
+    Info_215:
+      Name: resources/config/export_xml/cow_task_config.bytes
+      Dependencies: {}
+    Info_216:
+      Name: resources/config/export_xml/daily_task_config.bytes
+      Dependencies: {}
+    Info_217:
+      Name: resources/config/export_xml/diamond_revive_task.bytes
+      Dependencies: {}
+    Info_218:
+      Name: resources/config/export_xml/element_config.bytes
+      Dependencies: {}
+    Info_219:
+      Name: resources/config/export_xml/fruit_chest_config.bytes
+      Dependencies: {}
+    Info_220:
+      Name: resources/config/export_xml/fruit_day_config.bytes
+      Dependencies: {}
+    Info_221:
+      Name: resources/config/export_xml/god_gold_config.bytes
+      Dependencies: {}
+    Info_222:
+      Name: resources/config/export_xml/gold_carry_config.bytes
+      Dependencies: {}
+    Info_223:
+      Name: resources/config/export_xml/gold_chip_config.bytes
+      Dependencies: {}
+    Info_224:
+      Name: resources/config/export_xml/grap_power_config.bytes
+      Dependencies: {}
+    Info_225:
+      Name: resources/config/export_xml/guide_config.bytes
+      Dependencies: {}
+    Info_226:
+      Name: resources/config/export_xml/item_base_config.bytes
+      Dependencies: {}
+    Info_227:
+      Name: resources/config/export_xml/laba_fruit_config.bytes
+      Dependencies: {}
+    Info_228:
+      Name: resources/config/export_xml/line_num_config.bytes
+      Dependencies: {}
+    Info_229:
+      Name: resources/config/export_xml/new_task_config.bytes
+      Dependencies: {}
+    Info_230:
+      Name: resources/config/export_xml/patterns_power_config.bytes
+      Dependencies: {}
+    Info_231:
+      Name: resources/config/export_xml/player_lvl_config.bytes
+      Dependencies: {}
+    Info_232:
+      Name: resources/config/export_xml/practicality_config.bytes
+      Dependencies: {}
+    Info_233:
+      Name: resources/config/export_xml/red_fruit_config.bytes
+      Dependencies: {}
+    Info_234:
+      Name: resources/config/export_xml/reward_ranking_config.bytes
+      Dependencies: {}
+    Info_235:
+      Name: resources/config/export_xml/share_reward_config.bytes
+      Dependencies: {}
+    Info_236:
+      Name: resources/config/export_xml/shop_vip_config.bytes
+      Dependencies: {}
+    Info_237:
+      Name: resources/config/export_xml/time_task_config.bytes
+      Dependencies: {}
+    Info_238:
+      Name: resources/config/export_xml/vip_config.bytes
+      Dependencies: {}
+    Info_239:
+      Name: resources/config/export_xml/voice_effect_config.bytes
+      Dependencies: {}
+    Info_240:
+      Name: resources/config/export_xml/week_task_config.bytes
+      Dependencies: {}
+    Info_241:
+      Name: resources/ui/texture/day.png
+      Dependencies: {}
+    Info_242:
+      Name: resources/ui/texture/girl.png
+      Dependencies: {}
+    Info_243:
+      Name: resources/ui/texture/girlnight.png
+      Dependencies: {}
+    Info_244:
+      Name: resources/ui/texture/girlnight_alpha.png
+      Dependencies: {}
+    Info_245:
+      Name: resources/ui/texture/girlnight_rgb.png
+      Dependencies: {}
+    Info_246:
+      Name: resources/ui/texture/girl_alpha.png
+      Dependencies: {}
+    Info_247:
+      Name: resources/ui/texture/girl_rgb.png
+      Dependencies: {}
+    Info_248:
+      Name: resources/ui/texture/night.png
+      Dependencies: {}
+    Info_249:
+      Name: resources/ui/texture/res_table_2.png
+      Dependencies: {}
+    Info_250:
+      Name: resources/ui/texture/activity/ad_qhb.png
+      Dependencies: {}
+    Info_251:
+      Name: resources/ui/texture/activity/ad_redpacket.png
+      Dependencies: {}
+    Info_252:
+      Name: resources/ui/texture/activity/ad_sgkhshb.png
+      Dependencies: {}
+    Info_253:
+      Name: resources/ui/texture/activity/ad_yjblhb.png
+      Dependencies: {}
+    Info_254:
+      Name: resources/ui/texture/head/headmask.png
+      Dependencies: {}
+    Info_255:
+      Name: resources/ui/texture/richcar/tex1.png
+      Dependencies: {}
+    Info_256:
+      Name: resources/ui/texture/richcar/tex2.png
+      Dependencies: {}
+    Info_257:
+      Name: resources/ui/texture/richcar/tex3.png
+      Dependencies: {}
+    Info_258:
+      Name: resources/ui/texture/richcar/tex4.png
+      Dependencies: {}
+    Info_259:
+      Name: resources/ui/texture/richcar/tex5.png
+      Dependencies: {}
+    Info_260:
+      Name: resources/ui/texture/richcar/tex6.png
+      Dependencies: {}
+    Info_261:
+      Name: resources/ui/texture/richcar/tex7.png
+      Dependencies: {}
+    Info_262:
+      Name: resources/ui/texture/richcar/tex8.png
+      Dependencies: {}
+    Info_263:
+      Name: resources/sounds/bothlose.mp3
+      Dependencies: {}
+    Info_264:
+      Name: resources/sounds/bothwin.mp3
+      Dependencies: {}
+    Info_265:
+      Name: resources/sounds/boxopen.mp3
+      Dependencies: {}
+    Info_266:
+      Name: resources/sounds/clickbox.mp3
+      Dependencies: {}
+    Info_267:
+      Name: resources/sounds/dealerchose.mp3
+      Dependencies: {}
+    Info_268:
+      Name: resources/sounds/dealerchosing.mp3
+      Dependencies: {}
+    Info_269:
+      Name: resources/sounds/failed.mp3
+      Dependencies: {}
+    Info_270:
+      Name: resources/sounds/gamestart.mp3
+      Dependencies: {}
+    Info_271:
+      Name: resources/sounds/getgold.mp3
+      Dependencies: {}
+    Info_272:
+      Name: resources/sounds/hundred.mp3
+      Dependencies: {}
+    Info_273:
+      Name: resources/sounds/lingquwupin.mp3
+      Dependencies: {}
+    Info_274:
+      Name: resources/sounds/poker.mp3
+      Dependencies: {}
+    Info_275:
+      Name: resources/sounds/redcoming.mp3
+      Dependencies: {}
+    Info_276:
+      Name: resources/sounds/tongyonganniu.mp3
+      Dependencies: {}
+    Info_277:
+      Name: resources/sounds/win.mp3
+      Dependencies: {}
+    Info_278:
+      Name: resources/sounds/bgm/hundredbgm.mp3
+      Dependencies: {}
+    Info_279:
+      Name: resources/sounds/bgm/login.mp3
+      Dependencies: {}
+    Info_280:
+      Name: resources/sounds/bgm/mainday.mp3
+      Dependencies: {}
+    Info_281:
+      Name: resources/sounds/bgm/mainnight.mp3
+      Dependencies: {}
+    Info_282:
+      Name: resources/sounds/bgm/pokebgm.mp3
+      Dependencies: {}
+    Info_283:
+      Name: resources/sounds/boy/boy1.mp3
+      Dependencies: {}
+    Info_284:
+      Name: resources/sounds/boy/boy10.mp3
+      Dependencies: {}
+    Info_285:
+      Name: resources/sounds/boy/boy11.mp3
+      Dependencies: {}
+    Info_286:
+      Name: resources/sounds/boy/boy12.mp3
+      Dependencies: {}
+    Info_287:
+      Name: resources/sounds/boy/boy13.mp3
+      Dependencies: {}
+    Info_288:
+      Name: resources/sounds/boy/boy2.mp3
+      Dependencies: {}
+    Info_289:
+      Name: resources/sounds/boy/boy3.mp3
+      Dependencies: {}
+    Info_290:
+      Name: resources/sounds/boy/boy4.mp3
+      Dependencies: {}
+    Info_291:
+      Name: resources/sounds/boy/boy5.mp3
+      Dependencies: {}
+    Info_292:
+      Name: resources/sounds/boy/boy6.mp3
+      Dependencies: {}
+    Info_293:
+      Name: resources/sounds/boy/boy7.mp3
+      Dependencies: {}
+    Info_294:
+      Name: resources/sounds/boy/boy8.mp3
+      Dependencies: {}
+    Info_295:
+      Name: resources/sounds/boy/boy9.mp3
+      Dependencies: {}
+    Info_296:
+      Name: resources/sounds/boy/niu_0.mp3
+      Dependencies: {}
+    Info_297:
+      Name: resources/sounds/boy/niu_1.mp3
+      Dependencies: {}
+    Info_298:
+      Name: resources/sounds/boy/niu_10.mp3
+      Dependencies: {}
+    Info_299:
+      Name: resources/sounds/boy/niu_11.mp3
+      Dependencies: {}
+    Info_300:
+      Name: resources/sounds/boy/niu_12.mp3
+      Dependencies: {}
+    Info_301:
+      Name: resources/sounds/boy/niu_13.mp3
+      Dependencies: {}
+    Info_302:
+      Name: resources/sounds/boy/niu_2.mp3
+      Dependencies: {}
+    Info_303:
+      Name: resources/sounds/boy/niu_3.mp3
+      Dependencies: {}
+    Info_304:
+      Name: resources/sounds/boy/niu_4.mp3
+      Dependencies: {}
+    Info_305:
+      Name: resources/sounds/boy/niu_5.mp3
+      Dependencies: {}
+    Info_306:
+      Name: resources/sounds/boy/niu_6.mp3
+      Dependencies: {}
+    Info_307:
+      Name: resources/sounds/boy/niu_7.mp3
+      Dependencies: {}
+    Info_308:
+      Name: resources/sounds/boy/niu_8.mp3
+      Dependencies: {}
+    Info_309:
+      Name: resources/sounds/boy/niu_9.mp3
+      Dependencies: {}
+    Info_310:
+      Name: resources/sounds/boy/rob.mp3
+      Dependencies: {}
+    Info_311:
+      Name: resources/sounds/girl/girl1.mp3
+      Dependencies: {}
+    Info_312:
+      Name: resources/sounds/girl/girl10.mp3
+      Dependencies: {}
+    Info_313:
+      Name: resources/sounds/girl/girl11.mp3
+      Dependencies: {}
+    Info_314:
+      Name: resources/sounds/girl/girl12.mp3
+      Dependencies: {}
+    Info_315:
+      Name: resources/sounds/girl/girl13.mp3
+      Dependencies: {}
+    Info_316:
+      Name: resources/sounds/girl/girl2.mp3
+      Dependencies: {}
+    Info_317:
+      Name: resources/sounds/girl/girl3.mp3
+      Dependencies: {}
+    Info_318:
+      Name: resources/sounds/girl/girl4.mp3
+      Dependencies: {}
+    Info_319:
+      Name: resources/sounds/girl/girl5.mp3
+      Dependencies: {}
+    Info_320:
+      Name: resources/sounds/girl/girl6.mp3
+      Dependencies: {}
+    Info_321:
+      Name: resources/sounds/girl/girl7.mp3
+      Dependencies: {}
+    Info_322:
+      Name: resources/sounds/girl/girl8.mp3
+      Dependencies: {}
+    Info_323:
+      Name: resources/sounds/girl/girl9.mp3
+      Dependencies: {}
+    Info_324:
+      Name: resources/sounds/girl/niu_0.mp3
+      Dependencies: {}
+    Info_325:
+      Name: resources/sounds/girl/niu_1.mp3
+      Dependencies: {}
+    Info_326:
+      Name: resources/sounds/girl/niu_10.mp3
+      Dependencies: {}
+    Info_327:
+      Name: resources/sounds/girl/niu_11.mp3
+      Dependencies: {}
+    Info_328:
+      Name: resources/sounds/girl/niu_12.mp3
+      Dependencies: {}
+    Info_329:
+      Name: resources/sounds/girl/niu_13.mp3
+      Dependencies: {}
+    Info_330:
+      Name: resources/sounds/girl/niu_2.mp3
+      Dependencies: {}
+    Info_331:
+      Name: resources/sounds/girl/niu_3.mp3
+      Dependencies: {}
+    Info_332:
+      Name: resources/sounds/girl/niu_4.mp3
+      Dependencies: {}
+    Info_333:
+      Name: resources/sounds/girl/niu_5.mp3
+      Dependencies: {}
+    Info_334:
+      Name: resources/sounds/girl/niu_6.mp3
+      Dependencies: {}
+    Info_335:
+      Name: resources/sounds/girl/niu_7.mp3
+      Dependencies: {}
+    Info_336:
+      Name: resources/sounds/girl/niu_8.mp3
+      Dependencies: {}
+    Info_337:
+      Name: resources/sounds/girl/niu_9.mp3
+      Dependencies: {}
+    Info_338:
+      Name: resources/sounds/girl/rob.mp3
+      Dependencies: {}
+    Info_339:
+      Name: resources/sounds/laba/col1.mp3
+      Dependencies: {}
+    Info_340:
+      Name: resources/sounds/laba/col2.mp3
+      Dependencies: {}
+    Info_341:
+      Name: resources/sounds/laba/col3.mp3
+      Dependencies: {}
+    Info_342:
+      Name: resources/sounds/laba/col4.mp3
+      Dependencies: {}
+    Info_343:
+      Name: resources/sounds/laba/col5.mp3
+      Dependencies: {}
+    Info_344:
+      Name: resources/sounds/laba/gold.mp3
+      Dependencies: {}
+    Info_345:
+      Name: resources/sounds/laba/goldchange.mp3
+      Dependencies: {}
+    Info_346:
+      Name: resources/sounds/laba/goldresult.mp3
+      Dependencies: {}
+    Info_347:
+      Name: resources/sounds/laba/lababgm.mp3
+      Dependencies: {}
+    Info_348:
+      Name: resources/sounds/laba/newgoldresult.mp3
+      Dependencies: {}
+    Info_349:
+      Name: resources/sounds/laba/pool1.mp3
+      Dependencies: {}
+    Info_350:
+      Name: resources/sounds/laba/pool2.mp3
+      Dependencies: {}
+    Info_351:
+      Name: resources/sounds/laba/roll.mp3
+      Dependencies: {}
+    Info_352:
+      Name: resources/sounds/laba/spin.mp3
+      Dependencies: {}
+    Info_353:
+      Name: resources/sounds/laba/type1.mp3
+      Dependencies: {}
+    Info_354:
+      Name: resources/sounds/laba/type2.mp3
+      Dependencies: {}
+    Info_355:
+      Name: resources/sounds/laba/type3.mp3
+      Dependencies: {}
+    Info_356:
+      Name: resources/sounds/magic/brick.mp3
+      Dependencies: {}
+    Info_357:
+      Name: resources/sounds/magic/cup.mp3
+      Dependencies: {}
+    Info_358:
+      Name: resources/sounds/magic/egg.mp3
+      Dependencies: {}
+    Info_359:
+      Name: resources/sounds/magic/folwer.mp3
+      Dependencies: {}
+    Info_360:
+      Name: resources/sounds/magic/slipper.mp3
+      Dependencies: {}
+    Info_361:
+      Name: resources/sounds/richcar/bg.mp3
+      Dependencies: {}
+    Info_362:
+      Name: resources/sounds/richcar/circle.mp3
+      Dependencies: {}
+    Info_363:
+      Name: resources/sounds/richcar/click.mp3
+      Dependencies: {}
+    Info_364:
+      Name: resources/sounds/richcar/roulette20.mp3
+      Dependencies: {}
+    Info_365:
+      Name: resources/sounds/richcar/roulette20f.mp3
+      Dependencies: {}
+    Info_366:
+      Name: resources/sounds/richcar/roulette5.mp3
+      Dependencies: {}
+    Info_367:
+      Name: resources/sounds/richcar/start.mp3
+      Dependencies: {}
+    Info_368:
+      Name: resources/sounds/richcar/startbet.mp3
+      Dependencies: {}
+    Info_369:
+      Name: resources/sounds/richcar/stopbet.mp3
+      Dependencies: {}
+    Info_370:
+      Name: resources/effects/prefab/biangkuang01.prefab
+      Dependencies: {}
+    Info_371:
+      Name: resources/effects/prefab/shuiguo.prefab
+      Dependencies: {}
+    Info_372:
+      Name: resources/ui/texture/fruit/free.png
+      Dependencies: {}
+    Info_373:
+      Name: resources/ui/texture/fruit/free10.png
+      Dependencies: {}
+    Info_374:
+      Name: resources/ui/texture/fruit/free15.png
+      Dependencies: {}
+    Info_375:
+      Name: resources/ui/texture/activity/ad_buydiamond.png
+      Dependencies: {}
+    Info_376:
+      Name: resources/ui/texture/activity/ad_friend.png
+      Dependencies: {}
+    Info_377:
+      Name: resources/ui/texture/activity/ad_newvision.png
+      Dependencies: {}
+    Info_378:
+      Name: resources/ui/exchange/rechargeqbwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/exchange/icon/exchangeiconatlas.prefab
+    Info_379:
+      Name: resources/ui/diamondbag/atlas/diamondbagatlas.prefab
+      Dependencies: {}
+    Info_380:
+      Name: resources/ui/login/useragreewin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+    Info_381:
+      Name: resources/ui/dailytask/sevendailytaskwin.prefab
+      Dependencies:
+        Dependency_0: resources/ui/base/prop/propatlas.prefab
+        Dependency_1: resources/fonts/fzy4jw.ttf
+        Dependency_2: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_3: resources/ui/dailytask/atlas/dailytaskatlas.prefab
+    Info_382:
+      Name: resources/ui/dailytask/atlas/dailytaskatlas.prefab
+      Dependencies: {}
+    Info_383:
+      Name: resources/ui/login/useridcardbindwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/login/loginatlas/loginatlas.prefab
+    Info_384:
+      Name: resources/ui/share/newsharewin.prefab
+      Dependencies:
+        Dependency_0: resources/ui/base/prop/propatlas.prefab
+        Dependency_1: resources/fonts/fzy4jw.ttf
+        Dependency_2: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_3: resources/ui/share/shareatlas/newshareatlas_2.prefab
+    Info_385:
+      Name: resources/ui/share/shareatlas/newshareatlas_2.prefab
+      Dependencies: {}
+    Info_386:
+      Name: resources/effects/zhaohuanyuguangqiu.prefab
+      Dependencies: {}
+    Info_387:
+      Name: resources/config/export_xml/share_picture_config.bytes
+      Dependencies: {}
+    Info_388:
+      Name: resources/ui/rechargetask/rechargetaskwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/rechargetask/atlas/rechargetaskatlas.prefab
+    Info_389:
+      Name: resources/ui/rechargetask/atlas/rechargetaskatlas.prefab
+      Dependencies: {}
+    Info_390:
+      Name: resources/ui/fruit/fruitrankwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/base/vip/vipboxatlas.prefab
+        Dependency_3: resources/ui/pokergame/hundredcow/atlas/rankwinatlas.prefab
+    Info_391:
+      Name: resources/ui/fruit/fruitsuperawardwin.prefab
+      Dependencies:
+        Dependency_0: resources/fonts/fzy4jw.ttf
+        Dependency_1: resources/ui/base/atlas/commonatlas.prefab
+        Dependency_2: resources/ui/fruit/atlas/fruitwinatlas.prefab
+    Info_392:
+      Name: resources/ui/texture/activity/ad_superfruit.png
+      Dependencies: {}
+    Info_393:
+      Name: resources/ui/texture/fruit/bg2.png
+      Dependencies: {}
+    Info_394:
+      Name: resources/ui/texture/fruit/new_bg2.png
+      Dependencies: {}
+    Info_395:
+      Name: resources/sounds/laba/numscroll.mp3
+      Dependencies: {}
+    Info_396:
+      Name: resources/sounds/laba/upupup.mp3
+      Dependencies: {}

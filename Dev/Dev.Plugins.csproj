@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6EE2E85F-CAA2-91B2-4994-E7FF124EC4F9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
+    <UnityProjectType>GamePlugins:3</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.4.0f3</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_0;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;DEVELOPMENT_BUILD;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_0;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;DEVELOPMENT_BUILD;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="AES">
+      <HintPath>Assets/AES.dll</HintPath>
+    </Reference>
+    <Reference Include="DynamicWaterNativeWrapper">
+      <HintPath>Assets/Plugins/DynamicWaterNativeWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="LogSys">
+      <HintPath>Assets/Plugins/LogSys.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.unity">
+      <HintPath>Assets/Plugins/zxing.unity.dll</HintPath>
+    </Reference>
+    <Reference Include="GameConfig">
+      <HintPath>Assets/Resources/GameConfig.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Plugins\Pixelplacement\iTween\Helper Classes\EventParamMappings.cs" />
+    <Compile Include="Assets\Plugins\Pixelplacement\iTween\Helper Classes\Vector3OrTransform.cs" />
+    <Compile Include="Assets\Plugins\Pixelplacement\iTween\Helper Classes\Vector3OrTransformArray.cs" />
+    <Compile Include="Assets\Plugins\Pixelplacement\iTween\iTween.cs" />
+    <Compile Include="Assets\Plugins\Pixelplacement\iTween\iTweenEvent.cs" />
+    <Compile Include="Assets\Plugins\Pixelplacement\iTween\iTweenPath.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\Coroutine.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\Helper.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\Logger.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\Lua3rdDLL.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\Lua3rdMeta.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\LuaArray.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\LuaDLL.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\LuaDLLWrapper.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\LuaObject.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\LuaObject_basetype.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\LuaObject_overload.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\LuaState.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\LuaSvr.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\LuaSvrGameObject.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\LuaValueType.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\LuaVarObject.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\ObjectCache.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\SLuaSetting.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\Timer.cs" />
+    <Compile Include="Assets\Plugins\Slua_Managed\WeakDictionary.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Editor Default Resources\readMe.txt" />
+    <None Include="Assets\NGUI\ReadMe - 3.7.9.txt" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (TextureClip) Alpha.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (TextureClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 1 Alpha.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 1.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 2 Alpha.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 2.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 3 Alpha.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored Alpha.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text (TextureClip) Alpha.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text (TextureClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 1 Alpha.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 1.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 2 Alpha.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 2.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 3 Alpha.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 3.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text Alpha.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (TextureClip) Alpha.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (TextureClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (TextureClip) Alpha.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (TextureClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 1 Alpha.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 1.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 2 Alpha.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 2.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 3 Alpha.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 3.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 1 Alpha.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 1.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 2 Alpha.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 2.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 3 Alpha.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 3.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed Alpha.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit- TransparentColored Alpha.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit-TransparentColored.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\WD_Glass.shader" />
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\wd_buildin_webview.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\wd_playvideo.xml" />
+    <None Include="Assets\Plugins\Android\res\values\strings.xml" />
+    <None Include="Assets\Plugins\Android\res\values\styles.xml" />
+    <None Include="Assets\Resources\AssetsPathsInfo.xml" />
+    <None Include="Assets\Resources\Config\GameText.xml" />
+    <None Include="Assets\Resources\Config\RootPathConfig.xml" />
+    <None Include="Assets\Resources\Config\ScenceConfig.xml" />
+    <None Include="Assets\Resources\Config\VersionConfig.xml" />
+    <None Include="Assets\Resources\Config\newbieguide.xml" />
+    <None Include="Assets\Resources\Config\sensitivewords.txt" />
+    <None Include="Assets\Resources\Effects\shader\Hex3D-Particle-Add-FogAlways.shader" />
+    <None Include="Assets\Resources\Effects\shader\Hex3D-Particle-AlphaBlend-Fog.shader" />
+    <None Include="Assets\Resources\Effects\shader\Hex3D-Particle-Glow-AddFog.shader" />
+    <None Include="Assets\Resources\Effects\shader\Mobile-Transparent-Additive-Diffuse-SR.shader" />
+    <None Include="Assets\Resources\Fonts\cost.fnt" />
+    <None Include="Assets\Resources\Fonts\get.fnt" />
+    <None Include="Assets\Resources\Fonts\menpiaojia.fnt" />
+    <None Include="Assets\Resources\Fonts\number.fnt" />
+    <None Include="Assets\Resources\Fonts\shuzi1.fnt" />
+    <None Include="Assets\Resources\Fonts\shuzi2.fnt" />
+    <None Include="Assets\Resources\Fonts\shuzi3.fnt" />
+    <None Include="Assets\Resources\Fonts\shuzi4.fnt" />
+    <None Include="Assets\Resources\Fonts\shuzi5.fnt" />
+    <None Include="Assets\Resources\Fonts\shuzi6.fnt" />
+    <None Include="Assets\Resources\Fonts\shuzi7.fnt" />
+    <None Include="Assets\Resources\Fonts\shuzi8.fnt" />
+    <None Include="Assets\Resources\Fonts\zhanli.txt" />
+    <None Include="Assets\Resources\Shaders\BattlePlayerOutline.shader" />
+    <None Include="Assets\Resources\Shaders\BumpColorSpec_normal.shader" />
+    <None Include="Assets\Resources\Shaders\CommonFish.shader" />
+    <None Include="Assets\Resources\Shaders\CoverSemitransparent.shader" />
+    <None Include="Assets\Resources\Shaders\GaussBlur.shader" />
+    <None Include="Assets\Resources\Shaders\Lightmap.shader" />
+    <None Include="Assets\Resources\Shaders\LightmapGray.shader" />
+    <None Include="Assets\Resources\Shaders\Medusa.shader" />
+    <None Include="Assets\Resources\Shaders\MobileBlur.shader" />
+    <None Include="Assets\Resources\Shaders\NLitCommonObject.shader" />
+    <None Include="Assets\Resources\Shaders\NLitTextureColorAlpha.shader" />
+    <None Include="Assets\Resources\Shaders\Outline.shader" />
+    <None Include="Assets\Resources\Shaders\OutlineFrozen.shader" />
+    <None Include="Assets\Resources\Shaders\PlayerDebuff.shader" />
+    <None Include="Assets\Resources\Shaders\PlayerPetrification.shader" />
+    <None Include="Assets\Resources\Shaders\Projector Light.shader" />
+    <None Include="Assets\Resources\Shaders\Projector Multiply.shader" />
+    <None Include="Assets\Resources\Shaders\RadialBlur.shader" />
+    <None Include="Assets\Resources\Shaders\Seabed.shader" />
+    <None Include="Assets\Resources\Shaders\SelfEmission.shader" />
+    <None Include="Assets\Resources\Shaders\SelfEmissionOutline.shader" />
+    <None Include="Assets\Resources\Shaders\SkillRangeDecal.shader" />
+    <None Include="Assets\Resources\Shaders\UnlitNormal.shader" />
+    <None Include="Assets\Resources\Shaders\UnlitTransparentWithoutCull.shader" />
+    <None Include="Assets\Resources\Shaders\Vegetation_complex.shader" />
+    <None Include="Assets\Resources\Shaders\Vegetation_simple.shader" />
+    <None Include="Assets\Resources\Shaders\VolumeLight.shader" />
+    <None Include="Assets\Resources\Shaders\WaterShadow.shader" />
+    <None Include="Assets\Resources\Shaders\darkerbrighter.shader" />
+    <None Include="Assets\Resources\Shaders\effect_distortadd.shader" />
+    <None Include="Assets\Resources\UI\FastAddGold\atlas\jinbi.fnt" />
+    <None Include="Assets\Resources\UI\MonthCard\atlas\shuzi.fnt" />
+    <None Include="Assets\Resources\UI\RichCar\Atlas\RichCarAtlas.txt" />
+    <None Include="Assets\Scripts\BaseCode\JSON\readme.txt" />
+    <None Include="Assets\Scripts\BaseCode\protobuf-net\Web\TODO.txt" />
+    <None Include="Assets\Scripts\SDKManager.xml" />
+    <None Include="Assets\StreamingAssets\android\AssetsPersistentPathsInfo.xml" />
+    <None Include="Assets\StreamingAssets\android\resources\config\gametext.xml" />
+    <None Include="Assets\StreamingAssets\android\resources\config\newbieguide.xml" />
+    <None Include="Assets\StreamingAssets\android\resources\config\rootpathconfig.xml" />
+    <None Include="Assets\StreamingAssets\android\resources\config\scenceconfig.xml" />
+    <None Include="Assets\StreamingAssets\android\resources\config\versionconfig.xml" />
+    <None Include="Assets\StreamingAssets\windows\resources\assetspathsinfo.xml" />
+    <None Include="Assets\StreamingAssets\windows\resources\config\gametext.xml" />
+    <None Include="Assets\StreamingAssets\windows\resources\config\newbieguide.xml" />
+    <None Include="Assets\StreamingAssets\windows\resources\config\rootpathconfig.xml" />
+    <None Include="Assets\StreamingAssets\windows\resources\config\scenceconfig.xml" />
+    <None Include="Assets\StreamingAssets\windows\resources\config\versionconfig.xml" />
+    <None Include="Assets\StreamingAssets\–¬Ω®Œƒº˛º–\AssetsPersistentPathsInfo.xml" />
+    <None Include="Assets\link.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

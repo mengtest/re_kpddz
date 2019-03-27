@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1895595023
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b8400aa5ebf50eedf50abd6bc12844ef
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Sounds/magic/slipper.mp3
+Dependencies: []

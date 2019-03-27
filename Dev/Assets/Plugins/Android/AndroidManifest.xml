@@ -1,0 +1,147 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iWodong.poker"
+    android:versionCode="1"
+    android:versionName="1.0.0"
+    android:installLocation="auto" >
+	
+    <supports-screens 
+        android:smallScreens="true" 
+        android:normalScreens="true" 
+        android:largeScreens="true" 
+        android:xlargeScreens="true" 
+        android:anyDensity="true" />
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <!-- TODO GAME SDK接入必须权限模块 START -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.VIBRATE"/> <!-- 震动 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+	<uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+	
+    <application
+        android:name="com.iWodong.poker.GameApplication" 
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" 
+		android:supportsRtl="true"
+        android:debuggable="false">
+        <meta-data
+		android:name="com.openinstall.APP_KEY"
+		android:value="lu5t1m"/>
+        <activity
+            android:name="com.iWodong.poker.MainActivity"
+            android:configChanges="mnc|keyboardHidden|screenSize|orientation|keyboard"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+			android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW"/>
+				<category android:name="android.intent.category.DEFAULT"/>
+				<category android:name="android.intent.category.BROWSABLE"/>
+				<data android:scheme="op5znm4p"/>
+			</intent-filter>
+            <meta-data
+                android:name="unityplayer.ForwardNativeEventsToDalvik"
+                android:value="true" />
+            <meta-data
+                android:name="unityplayer.UnityActivity"
+                android:value="true" />
+        </activity>  
+      
+        <!-- WoDong插件配置 START -->
+        
+        <!-- 视频播放 -->
+        <activity android:name="com.iWodong.unityplugin.MyVideoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+            <intent-filter>
+              <action android:name="android.intent.action.startVideo" />
+            </intent-filter>
+        </activity>
+        
+         <!-- 内置网页浏览 -->
+        <activity android:name="com.iWodong.unityplugin.MyWebViewActivity" 
+              android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape"
+	    android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.startWebView" />
+            </intent-filter>
+        </activity>
+
+        <!-- 推送服务 -->
+        <service
+            android:name="com.iWodong.unityplugin.PushNotificationService"
+            android:exported="false">
+          <intent-filter>
+            <action android:name="com.iWodong.unityplugin.pns" />
+          </intent-filter>
+        </service>
+        
+        <!-- WoDong插件配置 END -->
+
+        <!-- 阿里支付 START -->
+        
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" >
+		</activity>
+		<activity
+            android:name="com.alipay.sdk.auth.AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" >
+ 		</activity>
+         <!-- 微信 START -->
+        <activity
+            android:name="com.iWodong.poker.wxapi.WXEntryActivity"  
+            android:label="@string/app_name" 
+            android:exported="true" 
+			android:theme="@android:style/Theme.Translucent" 
+            android:launchMode="singleTop"/>
+		<activity
+            android:name="com.iWodong.poker.wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop"/>
+		<!-- 阿里支付 END -->
+
+        <!-- 第三方微信支付 START -->
+
+        <activity
+                android:name="com.ipaynow.wechatpay.plugin.inner_plugin.wechat_plugin.activity.WeChatNotifyActivity"
+                android:configChanges="orientation|screenSize"
+                android:screenOrientation="behind"
+                android:theme="@android:style/Theme.Translucent" >
+        </activity>
+
+        <!-- 第三方微信支付 END -->
+
+    </application>
+
+</manifest>

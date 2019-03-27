@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3999698203
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c69e39a5c91dd7ba38005af767d8278b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Sounds/BGM/mainDay.mp3
+Dependencies: []

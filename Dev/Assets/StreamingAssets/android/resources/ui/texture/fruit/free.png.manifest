@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3122589740
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 926147ce1352674e8c4e249a5af0d13e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6759894fca659e2049f05064db45ce61
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/UI/Texture/Fruit/free.png
+Dependencies: []

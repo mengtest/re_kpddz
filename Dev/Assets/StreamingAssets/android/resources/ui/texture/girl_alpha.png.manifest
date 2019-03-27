@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 606242511
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ea8db45c82c8c548fb56a7e2bf58d1c7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6759894fca659e2049f05064db45ce61
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/UI/Texture/girl_Alpha.png
+Dependencies: []
